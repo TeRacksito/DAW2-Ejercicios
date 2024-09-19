@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.exercise_container {
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: -10px 0;
+    transition: all 0.3s;
+}
+
+.exercise_container_hovered {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 15px 0;
+}
+
+li {
+    margin: 0 30px;
+}
+
+#end_page_separator {
+    height: 500px;
+    width: 100%;
+}
