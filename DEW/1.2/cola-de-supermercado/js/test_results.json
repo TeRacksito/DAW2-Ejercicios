@@ -1,0 +1,1202 @@
+[
+  {
+    "scenario": "random",
+    "numCustomers": 500,
+    "timeTaken": 63.6293,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 1000,
+    "timeTaken": 60.89190000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 1500,
+    "timeTaken": 58.79869999999998,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 2000,
+    "timeTaken": 67.71130000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 2500,
+    "timeTaken": 58.29820000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 3000,
+    "timeTaken": 72.0303,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 3500,
+    "timeTaken": 65.2997,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 4000,
+    "timeTaken": 81.08930000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 4500,
+    "timeTaken": 71.98600000000002,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 5000,
+    "timeTaken": 92.53069999999997,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 5500,
+    "timeTaken": 87.25630000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 6000,
+    "timeTaken": 75.15529999999998,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 6500,
+    "timeTaken": 88.83139999999997,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 7000,
+    "timeTaken": 103.07049999999998,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 7500,
+    "timeTaken": 84.70710000000003,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 8000,
+    "timeTaken": 77.66019999999997,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 8500,
+    "timeTaken": 71.48070000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 9000,
+    "timeTaken": 93.90960000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 9500,
+    "timeTaken": 79.92869999999994,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 10000,
+    "timeTaken": 99.70949999999993,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 10500,
+    "timeTaken": 83.72519999999997,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 11000,
+    "timeTaken": 75.33709999999996,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 11500,
+    "timeTaken": 87.40160000000003,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 12000,
+    "timeTaken": 84.57159999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 12500,
+    "timeTaken": 88.46179999999993,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 13000,
+    "timeTaken": 102.668,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 13500,
+    "timeTaken": 99.31669999999997,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 14000,
+    "timeTaken": 76.00429999999994,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 14500,
+    "timeTaken": 83.24509999999998,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 15000,
+    "timeTaken": 71.11959999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 15500,
+    "timeTaken": 80.54250000000002,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 16000,
+    "timeTaken": 83.35609999999997,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 16500,
+    "timeTaken": 76.02539999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 17000,
+    "timeTaken": 88.77629999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 17500,
+    "timeTaken": 72.02099999999996,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 18000,
+    "timeTaken": 95.34539999999993,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 18500,
+    "timeTaken": 79.30750000000012,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 19000,
+    "timeTaken": 74.66590000000019,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 19500,
+    "timeTaken": 88.04960000000005,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 20000,
+    "timeTaken": 70.09910000000013,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 20500,
+    "timeTaken": 92.82740000000013,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 21000,
+    "timeTaken": 96.15189999999984,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 21500,
+    "timeTaken": 101.73749999999995,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 22000,
+    "timeTaken": 108.17239999999993,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 22500,
+    "timeTaken": 92.74290000000019,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 23000,
+    "timeTaken": 84.7306000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 23500,
+    "timeTaken": 124.09469999999988,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 24000,
+    "timeTaken": 113.14649999999983,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 24500,
+    "timeTaken": 75.20929999999998,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 25000,
+    "timeTaken": 95.71530000000007,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 25500,
+    "timeTaken": 86.01800000000003,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 26000,
+    "timeTaken": 81.05579999999986,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 26500,
+    "timeTaken": 108.58349999999996,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 27000,
+    "timeTaken": 98.80240000000003,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 27500,
+    "timeTaken": 76.69330000000014,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 28000,
+    "timeTaken": 83.82279999999992,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 28500,
+    "timeTaken": 101.45170000000007,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 29000,
+    "timeTaken": 71.45339999999987,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 29500,
+    "timeTaken": 88.37519999999995,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 30000,
+    "timeTaken": 92.67540000000008,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 30500,
+    "timeTaken": 93.35440000000017,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 31000,
+    "timeTaken": 75.73129999999992,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 31500,
+    "timeTaken": 102.05209999999988,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 32000,
+    "timeTaken": 101.92509999999993,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 32500,
+    "timeTaken": 79.61410000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 33000,
+    "timeTaken": 102.22420000000011,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 33500,
+    "timeTaken": 71.85799999999995,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 34000,
+    "timeTaken": 90.9260999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 34500,
+    "timeTaken": 79.85799999999995,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 35000,
+    "timeTaken": 97.13840000000005,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 35500,
+    "timeTaken": 75.68360000000007,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 36000,
+    "timeTaken": 83.3445999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 36500,
+    "timeTaken": 75.60280000000012,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 37000,
+    "timeTaken": 93.37320000000045,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 37500,
+    "timeTaken": 97.3429000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 38000,
+    "timeTaken": 81.25930000000017,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 38500,
+    "timeTaken": 69.63319999999976,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 39000,
+    "timeTaken": 86.53409999999985,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 39500,
+    "timeTaken": 69.5625,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 40000,
+    "timeTaken": 87.56790000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 40500,
+    "timeTaken": 97.87329999999974,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 41000,
+    "timeTaken": 76.17060000000038,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 41500,
+    "timeTaken": 82.34029999999984,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 42000,
+    "timeTaken": 90.56590000000006,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 42500,
+    "timeTaken": 94.32470000000012,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 43000,
+    "timeTaken": 101.12800000000016,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 43500,
+    "timeTaken": 86.44200000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 44000,
+    "timeTaken": 81.2518,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 44500,
+    "timeTaken": 97.27629999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 45000,
+    "timeTaken": 104.85429999999997,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 45500,
+    "timeTaken": 71.48959999999988,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 46000,
+    "timeTaken": 97.5643,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 46500,
+    "timeTaken": 87.4344000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 47000,
+    "timeTaken": 80.51220000000012,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 47500,
+    "timeTaken": 94.97550000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 48000,
+    "timeTaken": 96.42830000000004,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 48500,
+    "timeTaken": 98.45580000000018,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 49000,
+    "timeTaken": 77.72890000000007,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 49500,
+    "timeTaken": 100.29940000000033,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 50000,
+    "timeTaken": 90.71289999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 50500,
+    "timeTaken": 109.96079999999984,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 51000,
+    "timeTaken": 86.07839999999987,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 51500,
+    "timeTaken": 99.53200000000015,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 52000,
+    "timeTaken": 106.83429999999998,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 52500,
+    "timeTaken": 108.72330000000011,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 53000,
+    "timeTaken": 89.11749999999984,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 53500,
+    "timeTaken": 81.2150999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 54000,
+    "timeTaken": 77.13149999999996,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 54500,
+    "timeTaken": 69.79239999999982,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 55000,
+    "timeTaken": 98.60339999999997,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 55500,
+    "timeTaken": 79.7818000000002,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 56000,
+    "timeTaken": 74.94120000000021,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 56500,
+    "timeTaken": 85.62559999999985,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 57000,
+    "timeTaken": 94.77419999999984,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 57500,
+    "timeTaken": 93.67190000000028,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 58000,
+    "timeTaken": 75.78200000000015,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 58500,
+    "timeTaken": 108.42909999999983,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 59000,
+    "timeTaken": 82.93589999999995,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 59500,
+    "timeTaken": 107.96070000000009,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 60000,
+    "timeTaken": 87.03700000000026,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 60500,
+    "timeTaken": 96.82549999999992,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 61000,
+    "timeTaken": 103.21160000000009,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 61500,
+    "timeTaken": 103.77880000000005,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 62000,
+    "timeTaken": 72.57470000000012,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 62500,
+    "timeTaken": 77.4943000000003,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 63000,
+    "timeTaken": 87.40509999999995,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 63500,
+    "timeTaken": 81.15859999999975,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 64000,
+    "timeTaken": 73.54160000000002,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 64500,
+    "timeTaken": 101.54100000000017,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 65000,
+    "timeTaken": 109.28710000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 65500,
+    "timeTaken": 91.29989999999998,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 66000,
+    "timeTaken": 97.99310000000014,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 66500,
+    "timeTaken": 89.41859999999997,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 67000,
+    "timeTaken": 106.13009999999986,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 67500,
+    "timeTaken": 99.52580000000034,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 68000,
+    "timeTaken": 118.29780000000028,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 68500,
+    "timeTaken": 82.36239999999998,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 69000,
+    "timeTaken": 107.10240000000022,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 69500,
+    "timeTaken": 71.89190000000008,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 70000,
+    "timeTaken": 77.84839999999986,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 70500,
+    "timeTaken": 104.92750000000024,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 71000,
+    "timeTaken": 88.25979999999981,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 71500,
+    "timeTaken": 93.89609999999993,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 72000,
+    "timeTaken": 100.47889999999961,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 72500,
+    "timeTaken": 74.81780000000072,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 73000,
+    "timeTaken": 71.80540000000019,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 73500,
+    "timeTaken": 87.6190000000006,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 74000,
+    "timeTaken": 94.84189999999944,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 74500,
+    "timeTaken": 97.34600000000046,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 75000,
+    "timeTaken": 103.54659999999967,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 75500,
+    "timeTaken": 79.19470000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 76000,
+    "timeTaken": 69.88230000000021,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 76500,
+    "timeTaken": 81.80799999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 77000,
+    "timeTaken": 89.60330000000067,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 77500,
+    "timeTaken": 85.7480999999998,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 78000,
+    "timeTaken": 96.15410000000065,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 78500,
+    "timeTaken": 99.22860000000037,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 79000,
+    "timeTaken": 78.70069999999942,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 79500,
+    "timeTaken": 109.96040000000085,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 80000,
+    "timeTaken": 91.78660000000036,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 80500,
+    "timeTaken": 77.45559999999932,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 81000,
+    "timeTaken": 105.5644999999995,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 81500,
+    "timeTaken": 103.30529999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 82000,
+    "timeTaken": 92.16640000000007,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 82500,
+    "timeTaken": 97.72249999999985,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 83000,
+    "timeTaken": 109.56660000000011,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 83500,
+    "timeTaken": 86.53769999999986,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 84000,
+    "timeTaken": 83.35830000000078,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 84500,
+    "timeTaken": 85.02810000000045,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 85000,
+    "timeTaken": 94.01220000000012,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 85500,
+    "timeTaken": 89.10099999999966,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 86000,
+    "timeTaken": 99.86769999999979,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 86500,
+    "timeTaken": 102.68159999999989,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 87000,
+    "timeTaken": 96.91520000000037,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 87500,
+    "timeTaken": 96.08899999999994,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 88000,
+    "timeTaken": 98.79590000000007,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 88500,
+    "timeTaken": 71.82880000000023,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 89000,
+    "timeTaken": 81.79730000000018,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 89500,
+    "timeTaken": 102.17720000000008,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 90000,
+    "timeTaken": 92.84059999999954,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 90500,
+    "timeTaken": 81.67990000000009,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 91000,
+    "timeTaken": 103.99459999999999,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 91500,
+    "timeTaken": 83.73039999999946,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 92000,
+    "timeTaken": 91.91080000000056,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 92500,
+    "timeTaken": 99.26419999999962,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 93000,
+    "timeTaken": 93.98139999999967,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 93500,
+    "timeTaken": 102.50690000000031,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 94000,
+    "timeTaken": 73.86470000000008,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 94500,
+    "timeTaken": 85.82580000000053,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 95000,
+    "timeTaken": 84.72140000000036,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 95500,
+    "timeTaken": 100.79419999999936,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 96000,
+    "timeTaken": 95.26690000000053,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 96500,
+    "timeTaken": 81.90379999999914,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 97000,
+    "timeTaken": 96.83140000000003,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 97500,
+    "timeTaken": 116.85469999999987,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 98000,
+    "timeTaken": 109.97700000000077,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 98500,
+    "timeTaken": 123.29379999999946,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 99000,
+    "timeTaken": 90.43090000000029,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 99500,
+    "timeTaken": 44.94200000000001,
+    "result": 99
+  },
+  {
+    "scenario": "random",
+    "numCustomers": 100000,
+    "timeTaken": 48.83919999999944,
+    "result": 99
+  }
+]

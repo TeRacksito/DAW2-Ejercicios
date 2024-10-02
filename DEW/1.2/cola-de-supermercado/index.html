@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supermercado min-heap</title>
+  <link rel="stylesheet" href="/ejercicios/general/css/exercise.css" />
+  <link rel="stylesheet" href="/ejercicios/general/css/form.css">
+  <style>
+    .switch-container {
+      width: 150px;
+      padding: 10px;
+    }
+
+    .switch {
+      position: relative;
+      width: 100%;
+      height: 40px;
+      background-color: #ccc;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* padding: 0 5px; */
+      flex-direction: row;
+      align-content: center;
+    }
+
+    .switch-handle {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-color: #007bff;
+      border-radius: 50%;
+      transition: transform 0.3s ease;
+    }
+
+    .switch.mid .switch-handle {
+      transform: translateX(0);
+    }
+
+    .switch.left .switch-handle {
+      transform: translateX(-50px);
+    }
+
+    .switch.right .switch-handle {
+      transform: translateX(50px);
+    }
+  </style>
+
+  <style>
+    .input-ph {
+      padding: 0 !important;
+      margin: 0 !important;
+      border: none !important;
+      border-radius: 0 !important;
+      margin-bottom: 0 !important;
+      width: auto !important;
+    }
+
+    .input-ph:focus {
+      outline: none;
+      box-shadow: none;
+      border: none;
+      border-radius: 0;
+    }
+
+    .input-ph-container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-start;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    .input-ph-container:focus-within {
+      outline: -webkit-focus-ring-color auto 1px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    <a href="https://www3.gobiernodecanarias.org/medusa/eforma/campus/mod/workshop/view.php?id=7221975">Tiempo de cola
+      en las cajas del supermercado</a>
+  </h1>
+
+  <div class="exercise_container">
+    <h2>Ejercicio</h2>
+    <p>
+
+      Un cliente necesita un tiempo determinado para ser atendido
+      que dependerá del número de artículos.<br><br>
+
+      Cuando un cliente llega a las cajas del supermercado,
+      se pondrá en la cola en la que crea que va a acabar antes.<br><br>
+
+      Supongamos que un grupo de clientes llega en orden pero
+      todos al mismo tiempo. Es decir, escogerán la cola en orden,
+      pero todos se pondrán en cola antes de que las cajas empiecen
+      a pasar productos.<br><br>
+
+      Queremos hacer una función que calcule el máximo tiempo de espera
+      que habrá de entre todas las colas del supermercado.<br><br>
+
+      Crea una función llamada queueTime que recibe los siguientes parámetros:<br><br>
+
+      Array con el número de productos de cada cliente. El cliente con el índice 0 será el primero en elegir, después el
+      1, ...<br>
+      Número de cajas disponibles. Por tanto, el número de colas que podrán realizar los clientes. (Siempre será 1 o
+      más).<br>
+      Ejemplos:<br>
+    </p>
+
+    <pre>queueTime([5,3,4],1) Devuelve 12.  // Como solo hay una cola, todos tienen que esperar en la misma 5+3+4=12
+queueTime([10,2,3,3],2) Devuelve 10.  // El primero se pone en la cola1 y estará solo (10), los demás se van a la cola2 (2+3+3=8). El máximo de 10 y 8 es 10.
+queueTime([2,3,10],2) Devuelve 12.  
+El 1º se pone en la cola1 (2), 
+el 2º  se va a la cola2 (3). 
+El 3º elige la menos llena que es la cola1 (que ahora tendrá 2+10=12). .
+El máximo de cola1(12) y cola2(3) es 12.
+queueTime([2,3,10,4,3],2) Devuelve 12.  
+El 1º se pone en la cola1 (2), 
+el 2º  se va a la cola2 (3). 
+El 3º elige la menos llena que es la cola1 (que ahora tendrá 2+10=12). .
+El 4º elige la menos llena que es la cola2 (que ahora tendrá 3+4=7).
+El 5º elige la menos llena que es la cola2 (que ahora tendrá 3+4+3=10)
+El máximo de cola1(12) y cola2(10) es 12.
+queueTime([5,2,3,6,7,1,4,9,2,6,4],3) Devuelve 17. 
+Se hacen los cálculos y las colas quedan:
+1ª cola: 5+1+4+2+4=16
+2ª cola: 2+6+9=17
+3ª cola: 3+7+6=16
+La mayor es la 2ª cola con 17.
+Pega solo el Script de la función.
+
+    </pre>
+    <div class="inline">
+      <label for="ej1_input_arr">Array de productos</label>
+      <div id="ej1_input_arr_container" class="input-ph-container">
+        <span class="input-ph-subcontainer"><span>[</span></span>
+        <div contenteditable="true" id="ej1_input_arr" class="input-ph">5, 3, 4</div>
+        <span>]</span>
+      </div>
+    </div>
+    <div class="inline">
+      <label for="ej1_input_cash">Número de cajas</label>
+      <input type="number" id="ej1_input_cash" value="1" />
+    </div>
+
+    <button id="ej1_button">Calcular</button>
+
+    <div>
+      <span id="ej1_output"></span>
+    </div>
+
+  </div>
+  <script type="module" src="js/ej1_main.mjs"></script>
+
+  <div class="exercise_container">
+    <h2>O(log n). Comparativa.</h2>
+
+    <canvas id="myChart" width="400" height="200"></canvas>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="js/chart_main_2d.mjs"></script>
+
+  <div class="exercise_container">
+    <h2>Diagramas 3D.</h2>
+    <div id="chart-cashouts" style="width: 100%; height: 800px;"></div>
+    <div class="inline">
+      <p>Diagrama de dispersión</p>
+      <div class="switch-container">
+        <div class="switch" id="chart-cashouts-switch">
+          <div class="switch-handle"></div>
+        </div>
+      </div>
+      <p>Media</p>
+    </div>
+
+    <div id="chart-customers" style="width: 100%; height: 800px;"></div>
+    <div class="inline">
+      <p>Diagrama de dispersión</p>
+      <div class="switch-container">
+        <div class="switch" id="chart-customers-switch">
+          <div class="switch-handle"></div>
+        </div>
+      </div>
+      <p>Media</p>
+    </div>
+
+    <div id="chart-equally" style="width: 100%; height: 800px;"></div>
+    <div class="inline">
+      <p>Diagrama de dispersión</p>
+      <div class="switch-container">
+        <div class="switch" id="chart-equally-switch">
+          <div class="switch-handle"></div>
+        </div>
+      </div>
+      <p>Media</p>
+    </div>
+
+    <div id="chart-abnormally-low-cashouts" style="width: 100%; height: 800px;"></div>
+    <div class="inline">
+      <p>Diagrama de dispersión</p>
+      <div class="switch-container">
+        <div class="switch" id="chart-abnormally-low-cashouts-switch">
+          <div class="switch-handle"></div>
+        </div>
+      </div>
+      <p>Media</p>
+    </div>
+
+    <div id="chart-abnormally-high-customers" style="width: 100%; height: 800px;"></div>
+    <div class="inline">
+      <p>Diagrama de dispersión</p>
+      <div class="switch-container">
+        <div class="switch" id="chart-abnormally-high-customers-switch">
+          <div class="switch-handle"></div>
+        </div>
+      </div>
+      <p>Media</p>
+    </div>
+  </div>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script type="module" src="js/chart_main_3d.mjs"></script>
+  <script>
+  </script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (/Mobi|Android/i.test(navigator.userAgent)) {
+        alert('Estás usando un móvil. Deberías activar el modo de escritorio (vista ordenador) para ver los gráficos');
+      }
+    });
+  </script>
+
+
+  <footer id="end_page_separator"></footer>
+  <script type="module" src="/ejercicios/general/js/hovered.js"></script>
+</body>
+
+</html>

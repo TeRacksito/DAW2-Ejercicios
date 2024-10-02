@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios para practicar</title>
+    <link rel="stylesheet" href="/ejercicios/general/css/exercise.css" />
+  </head>
+
+  <body>
+    <h1>
+      <a
+        href="https://www3.gobiernodecanarias.org/medusa/eforma/campus/mod/page/view.php?id=7221986"
+        >Ejercicio para practicar Objetos</a
+      >
+    </h1>
+
+    <div class="exercise_container">
+      <h2>Ejercicio 1 parte 1</h2>
+      <p>Objetivo: Crear un objeto car con las siguientes propiedades:</p>
+      <ul>
+        <li>registration: una cadena que representa la matricula del coche.</li>
+        <li>make: una cadena que representa la marca del coche.</li>
+        <li>model: una cadena que representa el modelo del coche.</li>
+        <li>year: un número que representa el año de fabricación del coche.</li>
+      </ul>
+      <div class="inline">
+        <label for="ej1_input_registration">Introduzca registration</label>
+        <input type="text" id="ej1_input_registration" />
+      </div>
+      <div class="inline">
+        <label for="ej1_input_make">Introduzca make</label>
+        <input type="text" id="ej1_input_make" />
+      </div>
+      <div class="inline">
+        <label for="ej1_input_model">Introduzca model</label>
+        <input type="text" id="ej1_input_model" />
+      </div>
+      <div class="inline">
+        <label for="ej1_input_year">Introduzca year</label>
+        <input type="text" id="ej1_input_year" />
+      </div>
+      <div>
+        <span id="ej1_output_label"></span><span id="ej1_output"></span>
+      </div>
+    </div>
+
+    <div class="exercise_container">
+      <h2>Ejercicio 1 parte 2</h2>
+      <p>Luego, crea los siguientes métodos para el objeto car:</p>
+      <ul>
+        <li>
+          getMakeModel(): devuelve la marca y el modelo del coche como string
+        </li>
+        <li>
+          thisYearHasITV(): devuelve el true/false dependiendo de si este año
+          tiene que pasar la ITV.
+          <ul>
+            <li>
+              La primera ITV de un turismo será al cumplir 4 años de su
+              matriculación. Cuando el turismo tenga de 4 a 10 años, la ITV será
+              cada dos años. Una vez pasado el periodo de los 10 años, la ITV de
+              turismos será anual.
+            </li>
+          </ul>
+        </li>
+        <li>
+          toString(): devuelve todos los datos del coche (matricula - marca -
+          modelo - año)
+        </li>
+      </ul>
+      <div>
+        <span id="ej1_output_label_2"></span><span id="ej1_output_2"></span>
+      </div>
+    </div>
+
+    <div class="exercise_container">
+      <h2>Ejercicio 1 parte 3</h2>
+      <p>Finalmente, crea dos objetos más a partir del objeto car. Con diferentes marcas y modelos.</p>
+      <div>
+        <span id="ej1_output_label_3"></span><pre id="ej1_output_3"></pre>
+      </div>
+    </div>
+
+    <div class="exercise_container">  
+      <h2>Ejercicio 1 parte 4</h2>
+      <p>Ve insertando todos los coches en un array de coches llamado garage.</p>
+      <p>Crea varias copias de los coches creados, modifica sus matriculas y años de fabricación y guárdalos en el array.</p>
+      <p>Muestra el listado de coches de una marca concreta.</p>
+      <div>
+        <span id="ej1_output_label_4"></span><pre id="ej1_output_4"></pre>
+      </div>
+    </div>
+
+    <div class="exercise_container">  
+      <h2>Ejercicio 1 parte 5</h2>
+      <p>Muestra los coches posteriores a una fecha determinada.</p>
+      <label for="ej1_input_year_5">Introduzca año</label>
+      <input type="text" id="ej1_input_year_5" />
+      <div>
+        <span id="ej1_output_label_5"></span><pre id="ej1_output_5"></pre>
+      </div>
+    </div>
+
+    <div class="exercise_container">  
+      <h2>Ejercicio 1 parte 6</h2>
+      <p>Indica (true/false) si alguno de los coches tiene que pasar la ITV.</p>
+      <div>
+        <span id="ej1_output_label_6"></span><pre id="ej1_output_6"></pre>
+      </div>
+    </div>
+    <script type="module" src="js/ej1_main.js"></script>
+
+    <footer id="end_page_separator"></footer>
+    <script type="module" src="/ejercicios/general/js/hovered.js"></script>
+  </body>
+</html>

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ejercicios Practicar</title>
-  <link rel="stylesheet" href="../../general/css/exercise.css">
+  <link rel="stylesheet" href="/ejercicios/general/css/exercise.css">
 </head>
 
 <body>
@@ -70,7 +70,7 @@
           ?></pre>
   </div>
 
-  <script type="module" src="../../general/js/hovered.js"></script>
+  <script type="module" src="/ejercicios/general/js/hovered.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>En grupo</title>
+    <link rel="stylesheet" href="/ejercicios/general/css/exercise.css" />
+    <link rel="stylesheet" href="/ejercicios/general/css/form.css" />
+    <style>
+      textarea {
+        width: 100%;
+        height: 200px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>
+      <a href="">Ejercicio en grupo</a>
+    </h1>
+
+    <div class="exercise_container">
+      <h2>Ejercicio 1</h2>
+      <p></p>
+      <form
+        action="/ejercicios/DSW/2.1/backend/en-grupo/dataProcessor.php"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+        <textarea
+          name="text"
+          id="ej1_input_textarea"
+          placeholder=""
+        ></textarea>
+        <div class="inline">
+          <label for="ej1_input_color">Color: </label>
+          <input type="color" name="color" id="ej1_input_color" />
+        </div>
+        <div class="inline">
+          <label for="ej1_input_font_size">Tamaño de fuente: </label>
+          <input type="range" name="font-size" id="ej1_input_font_size" min="8" max="64" value="12"
+          oninput="font_size_amount.value=ej1_input_font_size.value"/>
+          <output for="ej1_input_font_size" id="font_size_amount">12</output>
+        </div>
+        <input type="file" name="file" id="ej1_input_file" style="display: none;">
+        <div id="ej1_file_drop_zone" class="drop-zone">Introduzca un archivo</div>
+        <button type="submit">Enviar</button>
+        <script>
+          const dropZone = document.getElementById("ej1_file_drop_zone");
+          const fileInput = document.getElementById("ej1_input_file");
+
+          dropZone.addEventListener("click", () => {
+            fileInput.click();
+          });
+
+          dropZone.addEventListener("dragover", (e) => {
+            e.preventDefault();
+            dropZone.style.borderColor = "#000";
+          });
+
+          dropZone.addEventListener("dragleave", () => {
+            dropZone.style.borderColor = "#ccc";
+          });
+
+          dropZone.addEventListener("drop", (e) => {
+            e.preventDefault();
+            fileInput.files = e.dataTransfer.files;
+          });
+
+        </script>
+      </form>
+    </div>
+
+
+
+    <footer id="end_page_separator"></footer>
+    <script type="module" src="/ejercicios/general/js/hovered.js"></script>
+  </body>
+</html>

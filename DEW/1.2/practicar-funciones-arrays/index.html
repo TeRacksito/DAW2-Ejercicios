@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios para practicar</title>
+    <link rel="stylesheet" href="/ejercicios/general/css/exercise.css" />
+  </head>
+
+  <body>
+    <h1>
+      <a
+        href="https://www3.gobiernodecanarias.org/medusa/eforma/campus/mod/page/view.php?id=7221971"
+        >Ejercicios para practicar. 1.2 Funciones / Arrays</a
+      >
+    </h1>
+
+    <div class="exercise_container">
+      <h2>Ejercicio 1 Par/Impar</h2>
+      <p>
+        Crea una función llamada evenOrOdd que recibe como argumento un array de
+        números y devuelve otro array de Strings con las palabras "Even" o "Odd"
+        indicando si el número de esa posición es par o impar. Por ejemplo, con
+        la entrada [2, 5, 7, 0, 16] Devolverá ["Even", "Odd", "Odd", "Even",
+        "Even"]
+      </p>
+      <textarea
+        name="ej1_input"
+        id="ej1_input"
+        placeholder="1, 2, 3, 4, 5, ..."
+      ></textarea>
+      <div>
+        <span id="ej1_output"></span>
+      </div>
+    </div>
+    <script type="module" src="js/ej1_main.js"></script>
+
+    <div class="exercise_container">
+      <h2>Ejercicio 2 Sumar Números</h2>
+      <p>
+        Crea una función llamada sumNumbers que recibe como argumento un número
+        indeterminado de números y devuelve un número con la suma de todos
+        ellos. Por ejemplo, con la entrada sumNumbers(1,2,3,4) Devolverá 10
+      </p>
+      <textarea
+        name="ej2_input"
+        id="ej2_input"
+        placeholder="1, 2, 3, 4, 5, ..."
+      ></textarea>
+      <div>
+        <span id="ej2_output"></span>
+      </div>
+    </div>
+    <script type="module" src="js/ej2_main.js"></script>
+
+    <div class="exercise_container">
+      <h2>Ejercicio 3 Sumar Positivos</h2>
+      <p>
+        Crea una función llamada sumPositives que recibe como argumento un
+        número indeterminado de números y devuelve un número con la suma de
+        todos los que son positivos. Es decir, los negativos los ignora. Por
+        ejemplo, con la entrada sumPositives(1,-2,-3,4) Devolverá 5
+      </p>
+      <textarea
+        name="ej3_input"
+        id="ej3_input"
+        placeholder="1, 2, -3, -4, 5, ..."
+      ></textarea>
+      <div>
+        <span id="ej3_output"></span>
+      </div>
+    </div>
+    <script type="module" src="js/ej3_main.js"></script>
+
+    <div class="exercise_container">
+      <h2>Ejercicio 4 Sumar Cubos</h2>
+      <p>
+        Crea una función llamada sumCubes que recibe como argumento un número y
+        devuelve un número con la suma de todos cubos empezando por el 1 y
+        acabando en ese número.
+      </p>
+      <input type="number" id="ej4_input" />
+      <div>
+        <span id="ej4_output"></span>
+      </div>
+    </div>
+    <script type="module" src="js/ej4_main.js"></script>
+
+    <div class="exercise_container">
+      <h2>Ejercicio 5 Cuadrado de cada dígito</h2>
+      <p>
+        Crea una función llamada squareDigits que recibe como argumento un
+        número y devuelve un número que se forma al unir todos los cuadrados de
+        cada dígito. Por ejemplo: squareDigits(213) Debe hacer los cuadrados de
+        cada dígito: 22=4, 12=1, 32=9. Devolverá: 419 squareDigits(90345) Debe
+        hacer los cuadrados de cada dígito: 92=81, 02=0, 32=9, 42=16, 52=25.
+        Devolverá: 81091625
+      </p>
+      <input type="number" id="ej5_input" />
+      <div>
+        <span id="ej5_output"></span>
+      </div>
+    </div>
+    <script type="module" src="js/ej5_main.js"></script>
+
+    <div class="exercise_container">
+      <h2>Ejercicio 6 Categorizar programadores</h2>
+      <p>
+        Se quiere categorizar un listado de programadores entre Juniors y
+        Seniors basándonos en su experiencia como programador (meses) y la
+        cantidad de lenguajes que domina. Se puede calificar de programador
+        Seniors aquel que ha trabajado 24 meses o más y domina más de 2
+        lenguajes de programación. Por ejemplo: un programador con 21 meses de
+        experiencia y que domina 4 lenguajes se representa con el array [21,4] y
+        es Junior porque le faltan 3 meses de experiencia. Crea una función
+        llamada categorizeProgrammers que recibe como argumentos un número
+        indeterminado arrays de 2 elementos (que representan a un programador).
+        El programa devolverá un array con los strings "Junior" o "Senior"
+        indicando la categoría del programador de esa posición. Por ejemplo:
+        categorizeProgrammers([10,1], [21,4],[42,3],[24,4],[30,2],[24,3])
+        Devolverá: ["Junior","Junior","Senior","Senior","Junior","Senior"]
+      </p>
+      <textarea
+        name="ej6_data"
+        id="ej6_data"
+        placeholder="[10,1], [21,4], ..."
+        readonly
+      ></textarea>
+      <input type="text" id="ej6_input" placeholder="10, 1" />
+      <div>
+        <span id="ej6_output"></span>
+      </div>
+    </div>
+    <script type="module" src="js/ej6_main.js"></script>
+
+    <div class="exercise_container">
+      <h2>Ejercicio 7 Persistencia de un número</h2>
+      <p>
+        La persistencia de un número consiste en averiguar cuantas veces puedes
+        multiplicar sus dígitos hasta conseguir un único dígito. Por ejemplo:
+        persistence(39) es 3 // porque podemos ir multiplicando los dígitos 3
+        veces: 3*9 = 27 2*7 = 14, 1*4= 4 // 4 ya sólo tiene un dígito.
+        persistence(999) es 4 / 9*9*9 = 729, 7*2*9 = 126, 1*2*6 = 12 1*2 = 2 //
+        2 ya sólo tiene un dígito persistence(8) es 0 // porque 8 ya es un
+        dígito solo. Crea una función llamada persistence que recibe como
+        argumento un número y devuelva la persistencia de dicho número. Por
+        ejemplo: persistence(39). Devolverá: 3 persistence(999). Devolverá: 4
+        persistence(4). Devolverá: 0
+      </p>
+      <input type="text" id="ej7_input" />
+      <div>
+        <span id="ej7_output"></span>
+      </div>
+    </div>
+    <script type="module" src="js/ej7_main.js"></script>
+
+    <footer id="end_page_separator"></footer>
+    <script type="module" src="/ejercicios/general/js/hovered.js"></script>
+  </body>
+</html>

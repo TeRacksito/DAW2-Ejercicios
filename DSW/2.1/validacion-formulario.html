@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autoevaluación</title>
+  <link rel="stylesheet" href="/ejercicios/general/css/exercise.css" />
+  <link rel="stylesheet" href="/ejercicios/general/css/form.css" />
+</head>
+
+<body>
+  <h1>
+    <a
+      href="https://docs.google.com/presentation/d/1fKX3738nR-xAuCfN0wMBGjBAelCBmDvK_3cID5YuGdg/edit#slide=id.gf2f439ce92_0_792">Validación
+      de formulario</a>
+  </h1>
+
+  <div class="exercise_container">
+    <h2>Ejercicio 1</h2>
+    <p>
+      Crea un formulario con los campos nombre, apellidos, email, edad (dato
+      numérico de tipo entero y mayor que 0) y varios checkboxes con módulos
+      de los que matricularse (ofrecer p. ej., los módulos de 2º de DAW). Se
+      validará, desde el lado del cliente y del servidor, que todos los campos
+      contengan algún dato y que se haya seleccionado algún módulo. Si el
+      formulario valida correctamente, se mostrará un resumen con la
+      información de la matrícula, en caso contrario una lista que muestre los
+      errores de validación.
+    </p>
+
+    <form action="backend/validacion-formulario/formulario-con-verificacion.php" method="post">
+      <fieldset>
+        <input type="text" name="name" id="" placeholder="Nombre" />
+        <input type="text" name="surname" id="" placeholder="Apellidos" />
+        <input type="text" name="email" id="" placeholder="Correo electrónico" />
+        <input type="text" name="age" id="" placeholder="Edad" />
+      </fieldset>
+      <fieldset>
+        <p>Matriculación</p>
+
+        <div class="checkbox-inline">
+          <input type="checkbox" name="modules[]" id="DSW" value="DSW" />
+          <label for="DSW">Desarrollo del lado del servidor</label><br />
+        </div>
+
+        <div class="checkbox-inline">
+          <input type="checkbox" name="modules[]" id="DEW" value="DEW" />
+          <label for="DEW">Desarrollo del lado del cliente</label><br />
+        </div>
+
+        <div class="checkbox-inline">
+          <input type="checkbox" name="modules[]" id="DOR" value="DOR" />
+          <label for="DOR">Diseño de interfaces web</label><br />
+        </div>
+
+        <div class="checkbox-inline">
+          <input type="checkbox" name="modules[]" id="IDP" value="IDP" />
+          <label for="IDP">Despliegue de aplicaciones web</label><br />
+        </div>
+      </fieldset>
+      <input type="submit" value="Enviar" />
+    </form>
+  </div>
+  <footer id="end_page_separator"></footer>
+  <script type="module" src="/ejercicios/general/js/hovered.js"></script>
+</body>
+
+</html>

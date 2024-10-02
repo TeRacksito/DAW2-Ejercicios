@@ -10,10 +10,15 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: whitesmoke;
+    font-family: system-ui;
 }
 
 h1 {
     margin: 20px 0;
+}
+
+h2 {
+    margin: 0 0 10px 0;
 }
 
 .exercise_container {
@@ -38,4 +43,31 @@ li {
 #end_page_separator {
     height: 500px;
     width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+pre {
+    overflow-x: auto;
+    margin: 0 0 10px 0;
+}
+
+.inline {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-inline {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 10px;
 }

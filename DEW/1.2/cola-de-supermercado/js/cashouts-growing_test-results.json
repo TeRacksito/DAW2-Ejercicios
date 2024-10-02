@@ -1,0 +1,4952 @@
+[
+  {
+    "numCustomers": 5,
+    "numAvailableCashouts": 500,
+    "timeTaken": 0.517399999999995
+  },
+  {
+    "numCustomers": 5,
+    "numAvailableCashouts": 500,
+    "timeTaken": 0.7638999999999925
+  },
+  {
+    "numCustomers": 5,
+    "numAvailableCashouts": 500,
+    "timeTaken": 0.708200000000005
+  },
+  {
+    "numCustomers": 5,
+    "numAvailableCashouts": 500,
+    "timeTaken": 0.7899000000000029
+  },
+  {
+    "numCustomers": 5,
+    "numAvailableCashouts": 500,
+    "timeTaken": 0.8333999999999975
+  },
+  {
+    "numCustomers": 10,
+    "numAvailableCashouts": 1000,
+    "timeTaken": 1.3026000000000124
+  },
+  {
+    "numCustomers": 10,
+    "numAvailableCashouts": 1000,
+    "timeTaken": 0.9885000000000019
+  },
+  {
+    "numCustomers": 10,
+    "numAvailableCashouts": 1000,
+    "timeTaken": 1.2175999999999902
+  },
+  {
+    "numCustomers": 10,
+    "numAvailableCashouts": 1000,
+    "timeTaken": 0.6983000000000033
+  },
+  {
+    "numCustomers": 10,
+    "numAvailableCashouts": 1000,
+    "timeTaken": 1.295400000000015
+  },
+  {
+    "numCustomers": 15,
+    "numAvailableCashouts": 1500,
+    "timeTaken": 1.4387000000000114
+  },
+  {
+    "numCustomers": 15,
+    "numAvailableCashouts": 1500,
+    "timeTaken": 1.2718000000000131
+  },
+  {
+    "numCustomers": 15,
+    "numAvailableCashouts": 1500,
+    "timeTaken": 1.5134999999999934
+  },
+  {
+    "numCustomers": 15,
+    "numAvailableCashouts": 1500,
+    "timeTaken": 1.3891000000000133
+  },
+  {
+    "numCustomers": 15,
+    "numAvailableCashouts": 1500,
+    "timeTaken": 1.1750999999999863
+  },
+  {
+    "numCustomers": 20,
+    "numAvailableCashouts": 2000,
+    "timeTaken": 1.2579000000000065
+  },
+  {
+    "numCustomers": 20,
+    "numAvailableCashouts": 2000,
+    "timeTaken": 1.0808000000000106
+  },
+  {
+    "numCustomers": 20,
+    "numAvailableCashouts": 2000,
+    "timeTaken": 1.6681000000000097
+  },
+  {
+    "numCustomers": 20,
+    "numAvailableCashouts": 2000,
+    "timeTaken": 1.348799999999983
+  },
+  {
+    "numCustomers": 20,
+    "numAvailableCashouts": 2000,
+    "timeTaken": 1.5803999999999974
+  },
+  {
+    "numCustomers": 25,
+    "numAvailableCashouts": 2500,
+    "timeTaken": 1.4249999999999545
+  },
+  {
+    "numCustomers": 25,
+    "numAvailableCashouts": 2500,
+    "timeTaken": 1.490099999999984
+  },
+  {
+    "numCustomers": 25,
+    "numAvailableCashouts": 2500,
+    "timeTaken": 2.154799999999966
+  },
+  {
+    "numCustomers": 25,
+    "numAvailableCashouts": 2500,
+    "timeTaken": 1.745800000000031
+  },
+  {
+    "numCustomers": 25,
+    "numAvailableCashouts": 2500,
+    "timeTaken": 1.7777000000000385
+  },
+  {
+    "numCustomers": 30,
+    "numAvailableCashouts": 3000,
+    "timeTaken": 1.9664999999999964
+  },
+  {
+    "numCustomers": 30,
+    "numAvailableCashouts": 3000,
+    "timeTaken": 2.0360000000000014
+  },
+  {
+    "numCustomers": 30,
+    "numAvailableCashouts": 3000,
+    "timeTaken": 1.7083000000000084
+  },
+  {
+    "numCustomers": 30,
+    "numAvailableCashouts": 3000,
+    "timeTaken": 2.1528000000000134
+  },
+  {
+    "numCustomers": 30,
+    "numAvailableCashouts": 3000,
+    "timeTaken": 1.6535000000000082
+  },
+  {
+    "numCustomers": 35,
+    "numAvailableCashouts": 3500,
+    "timeTaken": 1.999900000000025
+  },
+  {
+    "numCustomers": 35,
+    "numAvailableCashouts": 3500,
+    "timeTaken": 1.592899999999986
+  },
+  {
+    "numCustomers": 35,
+    "numAvailableCashouts": 3500,
+    "timeTaken": 2.093599999999981
+  },
+  {
+    "numCustomers": 35,
+    "numAvailableCashouts": 3500,
+    "timeTaken": 2.100900000000024
+  },
+  {
+    "numCustomers": 35,
+    "numAvailableCashouts": 3500,
+    "timeTaken": 2.509299999999996
+  },
+  {
+    "numCustomers": 40,
+    "numAvailableCashouts": 4000,
+    "timeTaken": 2.474300000000028
+  },
+  {
+    "numCustomers": 40,
+    "numAvailableCashouts": 4000,
+    "timeTaken": 2.2817999999999756
+  },
+  {
+    "numCustomers": 40,
+    "numAvailableCashouts": 4000,
+    "timeTaken": 2.292100000000005
+  },
+  {
+    "numCustomers": 40,
+    "numAvailableCashouts": 4000,
+    "timeTaken": 2.7269999999999754
+  },
+  {
+    "numCustomers": 40,
+    "numAvailableCashouts": 4000,
+    "timeTaken": 2.3927999999999656
+  },
+  {
+    "numCustomers": 45,
+    "numAvailableCashouts": 4500,
+    "timeTaken": 2.5305999999999926
+  },
+  {
+    "numCustomers": 45,
+    "numAvailableCashouts": 4500,
+    "timeTaken": 2.4647999999999683
+  },
+  {
+    "numCustomers": 45,
+    "numAvailableCashouts": 4500,
+    "timeTaken": 2.6954000000000065
+  },
+  {
+    "numCustomers": 45,
+    "numAvailableCashouts": 4500,
+    "timeTaken": 2.2298000000000116
+  },
+  {
+    "numCustomers": 45,
+    "numAvailableCashouts": 4500,
+    "timeTaken": 2.072900000000004
+  },
+  {
+    "numCustomers": 50,
+    "numAvailableCashouts": 5000,
+    "timeTaken": 2.750000000000057
+  },
+  {
+    "numCustomers": 50,
+    "numAvailableCashouts": 5000,
+    "timeTaken": 2.748299999999972
+  },
+  {
+    "numCustomers": 50,
+    "numAvailableCashouts": 5000,
+    "timeTaken": 2.0371000000000095
+  },
+  {
+    "numCustomers": 50,
+    "numAvailableCashouts": 5000,
+    "timeTaken": 2.769800000000032
+  },
+  {
+    "numCustomers": 50,
+    "numAvailableCashouts": 5000,
+    "timeTaken": 2.2799999999999727
+  },
+  {
+    "numCustomers": 55,
+    "numAvailableCashouts": 5500,
+    "timeTaken": 3.162700000000086
+  },
+  {
+    "numCustomers": 55,
+    "numAvailableCashouts": 5500,
+    "timeTaken": 3.274400000000014
+  },
+  {
+    "numCustomers": 55,
+    "numAvailableCashouts": 5500,
+    "timeTaken": 2.930900000000065
+  },
+  {
+    "numCustomers": 55,
+    "numAvailableCashouts": 5500,
+    "timeTaken": 2.984199999999987
+  },
+  {
+    "numCustomers": 55,
+    "numAvailableCashouts": 5500,
+    "timeTaken": 2.4995999999999867
+  },
+  {
+    "numCustomers": 60,
+    "numAvailableCashouts": 6000,
+    "timeTaken": 3.833599999999933
+  },
+  {
+    "numCustomers": 60,
+    "numAvailableCashouts": 6000,
+    "timeTaken": 4.046499999999924
+  },
+  {
+    "numCustomers": 60,
+    "numAvailableCashouts": 6000,
+    "timeTaken": 3.696800000000053
+  },
+  {
+    "numCustomers": 60,
+    "numAvailableCashouts": 6000,
+    "timeTaken": 3.508399999999938
+  },
+  {
+    "numCustomers": 60,
+    "numAvailableCashouts": 6000,
+    "timeTaken": 4.273000000000025
+  },
+  {
+    "numCustomers": 65,
+    "numAvailableCashouts": 6500,
+    "timeTaken": 3.3606999999999516
+  },
+  {
+    "numCustomers": 65,
+    "numAvailableCashouts": 6500,
+    "timeTaken": 3.0703999999999496
+  },
+  {
+    "numCustomers": 65,
+    "numAvailableCashouts": 6500,
+    "timeTaken": 3.1240000000000236
+  },
+  {
+    "numCustomers": 65,
+    "numAvailableCashouts": 6500,
+    "timeTaken": 3.491600000000062
+  },
+  {
+    "numCustomers": 65,
+    "numAvailableCashouts": 6500,
+    "timeTaken": 4.064200000000028
+  },
+  {
+    "numCustomers": 70,
+    "numAvailableCashouts": 7000,
+    "timeTaken": 3.2679999999999154
+  },
+  {
+    "numCustomers": 70,
+    "numAvailableCashouts": 7000,
+    "timeTaken": 3.5538999999999987
+  },
+  {
+    "numCustomers": 70,
+    "numAvailableCashouts": 7000,
+    "timeTaken": 3.234100000000012
+  },
+  {
+    "numCustomers": 70,
+    "numAvailableCashouts": 7000,
+    "timeTaken": 3.3523999999999887
+  },
+  {
+    "numCustomers": 70,
+    "numAvailableCashouts": 7000,
+    "timeTaken": 2.8125
+  },
+  {
+    "numCustomers": 75,
+    "numAvailableCashouts": 7500,
+    "timeTaken": 3.6177999999999884
+  },
+  {
+    "numCustomers": 75,
+    "numAvailableCashouts": 7500,
+    "timeTaken": 3.1567000000000007
+  },
+  {
+    "numCustomers": 75,
+    "numAvailableCashouts": 7500,
+    "timeTaken": 3.4200000000000728
+  },
+  {
+    "numCustomers": 75,
+    "numAvailableCashouts": 7500,
+    "timeTaken": 2.6784999999999854
+  },
+  {
+    "numCustomers": 75,
+    "numAvailableCashouts": 7500,
+    "timeTaken": 3.113499999999931
+  },
+  {
+    "numCustomers": 80,
+    "numAvailableCashouts": 8000,
+    "timeTaken": 3.4710999999999785
+  },
+  {
+    "numCustomers": 80,
+    "numAvailableCashouts": 8000,
+    "timeTaken": 3.702099999999973
+  },
+  {
+    "numCustomers": 80,
+    "numAvailableCashouts": 8000,
+    "timeTaken": 2.9908000000000357
+  },
+  {
+    "numCustomers": 80,
+    "numAvailableCashouts": 8000,
+    "timeTaken": 3.009300000000053
+  },
+  {
+    "numCustomers": 80,
+    "numAvailableCashouts": 8000,
+    "timeTaken": 4.143999999999892
+  },
+  {
+    "numCustomers": 85,
+    "numAvailableCashouts": 8500,
+    "timeTaken": 3.921100000000024
+  },
+  {
+    "numCustomers": 85,
+    "numAvailableCashouts": 8500,
+    "timeTaken": 4.052099999999996
+  },
+  {
+    "numCustomers": 85,
+    "numAvailableCashouts": 8500,
+    "timeTaken": 3.4185999999999694
+  },
+  {
+    "numCustomers": 85,
+    "numAvailableCashouts": 8500,
+    "timeTaken": 3.757600000000025
+  },
+  {
+    "numCustomers": 85,
+    "numAvailableCashouts": 8500,
+    "timeTaken": 3.5950000000000273
+  },
+  {
+    "numCustomers": 90,
+    "numAvailableCashouts": 9000,
+    "timeTaken": 4.572499999999991
+  },
+  {
+    "numCustomers": 90,
+    "numAvailableCashouts": 9000,
+    "timeTaken": 3.844699999999989
+  },
+  {
+    "numCustomers": 90,
+    "numAvailableCashouts": 9000,
+    "timeTaken": 3.796199999999999
+  },
+  {
+    "numCustomers": 90,
+    "numAvailableCashouts": 9000,
+    "timeTaken": 3.3479999999999563
+  },
+  {
+    "numCustomers": 90,
+    "numAvailableCashouts": 9000,
+    "timeTaken": 3.590599999999995
+  },
+  {
+    "numCustomers": 95,
+    "numAvailableCashouts": 9500,
+    "timeTaken": 3.8331000000000586
+  },
+  {
+    "numCustomers": 95,
+    "numAvailableCashouts": 9500,
+    "timeTaken": 3.3874000000000706
+  },
+  {
+    "numCustomers": 95,
+    "numAvailableCashouts": 9500,
+    "timeTaken": 4.3881000000000085
+  },
+  {
+    "numCustomers": 95,
+    "numAvailableCashouts": 9500,
+    "timeTaken": 3.1964000000000397
+  },
+  {
+    "numCustomers": 95,
+    "numAvailableCashouts": 9500,
+    "timeTaken": 4.519400000000019
+  },
+  {
+    "numCustomers": 100,
+    "numAvailableCashouts": 10000,
+    "timeTaken": 3.6829999999999927
+  },
+  {
+    "numCustomers": 100,
+    "numAvailableCashouts": 10000,
+    "timeTaken": 4.2041000000000395
+  },
+  {
+    "numCustomers": 100,
+    "numAvailableCashouts": 10000,
+    "timeTaken": 3.539600000000064
+  },
+  {
+    "numCustomers": 100,
+    "numAvailableCashouts": 10000,
+    "timeTaken": 4.682000000000016
+  },
+  {
+    "numCustomers": 100,
+    "numAvailableCashouts": 10000,
+    "timeTaken": 3.3933999999999287
+  },
+  {
+    "numCustomers": 105,
+    "numAvailableCashouts": 10500,
+    "timeTaken": 4.536800000000085
+  },
+  {
+    "numCustomers": 105,
+    "numAvailableCashouts": 10500,
+    "timeTaken": 4.828200000000152
+  },
+  {
+    "numCustomers": 105,
+    "numAvailableCashouts": 10500,
+    "timeTaken": 4.792699999999968
+  },
+  {
+    "numCustomers": 105,
+    "numAvailableCashouts": 10500,
+    "timeTaken": 5.360699999999952
+  },
+  {
+    "numCustomers": 105,
+    "numAvailableCashouts": 10500,
+    "timeTaken": 4.552799999999934
+  },
+  {
+    "numCustomers": 110,
+    "numAvailableCashouts": 11000,
+    "timeTaken": 4.598400000000083
+  },
+  {
+    "numCustomers": 110,
+    "numAvailableCashouts": 11000,
+    "timeTaken": 3.5866000000000895
+  },
+  {
+    "numCustomers": 110,
+    "numAvailableCashouts": 11000,
+    "timeTaken": 3.641499999999951
+  },
+  {
+    "numCustomers": 110,
+    "numAvailableCashouts": 11000,
+    "timeTaken": 3.914600000000064
+  },
+  {
+    "numCustomers": 110,
+    "numAvailableCashouts": 11000,
+    "timeTaken": 4.1875
+  },
+  {
+    "numCustomers": 115,
+    "numAvailableCashouts": 11500,
+    "timeTaken": 4.944900000000189
+  },
+  {
+    "numCustomers": 115,
+    "numAvailableCashouts": 11500,
+    "timeTaken": 4.959599999999909
+  },
+  {
+    "numCustomers": 115,
+    "numAvailableCashouts": 11500,
+    "timeTaken": 4.052200000000084
+  },
+  {
+    "numCustomers": 115,
+    "numAvailableCashouts": 11500,
+    "timeTaken": 4.782799999999952
+  },
+  {
+    "numCustomers": 115,
+    "numAvailableCashouts": 11500,
+    "timeTaken": 5.669699999999921
+  },
+  {
+    "numCustomers": 120,
+    "numAvailableCashouts": 12000,
+    "timeTaken": 3.5696000000000367
+  },
+  {
+    "numCustomers": 120,
+    "numAvailableCashouts": 12000,
+    "timeTaken": 4.791899999999941
+  },
+  {
+    "numCustomers": 120,
+    "numAvailableCashouts": 12000,
+    "timeTaken": 4.012899999999945
+  },
+  {
+    "numCustomers": 120,
+    "numAvailableCashouts": 12000,
+    "timeTaken": 4.554500000000189
+  },
+  {
+    "numCustomers": 120,
+    "numAvailableCashouts": 12000,
+    "timeTaken": 4.009600000000091
+  },
+  {
+    "numCustomers": 125,
+    "numAvailableCashouts": 12500,
+    "timeTaken": 4.305899999999838
+  },
+  {
+    "numCustomers": 125,
+    "numAvailableCashouts": 12500,
+    "timeTaken": 4.389900000000125
+  },
+  {
+    "numCustomers": 125,
+    "numAvailableCashouts": 12500,
+    "timeTaken": 4.357999999999947
+  },
+  {
+    "numCustomers": 125,
+    "numAvailableCashouts": 12500,
+    "timeTaken": 4.100300000000061
+  },
+  {
+    "numCustomers": 125,
+    "numAvailableCashouts": 12500,
+    "timeTaken": 4.526200000000017
+  },
+  {
+    "numCustomers": 130,
+    "numAvailableCashouts": 13000,
+    "timeTaken": 4.440200000000004
+  },
+  {
+    "numCustomers": 130,
+    "numAvailableCashouts": 13000,
+    "timeTaken": 5.100799999999936
+  },
+  {
+    "numCustomers": 130,
+    "numAvailableCashouts": 13000,
+    "timeTaken": 4.119100000000117
+  },
+  {
+    "numCustomers": 130,
+    "numAvailableCashouts": 13000,
+    "timeTaken": 4.443299999999908
+  },
+  {
+    "numCustomers": 130,
+    "numAvailableCashouts": 13000,
+    "timeTaken": 3.9920999999999367
+  },
+  {
+    "numCustomers": 135,
+    "numAvailableCashouts": 13500,
+    "timeTaken": 4.460700000000088
+  },
+  {
+    "numCustomers": 135,
+    "numAvailableCashouts": 13500,
+    "timeTaken": 4.307499999999891
+  },
+  {
+    "numCustomers": 135,
+    "numAvailableCashouts": 13500,
+    "timeTaken": 4.171900000000051
+  },
+  {
+    "numCustomers": 135,
+    "numAvailableCashouts": 13500,
+    "timeTaken": 5.535000000000082
+  },
+  {
+    "numCustomers": 135,
+    "numAvailableCashouts": 13500,
+    "timeTaken": 5.472599999999829
+  },
+  {
+    "numCustomers": 140,
+    "numAvailableCashouts": 14000,
+    "timeTaken": 5.891399999999976
+  },
+  {
+    "numCustomers": 140,
+    "numAvailableCashouts": 14000,
+    "timeTaken": 4.4845000000000255
+  },
+  {
+    "numCustomers": 140,
+    "numAvailableCashouts": 14000,
+    "timeTaken": 4.910799999999881
+  },
+  {
+    "numCustomers": 140,
+    "numAvailableCashouts": 14000,
+    "timeTaken": 5.047599999999875
+  },
+  {
+    "numCustomers": 140,
+    "numAvailableCashouts": 14000,
+    "timeTaken": 5.079200000000128
+  },
+  {
+    "numCustomers": 145,
+    "numAvailableCashouts": 14500,
+    "timeTaken": 4.6305999999999585
+  },
+  {
+    "numCustomers": 145,
+    "numAvailableCashouts": 14500,
+    "timeTaken": 6.018499999999904
+  },
+  {
+    "numCustomers": 145,
+    "numAvailableCashouts": 14500,
+    "timeTaken": 4.6721
+  },
+  {
+    "numCustomers": 145,
+    "numAvailableCashouts": 14500,
+    "timeTaken": 5.392399999999952
+  },
+  {
+    "numCustomers": 145,
+    "numAvailableCashouts": 14500,
+    "timeTaken": 5.733999999999924
+  },
+  {
+    "numCustomers": 150,
+    "numAvailableCashouts": 15000,
+    "timeTaken": 5.534099999999853
+  },
+  {
+    "numCustomers": 150,
+    "numAvailableCashouts": 15000,
+    "timeTaken": 6.011600000000044
+  },
+  {
+    "numCustomers": 150,
+    "numAvailableCashouts": 15000,
+    "timeTaken": 4.208000000000084
+  },
+  {
+    "numCustomers": 150,
+    "numAvailableCashouts": 15000,
+    "timeTaken": 4.29280000000017
+  },
+  {
+    "numCustomers": 150,
+    "numAvailableCashouts": 15000,
+    "timeTaken": 4.2625000000000455
+  },
+  {
+    "numCustomers": 155,
+    "numAvailableCashouts": 15500,
+    "timeTaken": 4.981699999999819
+  },
+  {
+    "numCustomers": 155,
+    "numAvailableCashouts": 15500,
+    "timeTaken": 4.886099999999942
+  },
+  {
+    "numCustomers": 155,
+    "numAvailableCashouts": 15500,
+    "timeTaken": 5.025499999999965
+  },
+  {
+    "numCustomers": 155,
+    "numAvailableCashouts": 15500,
+    "timeTaken": 4.832400000000007
+  },
+  {
+    "numCustomers": 155,
+    "numAvailableCashouts": 15500,
+    "timeTaken": 5.63149999999996
+  },
+  {
+    "numCustomers": 160,
+    "numAvailableCashouts": 16000,
+    "timeTaken": 4.83439999999996
+  },
+  {
+    "numCustomers": 160,
+    "numAvailableCashouts": 16000,
+    "timeTaken": 4.704500000000053
+  },
+  {
+    "numCustomers": 160,
+    "numAvailableCashouts": 16000,
+    "timeTaken": 6.944100000000162
+  },
+  {
+    "numCustomers": 160,
+    "numAvailableCashouts": 16000,
+    "timeTaken": 4.823399999999992
+  },
+  {
+    "numCustomers": 160,
+    "numAvailableCashouts": 16000,
+    "timeTaken": 5.38370000000009
+  },
+  {
+    "numCustomers": 165,
+    "numAvailableCashouts": 16500,
+    "timeTaken": 6.245999999999867
+  },
+  {
+    "numCustomers": 165,
+    "numAvailableCashouts": 16500,
+    "timeTaken": 4.907899999999927
+  },
+  {
+    "numCustomers": 165,
+    "numAvailableCashouts": 16500,
+    "timeTaken": 5.016199999999799
+  },
+  {
+    "numCustomers": 165,
+    "numAvailableCashouts": 16500,
+    "timeTaken": 6.0150000000001
+  },
+  {
+    "numCustomers": 165,
+    "numAvailableCashouts": 16500,
+    "timeTaken": 4.899600000000191
+  },
+  {
+    "numCustomers": 170,
+    "numAvailableCashouts": 17000,
+    "timeTaken": 5.967100000000073
+  },
+  {
+    "numCustomers": 170,
+    "numAvailableCashouts": 17000,
+    "timeTaken": 5.828700000000026
+  },
+  {
+    "numCustomers": 170,
+    "numAvailableCashouts": 17000,
+    "timeTaken": 6.198700000000144
+  },
+  {
+    "numCustomers": 170,
+    "numAvailableCashouts": 17000,
+    "timeTaken": 6.374399999999923
+  },
+  {
+    "numCustomers": 170,
+    "numAvailableCashouts": 17000,
+    "timeTaken": 6.357199999999921
+  },
+  {
+    "numCustomers": 175,
+    "numAvailableCashouts": 17500,
+    "timeTaken": 5.211299999999937
+  },
+  {
+    "numCustomers": 175,
+    "numAvailableCashouts": 17500,
+    "timeTaken": 5.363800000000083
+  },
+  {
+    "numCustomers": 175,
+    "numAvailableCashouts": 17500,
+    "timeTaken": 5.038299999999936
+  },
+  {
+    "numCustomers": 175,
+    "numAvailableCashouts": 17500,
+    "timeTaken": 8.18360000000007
+  },
+  {
+    "numCustomers": 175,
+    "numAvailableCashouts": 17500,
+    "timeTaken": 5.340900000000147
+  },
+  {
+    "numCustomers": 180,
+    "numAvailableCashouts": 18000,
+    "timeTaken": 4.380300000000034
+  },
+  {
+    "numCustomers": 180,
+    "numAvailableCashouts": 18000,
+    "timeTaken": 5.8098999999999705
+  },
+  {
+    "numCustomers": 180,
+    "numAvailableCashouts": 18000,
+    "timeTaken": 5.470600000000104
+  },
+  {
+    "numCustomers": 180,
+    "numAvailableCashouts": 18000,
+    "timeTaken": 5.088999999999942
+  },
+  {
+    "numCustomers": 180,
+    "numAvailableCashouts": 18000,
+    "timeTaken": 6.331100000000106
+  },
+  {
+    "numCustomers": 185,
+    "numAvailableCashouts": 18500,
+    "timeTaken": 4.631399999999985
+  },
+  {
+    "numCustomers": 185,
+    "numAvailableCashouts": 18500,
+    "timeTaken": 6.027399999999943
+  },
+  {
+    "numCustomers": 185,
+    "numAvailableCashouts": 18500,
+    "timeTaken": 4.916400000000067
+  },
+  {
+    "numCustomers": 185,
+    "numAvailableCashouts": 18500,
+    "timeTaken": 5.500099999999975
+  },
+  {
+    "numCustomers": 185,
+    "numAvailableCashouts": 18500,
+    "timeTaken": 4.359700000000203
+  },
+  {
+    "numCustomers": 190,
+    "numAvailableCashouts": 19000,
+    "timeTaken": 5.093299999999999
+  },
+  {
+    "numCustomers": 190,
+    "numAvailableCashouts": 19000,
+    "timeTaken": 6.412700000000086
+  },
+  {
+    "numCustomers": 190,
+    "numAvailableCashouts": 19000,
+    "timeTaken": 6.092899999999872
+  },
+  {
+    "numCustomers": 190,
+    "numAvailableCashouts": 19000,
+    "timeTaken": 5.643199999999979
+  },
+  {
+    "numCustomers": 190,
+    "numAvailableCashouts": 19000,
+    "timeTaken": 6.145599999999831
+  },
+  {
+    "numCustomers": 195,
+    "numAvailableCashouts": 19500,
+    "timeTaken": 6.016100000000279
+  },
+  {
+    "numCustomers": 195,
+    "numAvailableCashouts": 19500,
+    "timeTaken": 6.3060999999997875
+  },
+  {
+    "numCustomers": 195,
+    "numAvailableCashouts": 19500,
+    "timeTaken": 5.2345000000000255
+  },
+  {
+    "numCustomers": 195,
+    "numAvailableCashouts": 19500,
+    "timeTaken": 6.102900000000318
+  },
+  {
+    "numCustomers": 195,
+    "numAvailableCashouts": 19500,
+    "timeTaken": 5.627300000000105
+  },
+  {
+    "numCustomers": 200,
+    "numAvailableCashouts": 20000,
+    "timeTaken": 4.867200000000139
+  },
+  {
+    "numCustomers": 200,
+    "numAvailableCashouts": 20000,
+    "timeTaken": 5.089500000000044
+  },
+  {
+    "numCustomers": 200,
+    "numAvailableCashouts": 20000,
+    "timeTaken": 5.228399999999965
+  },
+  {
+    "numCustomers": 200,
+    "numAvailableCashouts": 20000,
+    "timeTaken": 5.896499999999833
+  },
+  {
+    "numCustomers": 200,
+    "numAvailableCashouts": 20000,
+    "timeTaken": 5.815799999999854
+  },
+  {
+    "numCustomers": 205,
+    "numAvailableCashouts": 20500,
+    "timeTaken": 5.1744000000003325
+  },
+  {
+    "numCustomers": 205,
+    "numAvailableCashouts": 20500,
+    "timeTaken": 5.195999999999913
+  },
+  {
+    "numCustomers": 205,
+    "numAvailableCashouts": 20500,
+    "timeTaken": 5.815399999999954
+  },
+  {
+    "numCustomers": 205,
+    "numAvailableCashouts": 20500,
+    "timeTaken": 5.98739999999998
+  },
+  {
+    "numCustomers": 205,
+    "numAvailableCashouts": 20500,
+    "timeTaken": 6.417200000000321
+  },
+  {
+    "numCustomers": 210,
+    "numAvailableCashouts": 21000,
+    "timeTaken": 5.7047999999999774
+  },
+  {
+    "numCustomers": 210,
+    "numAvailableCashouts": 21000,
+    "timeTaken": 6.197999999999865
+  },
+  {
+    "numCustomers": 210,
+    "numAvailableCashouts": 21000,
+    "timeTaken": 6.669600000000173
+  },
+  {
+    "numCustomers": 210,
+    "numAvailableCashouts": 21000,
+    "timeTaken": 6.061999999999898
+  },
+  {
+    "numCustomers": 210,
+    "numAvailableCashouts": 21000,
+    "timeTaken": 6.116100000000188
+  },
+  {
+    "numCustomers": 215,
+    "numAvailableCashouts": 21500,
+    "timeTaken": 6.54930000000013
+  },
+  {
+    "numCustomers": 215,
+    "numAvailableCashouts": 21500,
+    "timeTaken": 6.415599999999813
+  },
+  {
+    "numCustomers": 215,
+    "numAvailableCashouts": 21500,
+    "timeTaken": 7.375
+  },
+  {
+    "numCustomers": 215,
+    "numAvailableCashouts": 21500,
+    "timeTaken": 7.108499999999822
+  },
+  {
+    "numCustomers": 215,
+    "numAvailableCashouts": 21500,
+    "timeTaken": 5.355399999999918
+  },
+  {
+    "numCustomers": 220,
+    "numAvailableCashouts": 22000,
+    "timeTaken": 7.302599999999984
+  },
+  {
+    "numCustomers": 220,
+    "numAvailableCashouts": 22000,
+    "timeTaken": 6.218200000000252
+  },
+  {
+    "numCustomers": 220,
+    "numAvailableCashouts": 22000,
+    "timeTaken": 6.491700000000037
+  },
+  {
+    "numCustomers": 220,
+    "numAvailableCashouts": 22000,
+    "timeTaken": 12.526699999999892
+  },
+  {
+    "numCustomers": 220,
+    "numAvailableCashouts": 22000,
+    "timeTaken": 5.991599999999835
+  },
+  {
+    "numCustomers": 225,
+    "numAvailableCashouts": 22500,
+    "timeTaken": 5.641699999999673
+  },
+  {
+    "numCustomers": 225,
+    "numAvailableCashouts": 22500,
+    "timeTaken": 6.121600000000399
+  },
+  {
+    "numCustomers": 225,
+    "numAvailableCashouts": 22500,
+    "timeTaken": 6.225100000000111
+  },
+  {
+    "numCustomers": 225,
+    "numAvailableCashouts": 22500,
+    "timeTaken": 7.0603000000000975
+  },
+  {
+    "numCustomers": 225,
+    "numAvailableCashouts": 22500,
+    "timeTaken": 9.486300000000028
+  },
+  {
+    "numCustomers": 230,
+    "numAvailableCashouts": 23000,
+    "timeTaken": 5.775200000000041
+  },
+  {
+    "numCustomers": 230,
+    "numAvailableCashouts": 23000,
+    "timeTaken": 6.367799999999988
+  },
+  {
+    "numCustomers": 230,
+    "numAvailableCashouts": 23000,
+    "timeTaken": 5.921500000000378
+  },
+  {
+    "numCustomers": 230,
+    "numAvailableCashouts": 23000,
+    "timeTaken": 6.383100000000013
+  },
+  {
+    "numCustomers": 230,
+    "numAvailableCashouts": 23000,
+    "timeTaken": 8.356499999999869
+  },
+  {
+    "numCustomers": 235,
+    "numAvailableCashouts": 23500,
+    "timeTaken": 5.856699999999819
+  },
+  {
+    "numCustomers": 235,
+    "numAvailableCashouts": 23500,
+    "timeTaken": 6.787899999999809
+  },
+  {
+    "numCustomers": 235,
+    "numAvailableCashouts": 23500,
+    "timeTaken": 5.764099999999871
+  },
+  {
+    "numCustomers": 235,
+    "numAvailableCashouts": 23500,
+    "timeTaken": 6.3465000000001055
+  },
+  {
+    "numCustomers": 235,
+    "numAvailableCashouts": 23500,
+    "timeTaken": 7.852500000000418
+  },
+  {
+    "numCustomers": 240,
+    "numAvailableCashouts": 24000,
+    "timeTaken": 6.75440000000026
+  },
+  {
+    "numCustomers": 240,
+    "numAvailableCashouts": 24000,
+    "timeTaken": 5.798800000000028
+  },
+  {
+    "numCustomers": 240,
+    "numAvailableCashouts": 24000,
+    "timeTaken": 6.028000000000247
+  },
+  {
+    "numCustomers": 240,
+    "numAvailableCashouts": 24000,
+    "timeTaken": 6.271500000000287
+  },
+  {
+    "numCustomers": 240,
+    "numAvailableCashouts": 24000,
+    "timeTaken": 5.945799999999963
+  },
+  {
+    "numCustomers": 245,
+    "numAvailableCashouts": 24500,
+    "timeTaken": 6.212099999999737
+  },
+  {
+    "numCustomers": 245,
+    "numAvailableCashouts": 24500,
+    "timeTaken": 6.628400000000056
+  },
+  {
+    "numCustomers": 245,
+    "numAvailableCashouts": 24500,
+    "timeTaken": 5.778699999999844
+  },
+  {
+    "numCustomers": 245,
+    "numAvailableCashouts": 24500,
+    "timeTaken": 6.26319999999987
+  },
+  {
+    "numCustomers": 245,
+    "numAvailableCashouts": 24500,
+    "timeTaken": 6.013799999999719
+  },
+  {
+    "numCustomers": 250,
+    "numAvailableCashouts": 25000,
+    "timeTaken": 6.327800000000025
+  },
+  {
+    "numCustomers": 250,
+    "numAvailableCashouts": 25000,
+    "timeTaken": 5.910899999999856
+  },
+  {
+    "numCustomers": 250,
+    "numAvailableCashouts": 25000,
+    "timeTaken": 6.377899999999954
+  },
+  {
+    "numCustomers": 250,
+    "numAvailableCashouts": 25000,
+    "timeTaken": 7.117600000000039
+  },
+  {
+    "numCustomers": 250,
+    "numAvailableCashouts": 25000,
+    "timeTaken": 6.558500000000095
+  },
+  {
+    "numCustomers": 255,
+    "numAvailableCashouts": 25500,
+    "timeTaken": 5.1445999999996275
+  },
+  {
+    "numCustomers": 255,
+    "numAvailableCashouts": 25500,
+    "timeTaken": 6.086800000000039
+  },
+  {
+    "numCustomers": 255,
+    "numAvailableCashouts": 25500,
+    "timeTaken": 7.363100000000031
+  },
+  {
+    "numCustomers": 255,
+    "numAvailableCashouts": 25500,
+    "timeTaken": 5.507599999999911
+  },
+  {
+    "numCustomers": 255,
+    "numAvailableCashouts": 25500,
+    "timeTaken": 5.537500000000364
+  },
+  {
+    "numCustomers": 260,
+    "numAvailableCashouts": 26000,
+    "timeTaken": 6.797499999999673
+  },
+  {
+    "numCustomers": 260,
+    "numAvailableCashouts": 26000,
+    "timeTaken": 6.960999999999785
+  },
+  {
+    "numCustomers": 260,
+    "numAvailableCashouts": 26000,
+    "timeTaken": 6.453700000000026
+  },
+  {
+    "numCustomers": 260,
+    "numAvailableCashouts": 26000,
+    "timeTaken": 6.269999999999982
+  },
+  {
+    "numCustomers": 260,
+    "numAvailableCashouts": 26000,
+    "timeTaken": 11.154899999999998
+  },
+  {
+    "numCustomers": 265,
+    "numAvailableCashouts": 26500,
+    "timeTaken": 6.178699999999935
+  },
+  {
+    "numCustomers": 265,
+    "numAvailableCashouts": 26500,
+    "timeTaken": 7.6336999999998625
+  },
+  {
+    "numCustomers": 265,
+    "numAvailableCashouts": 26500,
+    "timeTaken": 6.530899999999747
+  },
+  {
+    "numCustomers": 265,
+    "numAvailableCashouts": 26500,
+    "timeTaken": 7.381799999999657
+  },
+  {
+    "numCustomers": 265,
+    "numAvailableCashouts": 26500,
+    "timeTaken": 6.780099999999948
+  },
+  {
+    "numCustomers": 270,
+    "numAvailableCashouts": 27000,
+    "timeTaken": 6.464099999999689
+  },
+  {
+    "numCustomers": 270,
+    "numAvailableCashouts": 27000,
+    "timeTaken": 7.478799999999865
+  },
+  {
+    "numCustomers": 270,
+    "numAvailableCashouts": 27000,
+    "timeTaken": 6.259199999999964
+  },
+  {
+    "numCustomers": 270,
+    "numAvailableCashouts": 27000,
+    "timeTaken": 13.69800000000032
+  },
+  {
+    "numCustomers": 270,
+    "numAvailableCashouts": 27000,
+    "timeTaken": 7.83829999999989
+  },
+  {
+    "numCustomers": 275,
+    "numAvailableCashouts": 27500,
+    "timeTaken": 6.650200000000041
+  },
+  {
+    "numCustomers": 275,
+    "numAvailableCashouts": 27500,
+    "timeTaken": 6.532600000000002
+  },
+  {
+    "numCustomers": 275,
+    "numAvailableCashouts": 27500,
+    "timeTaken": 10.570399999999609
+  },
+  {
+    "numCustomers": 275,
+    "numAvailableCashouts": 27500,
+    "timeTaken": 7.293999999999869
+  },
+  {
+    "numCustomers": 275,
+    "numAvailableCashouts": 27500,
+    "timeTaken": 7.388499999999567
+  },
+  {
+    "numCustomers": 280,
+    "numAvailableCashouts": 28000,
+    "timeTaken": 7.594900000000052
+  },
+  {
+    "numCustomers": 280,
+    "numAvailableCashouts": 28000,
+    "timeTaken": 6.906399999999849
+  },
+  {
+    "numCustomers": 280,
+    "numAvailableCashouts": 28000,
+    "timeTaken": 7.210000000000036
+  },
+  {
+    "numCustomers": 280,
+    "numAvailableCashouts": 28000,
+    "timeTaken": 6.647899999999936
+  },
+  {
+    "numCustomers": 280,
+    "numAvailableCashouts": 28000,
+    "timeTaken": 9.997199999999793
+  },
+  {
+    "numCustomers": 285,
+    "numAvailableCashouts": 28500,
+    "timeTaken": 6.851300000000265
+  },
+  {
+    "numCustomers": 285,
+    "numAvailableCashouts": 28500,
+    "timeTaken": 6.672399999999925
+  },
+  {
+    "numCustomers": 285,
+    "numAvailableCashouts": 28500,
+    "timeTaken": 6.804299999999785
+  },
+  {
+    "numCustomers": 285,
+    "numAvailableCashouts": 28500,
+    "timeTaken": 8.190099999999802
+  },
+  {
+    "numCustomers": 285,
+    "numAvailableCashouts": 28500,
+    "timeTaken": 7.365899999999783
+  },
+  {
+    "numCustomers": 290,
+    "numAvailableCashouts": 29000,
+    "timeTaken": 6.532100000000355
+  },
+  {
+    "numCustomers": 290,
+    "numAvailableCashouts": 29000,
+    "timeTaken": 6.104499999999916
+  },
+  {
+    "numCustomers": 290,
+    "numAvailableCashouts": 29000,
+    "timeTaken": 6.907600000000002
+  },
+  {
+    "numCustomers": 290,
+    "numAvailableCashouts": 29000,
+    "timeTaken": 6.456400000000031
+  },
+  {
+    "numCustomers": 290,
+    "numAvailableCashouts": 29000,
+    "timeTaken": 9.160100000000057
+  },
+  {
+    "numCustomers": 295,
+    "numAvailableCashouts": 29500,
+    "timeTaken": 7.115400000000136
+  },
+  {
+    "numCustomers": 295,
+    "numAvailableCashouts": 29500,
+    "timeTaken": 6.964099999999689
+  },
+  {
+    "numCustomers": 295,
+    "numAvailableCashouts": 29500,
+    "timeTaken": 10.21289999999999
+  },
+  {
+    "numCustomers": 295,
+    "numAvailableCashouts": 29500,
+    "timeTaken": 7.587300000000141
+  },
+  {
+    "numCustomers": 295,
+    "numAvailableCashouts": 29500,
+    "timeTaken": 6.28899999999976
+  },
+  {
+    "numCustomers": 300,
+    "numAvailableCashouts": 30000,
+    "timeTaken": 6.877500000000055
+  },
+  {
+    "numCustomers": 300,
+    "numAvailableCashouts": 30000,
+    "timeTaken": 6.600300000000061
+  },
+  {
+    "numCustomers": 300,
+    "numAvailableCashouts": 30000,
+    "timeTaken": 7.99559999999974
+  },
+  {
+    "numCustomers": 300,
+    "numAvailableCashouts": 30000,
+    "timeTaken": 8.190200000000004
+  },
+  {
+    "numCustomers": 300,
+    "numAvailableCashouts": 30000,
+    "timeTaken": 8.328199999999924
+  },
+  {
+    "numCustomers": 305,
+    "numAvailableCashouts": 30500,
+    "timeTaken": 6.1646999999998116
+  },
+  {
+    "numCustomers": 305,
+    "numAvailableCashouts": 30500,
+    "timeTaken": 7.627899999999954
+  },
+  {
+    "numCustomers": 305,
+    "numAvailableCashouts": 30500,
+    "timeTaken": 7.695299999999861
+  },
+  {
+    "numCustomers": 305,
+    "numAvailableCashouts": 30500,
+    "timeTaken": 6.833999999999833
+  },
+  {
+    "numCustomers": 305,
+    "numAvailableCashouts": 30500,
+    "timeTaken": 8.911799999999857
+  },
+  {
+    "numCustomers": 310,
+    "numAvailableCashouts": 31000,
+    "timeTaken": 6.7750999999998385
+  },
+  {
+    "numCustomers": 310,
+    "numAvailableCashouts": 31000,
+    "timeTaken": 6.671400000000176
+  },
+  {
+    "numCustomers": 310,
+    "numAvailableCashouts": 31000,
+    "timeTaken": 7.0900000000001455
+  },
+  {
+    "numCustomers": 310,
+    "numAvailableCashouts": 31000,
+    "timeTaken": 7.487300000000232
+  },
+  {
+    "numCustomers": 310,
+    "numAvailableCashouts": 31000,
+    "timeTaken": 11.583999999999833
+  },
+  {
+    "numCustomers": 315,
+    "numAvailableCashouts": 31500,
+    "timeTaken": 7.930399999999736
+  },
+  {
+    "numCustomers": 315,
+    "numAvailableCashouts": 31500,
+    "timeTaken": 7.039300000000367
+  },
+  {
+    "numCustomers": 315,
+    "numAvailableCashouts": 31500,
+    "timeTaken": 7.558399999999892
+  },
+  {
+    "numCustomers": 315,
+    "numAvailableCashouts": 31500,
+    "timeTaken": 7.003299999999854
+  },
+  {
+    "numCustomers": 315,
+    "numAvailableCashouts": 31500,
+    "timeTaken": 7.044799999999668
+  },
+  {
+    "numCustomers": 320,
+    "numAvailableCashouts": 32000,
+    "timeTaken": 6.805299999999988
+  },
+  {
+    "numCustomers": 320,
+    "numAvailableCashouts": 32000,
+    "timeTaken": 6.398599999999988
+  },
+  {
+    "numCustomers": 320,
+    "numAvailableCashouts": 32000,
+    "timeTaken": 9.546699999999873
+  },
+  {
+    "numCustomers": 320,
+    "numAvailableCashouts": 32000,
+    "timeTaken": 6.944500000000062
+  },
+  {
+    "numCustomers": 320,
+    "numAvailableCashouts": 32000,
+    "timeTaken": 7.3914999999997235
+  },
+  {
+    "numCustomers": 325,
+    "numAvailableCashouts": 32500,
+    "timeTaken": 8.167099999999664
+  },
+  {
+    "numCustomers": 325,
+    "numAvailableCashouts": 32500,
+    "timeTaken": 8.15039999999999
+  },
+  {
+    "numCustomers": 325,
+    "numAvailableCashouts": 32500,
+    "timeTaken": 7.945799999999963
+  },
+  {
+    "numCustomers": 325,
+    "numAvailableCashouts": 32500,
+    "timeTaken": 7.298400000000129
+  },
+  {
+    "numCustomers": 325,
+    "numAvailableCashouts": 32500,
+    "timeTaken": 6.639099999999871
+  },
+  {
+    "numCustomers": 330,
+    "numAvailableCashouts": 33000,
+    "timeTaken": 7.518399999999929
+  },
+  {
+    "numCustomers": 330,
+    "numAvailableCashouts": 33000,
+    "timeTaken": 6.63130000000001
+  },
+  {
+    "numCustomers": 330,
+    "numAvailableCashouts": 33000,
+    "timeTaken": 7.186400000000049
+  },
+  {
+    "numCustomers": 330,
+    "numAvailableCashouts": 33000,
+    "timeTaken": 7.291099999999915
+  },
+  {
+    "numCustomers": 330,
+    "numAvailableCashouts": 33000,
+    "timeTaken": 7.219900000000052
+  },
+  {
+    "numCustomers": 335,
+    "numAvailableCashouts": 33500,
+    "timeTaken": 7.429399999999987
+  },
+  {
+    "numCustomers": 335,
+    "numAvailableCashouts": 33500,
+    "timeTaken": 7.108099999999922
+  },
+  {
+    "numCustomers": 335,
+    "numAvailableCashouts": 33500,
+    "timeTaken": 6.527999999999793
+  },
+  {
+    "numCustomers": 335,
+    "numAvailableCashouts": 33500,
+    "timeTaken": 7.089100000000144
+  },
+  {
+    "numCustomers": 335,
+    "numAvailableCashouts": 33500,
+    "timeTaken": 8.151200000000244
+  },
+  {
+    "numCustomers": 340,
+    "numAvailableCashouts": 34000,
+    "timeTaken": 7.71979999999985
+  },
+  {
+    "numCustomers": 340,
+    "numAvailableCashouts": 34000,
+    "timeTaken": 7.371900000000096
+  },
+  {
+    "numCustomers": 340,
+    "numAvailableCashouts": 34000,
+    "timeTaken": 7.980199999999968
+  },
+  {
+    "numCustomers": 340,
+    "numAvailableCashouts": 34000,
+    "timeTaken": 8.428000000000338
+  },
+  {
+    "numCustomers": 340,
+    "numAvailableCashouts": 34000,
+    "timeTaken": 7.569100000000162
+  },
+  {
+    "numCustomers": 345,
+    "numAvailableCashouts": 34500,
+    "timeTaken": 8.162799999999606
+  },
+  {
+    "numCustomers": 345,
+    "numAvailableCashouts": 34500,
+    "timeTaken": 8.1242000000002
+  },
+  {
+    "numCustomers": 345,
+    "numAvailableCashouts": 34500,
+    "timeTaken": 7.372499999999945
+  },
+  {
+    "numCustomers": 345,
+    "numAvailableCashouts": 34500,
+    "timeTaken": 7.031399999999849
+  },
+  {
+    "numCustomers": 345,
+    "numAvailableCashouts": 34500,
+    "timeTaken": 8.605199999999968
+  },
+  {
+    "numCustomers": 350,
+    "numAvailableCashouts": 35000,
+    "timeTaken": 9.38110000000006
+  },
+  {
+    "numCustomers": 350,
+    "numAvailableCashouts": 35000,
+    "timeTaken": 7.464500000000044
+  },
+  {
+    "numCustomers": 350,
+    "numAvailableCashouts": 35000,
+    "timeTaken": 7.639999999999873
+  },
+  {
+    "numCustomers": 350,
+    "numAvailableCashouts": 35000,
+    "timeTaken": 8.889000000000124
+  },
+  {
+    "numCustomers": 350,
+    "numAvailableCashouts": 35000,
+    "timeTaken": 7.993099999999686
+  },
+  {
+    "numCustomers": 355,
+    "numAvailableCashouts": 35500,
+    "timeTaken": 7.177099999999882
+  },
+  {
+    "numCustomers": 355,
+    "numAvailableCashouts": 35500,
+    "timeTaken": 8.050200000000586
+  },
+  {
+    "numCustomers": 355,
+    "numAvailableCashouts": 35500,
+    "timeTaken": 8.993800000000192
+  },
+  {
+    "numCustomers": 355,
+    "numAvailableCashouts": 35500,
+    "timeTaken": 8.041600000000471
+  },
+  {
+    "numCustomers": 355,
+    "numAvailableCashouts": 35500,
+    "timeTaken": 7.95889999999963
+  },
+  {
+    "numCustomers": 360,
+    "numAvailableCashouts": 36000,
+    "timeTaken": 7.554000000000087
+  },
+  {
+    "numCustomers": 360,
+    "numAvailableCashouts": 36000,
+    "timeTaken": 7.2503999999999
+  },
+  {
+    "numCustomers": 360,
+    "numAvailableCashouts": 36000,
+    "timeTaken": 8.19340000000011
+  },
+  {
+    "numCustomers": 360,
+    "numAvailableCashouts": 36000,
+    "timeTaken": 8.251800000000003
+  },
+  {
+    "numCustomers": 360,
+    "numAvailableCashouts": 36000,
+    "timeTaken": 7.585200000000441
+  },
+  {
+    "numCustomers": 365,
+    "numAvailableCashouts": 36500,
+    "timeTaken": 6.187999999999192
+  },
+  {
+    "numCustomers": 365,
+    "numAvailableCashouts": 36500,
+    "timeTaken": 6.866899999999987
+  },
+  {
+    "numCustomers": 365,
+    "numAvailableCashouts": 36500,
+    "timeTaken": 7.958999999999833
+  },
+  {
+    "numCustomers": 365,
+    "numAvailableCashouts": 36500,
+    "timeTaken": 8.049099999999271
+  },
+  {
+    "numCustomers": 365,
+    "numAvailableCashouts": 36500,
+    "timeTaken": 6.965400000000045
+  },
+  {
+    "numCustomers": 370,
+    "numAvailableCashouts": 37000,
+    "timeTaken": 8.048300000000381
+  },
+  {
+    "numCustomers": 370,
+    "numAvailableCashouts": 37000,
+    "timeTaken": 7.700399999999718
+  },
+  {
+    "numCustomers": 370,
+    "numAvailableCashouts": 37000,
+    "timeTaken": 7.546299999999974
+  },
+  {
+    "numCustomers": 370,
+    "numAvailableCashouts": 37000,
+    "timeTaken": 8.613900000000285
+  },
+  {
+    "numCustomers": 370,
+    "numAvailableCashouts": 37000,
+    "timeTaken": 7.308199999999488
+  },
+  {
+    "numCustomers": 375,
+    "numAvailableCashouts": 37500,
+    "timeTaken": 7.764000000000124
+  },
+  {
+    "numCustomers": 375,
+    "numAvailableCashouts": 37500,
+    "timeTaken": 6.825299999999515
+  },
+  {
+    "numCustomers": 375,
+    "numAvailableCashouts": 37500,
+    "timeTaken": 7.23030000000017
+  },
+  {
+    "numCustomers": 375,
+    "numAvailableCashouts": 37500,
+    "timeTaken": 8.884500000000116
+  },
+  {
+    "numCustomers": 375,
+    "numAvailableCashouts": 37500,
+    "timeTaken": 9.028699999999844
+  },
+  {
+    "numCustomers": 380,
+    "numAvailableCashouts": 38000,
+    "timeTaken": 7.160499999999956
+  },
+  {
+    "numCustomers": 380,
+    "numAvailableCashouts": 38000,
+    "timeTaken": 7.393399999999929
+  },
+  {
+    "numCustomers": 380,
+    "numAvailableCashouts": 38000,
+    "timeTaken": 7.848999999999251
+  },
+  {
+    "numCustomers": 380,
+    "numAvailableCashouts": 38000,
+    "timeTaken": 7.401699999999437
+  },
+  {
+    "numCustomers": 380,
+    "numAvailableCashouts": 38000,
+    "timeTaken": 7.668399999999565
+  },
+  {
+    "numCustomers": 385,
+    "numAvailableCashouts": 38500,
+    "timeTaken": 8.095400000000154
+  },
+  {
+    "numCustomers": 385,
+    "numAvailableCashouts": 38500,
+    "timeTaken": 7.750700000000506
+  },
+  {
+    "numCustomers": 385,
+    "numAvailableCashouts": 38500,
+    "timeTaken": 7.029900000000453
+  },
+  {
+    "numCustomers": 385,
+    "numAvailableCashouts": 38500,
+    "timeTaken": 9.128299999999399
+  },
+  {
+    "numCustomers": 385,
+    "numAvailableCashouts": 38500,
+    "timeTaken": 7.63339999999971
+  },
+  {
+    "numCustomers": 390,
+    "numAvailableCashouts": 39000,
+    "timeTaken": 7.6556000000000495
+  },
+  {
+    "numCustomers": 390,
+    "numAvailableCashouts": 39000,
+    "timeTaken": 7.401499999999942
+  },
+  {
+    "numCustomers": 390,
+    "numAvailableCashouts": 39000,
+    "timeTaken": 7.754399999999805
+  },
+  {
+    "numCustomers": 390,
+    "numAvailableCashouts": 39000,
+    "timeTaken": 7.530299999999443
+  },
+  {
+    "numCustomers": 390,
+    "numAvailableCashouts": 39000,
+    "timeTaken": 7.366700000000492
+  },
+  {
+    "numCustomers": 395,
+    "numAvailableCashouts": 39500,
+    "timeTaken": 8.46599999999944
+  },
+  {
+    "numCustomers": 395,
+    "numAvailableCashouts": 39500,
+    "timeTaken": 7.400800000000345
+  },
+  {
+    "numCustomers": 395,
+    "numAvailableCashouts": 39500,
+    "timeTaken": 9.356399999999667
+  },
+  {
+    "numCustomers": 395,
+    "numAvailableCashouts": 39500,
+    "timeTaken": 8.556400000000394
+  },
+  {
+    "numCustomers": 395,
+    "numAvailableCashouts": 39500,
+    "timeTaken": 8.143200000000434
+  },
+  {
+    "numCustomers": 400,
+    "numAvailableCashouts": 40000,
+    "timeTaken": 6.673600000000079
+  },
+  {
+    "numCustomers": 400,
+    "numAvailableCashouts": 40000,
+    "timeTaken": 7.981300000000374
+  },
+  {
+    "numCustomers": 400,
+    "numAvailableCashouts": 40000,
+    "timeTaken": 8.044200000000274
+  },
+  {
+    "numCustomers": 400,
+    "numAvailableCashouts": 40000,
+    "timeTaken": 6.282000000000153
+  },
+  {
+    "numCustomers": 400,
+    "numAvailableCashouts": 40000,
+    "timeTaken": 7.146499999999833
+  },
+  {
+    "numCustomers": 405,
+    "numAvailableCashouts": 40500,
+    "timeTaken": 8.133700000000317
+  },
+  {
+    "numCustomers": 405,
+    "numAvailableCashouts": 40500,
+    "timeTaken": 9.297199999999975
+  },
+  {
+    "numCustomers": 405,
+    "numAvailableCashouts": 40500,
+    "timeTaken": 9.11999999999989
+  },
+  {
+    "numCustomers": 405,
+    "numAvailableCashouts": 40500,
+    "timeTaken": 8.408100000000559
+  },
+  {
+    "numCustomers": 405,
+    "numAvailableCashouts": 40500,
+    "timeTaken": 8.502199999999903
+  },
+  {
+    "numCustomers": 410,
+    "numAvailableCashouts": 41000,
+    "timeTaken": 8.23909999999978
+  },
+  {
+    "numCustomers": 410,
+    "numAvailableCashouts": 41000,
+    "timeTaken": 8.090499999999338
+  },
+  {
+    "numCustomers": 410,
+    "numAvailableCashouts": 41000,
+    "timeTaken": 8.298099999999977
+  },
+  {
+    "numCustomers": 410,
+    "numAvailableCashouts": 41000,
+    "timeTaken": 7.100800000000163
+  },
+  {
+    "numCustomers": 410,
+    "numAvailableCashouts": 41000,
+    "timeTaken": 6.83389999999963
+  },
+  {
+    "numCustomers": 415,
+    "numAvailableCashouts": 41500,
+    "timeTaken": 8.682099999999991
+  },
+  {
+    "numCustomers": 415,
+    "numAvailableCashouts": 41500,
+    "timeTaken": 8.839099999999235
+  },
+  {
+    "numCustomers": 415,
+    "numAvailableCashouts": 41500,
+    "timeTaken": 7.735399999999572
+  },
+  {
+    "numCustomers": 415,
+    "numAvailableCashouts": 41500,
+    "timeTaken": 9.214999999999236
+  },
+  {
+    "numCustomers": 415,
+    "numAvailableCashouts": 41500,
+    "timeTaken": 10.451399999999921
+  },
+  {
+    "numCustomers": 420,
+    "numAvailableCashouts": 42000,
+    "timeTaken": 7.049599999999373
+  },
+  {
+    "numCustomers": 420,
+    "numAvailableCashouts": 42000,
+    "timeTaken": 7.2620999999999185
+  },
+  {
+    "numCustomers": 420,
+    "numAvailableCashouts": 42000,
+    "timeTaken": 10.308399999999892
+  },
+  {
+    "numCustomers": 420,
+    "numAvailableCashouts": 42000,
+    "timeTaken": 7.594599999999446
+  },
+  {
+    "numCustomers": 420,
+    "numAvailableCashouts": 42000,
+    "timeTaken": 7.427000000000589
+  },
+  {
+    "numCustomers": 425,
+    "numAvailableCashouts": 42500,
+    "timeTaken": 7.715499999999338
+  },
+  {
+    "numCustomers": 425,
+    "numAvailableCashouts": 42500,
+    "timeTaken": 7.99080000000049
+  },
+  {
+    "numCustomers": 425,
+    "numAvailableCashouts": 42500,
+    "timeTaken": 7.256800000000112
+  },
+  {
+    "numCustomers": 425,
+    "numAvailableCashouts": 42500,
+    "timeTaken": 6.484699999999975
+  },
+  {
+    "numCustomers": 425,
+    "numAvailableCashouts": 42500,
+    "timeTaken": 8.674200000000383
+  },
+  {
+    "numCustomers": 430,
+    "numAvailableCashouts": 43000,
+    "timeTaken": 9.060899999999492
+  },
+  {
+    "numCustomers": 430,
+    "numAvailableCashouts": 43000,
+    "timeTaken": 8.515300000000025
+  },
+  {
+    "numCustomers": 430,
+    "numAvailableCashouts": 43000,
+    "timeTaken": 10.601999999999862
+  },
+  {
+    "numCustomers": 430,
+    "numAvailableCashouts": 43000,
+    "timeTaken": 8.474500000000262
+  },
+  {
+    "numCustomers": 430,
+    "numAvailableCashouts": 43000,
+    "timeTaken": 8.768200000000434
+  },
+  {
+    "numCustomers": 435,
+    "numAvailableCashouts": 43500,
+    "timeTaken": 7.08389999999963
+  },
+  {
+    "numCustomers": 435,
+    "numAvailableCashouts": 43500,
+    "timeTaken": 6.957400000000234
+  },
+  {
+    "numCustomers": 435,
+    "numAvailableCashouts": 43500,
+    "timeTaken": 7.059599999999591
+  },
+  {
+    "numCustomers": 435,
+    "numAvailableCashouts": 43500,
+    "timeTaken": 6.50630000000001
+  },
+  {
+    "numCustomers": 435,
+    "numAvailableCashouts": 43500,
+    "timeTaken": 7.4593000000004395
+  },
+  {
+    "numCustomers": 440,
+    "numAvailableCashouts": 44000,
+    "timeTaken": 8.459399999999732
+  },
+  {
+    "numCustomers": 440,
+    "numAvailableCashouts": 44000,
+    "timeTaken": 9.649999999999636
+  },
+  {
+    "numCustomers": 440,
+    "numAvailableCashouts": 44000,
+    "timeTaken": 8.65809999999965
+  },
+  {
+    "numCustomers": 440,
+    "numAvailableCashouts": 44000,
+    "timeTaken": 9.116800000000694
+  },
+  {
+    "numCustomers": 440,
+    "numAvailableCashouts": 44000,
+    "timeTaken": 8.73620000000028
+  },
+  {
+    "numCustomers": 445,
+    "numAvailableCashouts": 44500,
+    "timeTaken": 7.9465000000000146
+  },
+  {
+    "numCustomers": 445,
+    "numAvailableCashouts": 44500,
+    "timeTaken": 9.732599999999366
+  },
+  {
+    "numCustomers": 445,
+    "numAvailableCashouts": 44500,
+    "timeTaken": 7.711100000000442
+  },
+  {
+    "numCustomers": 445,
+    "numAvailableCashouts": 44500,
+    "timeTaken": 8.630799999999908
+  },
+  {
+    "numCustomers": 445,
+    "numAvailableCashouts": 44500,
+    "timeTaken": 7.323500000000422
+  },
+  {
+    "numCustomers": 450,
+    "numAvailableCashouts": 45000,
+    "timeTaken": 8.866500000000087
+  },
+  {
+    "numCustomers": 450,
+    "numAvailableCashouts": 45000,
+    "timeTaken": 8.809400000000096
+  },
+  {
+    "numCustomers": 450,
+    "numAvailableCashouts": 45000,
+    "timeTaken": 8.043700000000172
+  },
+  {
+    "numCustomers": 450,
+    "numAvailableCashouts": 45000,
+    "timeTaken": 8.007499999999709
+  },
+  {
+    "numCustomers": 450,
+    "numAvailableCashouts": 45000,
+    "timeTaken": 7.321100000000115
+  },
+  {
+    "numCustomers": 455,
+    "numAvailableCashouts": 45500,
+    "timeTaken": 7.97860000000037
+  },
+  {
+    "numCustomers": 455,
+    "numAvailableCashouts": 45500,
+    "timeTaken": 7.861200000000281
+  },
+  {
+    "numCustomers": 455,
+    "numAvailableCashouts": 45500,
+    "timeTaken": 8.946799999999712
+  },
+  {
+    "numCustomers": 455,
+    "numAvailableCashouts": 45500,
+    "timeTaken": 9.527599999999438
+  },
+  {
+    "numCustomers": 455,
+    "numAvailableCashouts": 45500,
+    "timeTaken": 9.516999999999825
+  },
+  {
+    "numCustomers": 460,
+    "numAvailableCashouts": 46000,
+    "timeTaken": 8.724199999999655
+  },
+  {
+    "numCustomers": 460,
+    "numAvailableCashouts": 46000,
+    "timeTaken": 8.123599999999897
+  },
+  {
+    "numCustomers": 460,
+    "numAvailableCashouts": 46000,
+    "timeTaken": 8.252799999999297
+  },
+  {
+    "numCustomers": 460,
+    "numAvailableCashouts": 46000,
+    "timeTaken": 8.026499999999942
+  },
+  {
+    "numCustomers": 460,
+    "numAvailableCashouts": 46000,
+    "timeTaken": 8.966699999999946
+  },
+  {
+    "numCustomers": 465,
+    "numAvailableCashouts": 46500,
+    "timeTaken": 7.193400000000111
+  },
+  {
+    "numCustomers": 465,
+    "numAvailableCashouts": 46500,
+    "timeTaken": 7.164600000000064
+  },
+  {
+    "numCustomers": 465,
+    "numAvailableCashouts": 46500,
+    "timeTaken": 7.288400000000365
+  },
+  {
+    "numCustomers": 465,
+    "numAvailableCashouts": 46500,
+    "timeTaken": 6.6784999999999854
+  },
+  {
+    "numCustomers": 465,
+    "numAvailableCashouts": 46500,
+    "timeTaken": 7.088500000000749
+  },
+  {
+    "numCustomers": 470,
+    "numAvailableCashouts": 47000,
+    "timeTaken": 6.45010000000002
+  },
+  {
+    "numCustomers": 470,
+    "numAvailableCashouts": 47000,
+    "timeTaken": 8.212099999999737
+  },
+  {
+    "numCustomers": 470,
+    "numAvailableCashouts": 47000,
+    "timeTaken": 8.673799999999574
+  },
+  {
+    "numCustomers": 470,
+    "numAvailableCashouts": 47000,
+    "timeTaken": 9.152900000000045
+  },
+  {
+    "numCustomers": 470,
+    "numAvailableCashouts": 47000,
+    "timeTaken": 9.21810000000005
+  },
+  {
+    "numCustomers": 475,
+    "numAvailableCashouts": 47500,
+    "timeTaken": 8.604599999999664
+  },
+  {
+    "numCustomers": 475,
+    "numAvailableCashouts": 47500,
+    "timeTaken": 8.369399999999587
+  },
+  {
+    "numCustomers": 475,
+    "numAvailableCashouts": 47500,
+    "timeTaken": 7.724799999999959
+  },
+  {
+    "numCustomers": 475,
+    "numAvailableCashouts": 47500,
+    "timeTaken": 8.3162999999995
+  },
+  {
+    "numCustomers": 475,
+    "numAvailableCashouts": 47500,
+    "timeTaken": 8.665600000000268
+  },
+  {
+    "numCustomers": 480,
+    "numAvailableCashouts": 48000,
+    "timeTaken": 7.910000000000764
+  },
+  {
+    "numCustomers": 480,
+    "numAvailableCashouts": 48000,
+    "timeTaken": 6.576100000000224
+  },
+  {
+    "numCustomers": 480,
+    "numAvailableCashouts": 48000,
+    "timeTaken": 8.084399999999732
+  },
+  {
+    "numCustomers": 480,
+    "numAvailableCashouts": 48000,
+    "timeTaken": 8.028599999999642
+  },
+  {
+    "numCustomers": 480,
+    "numAvailableCashouts": 48000,
+    "timeTaken": 7.927500000000691
+  },
+  {
+    "numCustomers": 485,
+    "numAvailableCashouts": 48500,
+    "timeTaken": 7.496999999999389
+  },
+  {
+    "numCustomers": 485,
+    "numAvailableCashouts": 48500,
+    "timeTaken": 7.108900000000176
+  },
+  {
+    "numCustomers": 485,
+    "numAvailableCashouts": 48500,
+    "timeTaken": 7.247599999999693
+  },
+  {
+    "numCustomers": 485,
+    "numAvailableCashouts": 48500,
+    "timeTaken": 7.626599999999598
+  },
+  {
+    "numCustomers": 485,
+    "numAvailableCashouts": 48500,
+    "timeTaken": 7.493199999999888
+  },
+  {
+    "numCustomers": 490,
+    "numAvailableCashouts": 49000,
+    "timeTaken": 9.92790000000059
+  },
+  {
+    "numCustomers": 490,
+    "numAvailableCashouts": 49000,
+    "timeTaken": 8.326699999999619
+  },
+  {
+    "numCustomers": 490,
+    "numAvailableCashouts": 49000,
+    "timeTaken": 9.40059999999994
+  },
+  {
+    "numCustomers": 490,
+    "numAvailableCashouts": 49000,
+    "timeTaken": 8.45679999999993
+  },
+  {
+    "numCustomers": 490,
+    "numAvailableCashouts": 49000,
+    "timeTaken": 9.377999999999702
+  },
+  {
+    "numCustomers": 495,
+    "numAvailableCashouts": 49500,
+    "timeTaken": 8.350799999999253
+  },
+  {
+    "numCustomers": 495,
+    "numAvailableCashouts": 49500,
+    "timeTaken": 7.7039999999997235
+  },
+  {
+    "numCustomers": 495,
+    "numAvailableCashouts": 49500,
+    "timeTaken": 6.907199999999648
+  },
+  {
+    "numCustomers": 495,
+    "numAvailableCashouts": 49500,
+    "timeTaken": 7.857100000000173
+  },
+  {
+    "numCustomers": 495,
+    "numAvailableCashouts": 49500,
+    "timeTaken": 8.398200000000543
+  },
+  {
+    "numCustomers": 500,
+    "numAvailableCashouts": 50000,
+    "timeTaken": 7.989500000000589
+  },
+  {
+    "numCustomers": 500,
+    "numAvailableCashouts": 50000,
+    "timeTaken": 7.902100000000246
+  },
+  {
+    "numCustomers": 500,
+    "numAvailableCashouts": 50000,
+    "timeTaken": 7.005100000000311
+  },
+  {
+    "numCustomers": 500,
+    "numAvailableCashouts": 50000,
+    "timeTaken": 9.14050000000043
+  },
+  {
+    "numCustomers": 500,
+    "numAvailableCashouts": 50000,
+    "timeTaken": 8.325900000000729
+  },
+  {
+    "numCustomers": 505,
+    "numAvailableCashouts": 50500,
+    "timeTaken": 11.481000000000677
+  },
+  {
+    "numCustomers": 505,
+    "numAvailableCashouts": 50500,
+    "timeTaken": 8.438400000000001
+  },
+  {
+    "numCustomers": 505,
+    "numAvailableCashouts": 50500,
+    "timeTaken": 8.918300000000272
+  },
+  {
+    "numCustomers": 505,
+    "numAvailableCashouts": 50500,
+    "timeTaken": 8.721700000000055
+  },
+  {
+    "numCustomers": 505,
+    "numAvailableCashouts": 50500,
+    "timeTaken": 9.785200000000259
+  },
+  {
+    "numCustomers": 510,
+    "numAvailableCashouts": 51000,
+    "timeTaken": 8.275700000000143
+  },
+  {
+    "numCustomers": 510,
+    "numAvailableCashouts": 51000,
+    "timeTaken": 8.74499999999989
+  },
+  {
+    "numCustomers": 510,
+    "numAvailableCashouts": 51000,
+    "timeTaken": 8.33389999999963
+  },
+  {
+    "numCustomers": 510,
+    "numAvailableCashouts": 51000,
+    "timeTaken": 10.00130000000081
+  },
+  {
+    "numCustomers": 510,
+    "numAvailableCashouts": 51000,
+    "timeTaken": 10.14600000000064
+  },
+  {
+    "numCustomers": 515,
+    "numAvailableCashouts": 51500,
+    "timeTaken": 9.094600000000355
+  },
+  {
+    "numCustomers": 515,
+    "numAvailableCashouts": 51500,
+    "timeTaken": 8.163899999999558
+  },
+  {
+    "numCustomers": 515,
+    "numAvailableCashouts": 51500,
+    "timeTaken": 8.819700000000012
+  },
+  {
+    "numCustomers": 515,
+    "numAvailableCashouts": 51500,
+    "timeTaken": 7.170900000000074
+  },
+  {
+    "numCustomers": 515,
+    "numAvailableCashouts": 51500,
+    "timeTaken": 8.427799999999479
+  },
+  {
+    "numCustomers": 520,
+    "numAvailableCashouts": 52000,
+    "timeTaken": 8.622600000000602
+  },
+  {
+    "numCustomers": 520,
+    "numAvailableCashouts": 52000,
+    "timeTaken": 9.800199999999677
+  },
+  {
+    "numCustomers": 520,
+    "numAvailableCashouts": 52000,
+    "timeTaken": 8.25669999999991
+  },
+  {
+    "numCustomers": 520,
+    "numAvailableCashouts": 52000,
+    "timeTaken": 10.380100000000311
+  },
+  {
+    "numCustomers": 520,
+    "numAvailableCashouts": 52000,
+    "timeTaken": 10.395000000000437
+  },
+  {
+    "numCustomers": 525,
+    "numAvailableCashouts": 52500,
+    "timeTaken": 8.907599999999547
+  },
+  {
+    "numCustomers": 525,
+    "numAvailableCashouts": 52500,
+    "timeTaken": 8.495499999999993
+  },
+  {
+    "numCustomers": 525,
+    "numAvailableCashouts": 52500,
+    "timeTaken": 9.044200000000274
+  },
+  {
+    "numCustomers": 525,
+    "numAvailableCashouts": 52500,
+    "timeTaken": 8.751199999999699
+  },
+  {
+    "numCustomers": 525,
+    "numAvailableCashouts": 52500,
+    "timeTaken": 8.89639999999963
+  },
+  {
+    "numCustomers": 530,
+    "numAvailableCashouts": 53000,
+    "timeTaken": 10.530999999999949
+  },
+  {
+    "numCustomers": 530,
+    "numAvailableCashouts": 53000,
+    "timeTaken": 10.165200000000368
+  },
+  {
+    "numCustomers": 530,
+    "numAvailableCashouts": 53000,
+    "timeTaken": 10.617899999999281
+  },
+  {
+    "numCustomers": 530,
+    "numAvailableCashouts": 53000,
+    "timeTaken": 9.986499999999978
+  },
+  {
+    "numCustomers": 530,
+    "numAvailableCashouts": 53000,
+    "timeTaken": 10.173500000000786
+  },
+  {
+    "numCustomers": 535,
+    "numAvailableCashouts": 53500,
+    "timeTaken": 10.63590000000022
+  },
+  {
+    "numCustomers": 535,
+    "numAvailableCashouts": 53500,
+    "timeTaken": 9.611100000000079
+  },
+  {
+    "numCustomers": 535,
+    "numAvailableCashouts": 53500,
+    "timeTaken": 9.532799999999952
+  },
+  {
+    "numCustomers": 535,
+    "numAvailableCashouts": 53500,
+    "timeTaken": 10.505499999999302
+  },
+  {
+    "numCustomers": 535,
+    "numAvailableCashouts": 53500,
+    "timeTaken": 10.074799999999414
+  },
+  {
+    "numCustomers": 540,
+    "numAvailableCashouts": 54000,
+    "timeTaken": 8.980999999999767
+  },
+  {
+    "numCustomers": 540,
+    "numAvailableCashouts": 54000,
+    "timeTaken": 8.820700000000215
+  },
+  {
+    "numCustomers": 540,
+    "numAvailableCashouts": 54000,
+    "timeTaken": 9.655999999999949
+  },
+  {
+    "numCustomers": 540,
+    "numAvailableCashouts": 54000,
+    "timeTaken": 9.106199999999262
+  },
+  {
+    "numCustomers": 540,
+    "numAvailableCashouts": 54000,
+    "timeTaken": 10.192000000000007
+  },
+  {
+    "numCustomers": 545,
+    "numAvailableCashouts": 54500,
+    "timeTaken": 8.6875
+  },
+  {
+    "numCustomers": 545,
+    "numAvailableCashouts": 54500,
+    "timeTaken": 9.67200000000048
+  },
+  {
+    "numCustomers": 545,
+    "numAvailableCashouts": 54500,
+    "timeTaken": 11.155899999999747
+  },
+  {
+    "numCustomers": 545,
+    "numAvailableCashouts": 54500,
+    "timeTaken": 10.58770000000004
+  },
+  {
+    "numCustomers": 545,
+    "numAvailableCashouts": 54500,
+    "timeTaken": 10.808199999999488
+  },
+  {
+    "numCustomers": 550,
+    "numAvailableCashouts": 55000,
+    "timeTaken": 9.090299999999843
+  },
+  {
+    "numCustomers": 550,
+    "numAvailableCashouts": 55000,
+    "timeTaken": 9.853799999999865
+  },
+  {
+    "numCustomers": 550,
+    "numAvailableCashouts": 55000,
+    "timeTaken": 9.524800000000141
+  },
+  {
+    "numCustomers": 550,
+    "numAvailableCashouts": 55000,
+    "timeTaken": 10.79240000000027
+  },
+  {
+    "numCustomers": 550,
+    "numAvailableCashouts": 55000,
+    "timeTaken": 9.728500000000167
+  },
+  {
+    "numCustomers": 555,
+    "numAvailableCashouts": 55500,
+    "timeTaken": 8.618099999999686
+  },
+  {
+    "numCustomers": 555,
+    "numAvailableCashouts": 55500,
+    "timeTaken": 10.017399999999725
+  },
+  {
+    "numCustomers": 555,
+    "numAvailableCashouts": 55500,
+    "timeTaken": 8.885400000000118
+  },
+  {
+    "numCustomers": 555,
+    "numAvailableCashouts": 55500,
+    "timeTaken": 9.201099999999315
+  },
+  {
+    "numCustomers": 555,
+    "numAvailableCashouts": 55500,
+    "timeTaken": 9.55199999999968
+  },
+  {
+    "numCustomers": 560,
+    "numAvailableCashouts": 56000,
+    "timeTaken": 8.685999999999694
+  },
+  {
+    "numCustomers": 560,
+    "numAvailableCashouts": 56000,
+    "timeTaken": 8.714399999999841
+  },
+  {
+    "numCustomers": 560,
+    "numAvailableCashouts": 56000,
+    "timeTaken": 8.538099999999758
+  },
+  {
+    "numCustomers": 560,
+    "numAvailableCashouts": 56000,
+    "timeTaken": 9.608899999999267
+  },
+  {
+    "numCustomers": 560,
+    "numAvailableCashouts": 56000,
+    "timeTaken": 10.5
+  },
+  {
+    "numCustomers": 565,
+    "numAvailableCashouts": 56500,
+    "timeTaken": 8.835100000000239
+  },
+  {
+    "numCustomers": 565,
+    "numAvailableCashouts": 56500,
+    "timeTaken": 8.208099999999831
+  },
+  {
+    "numCustomers": 565,
+    "numAvailableCashouts": 56500,
+    "timeTaken": 7.883100000000013
+  },
+  {
+    "numCustomers": 565,
+    "numAvailableCashouts": 56500,
+    "timeTaken": 10.240900000000693
+  },
+  {
+    "numCustomers": 565,
+    "numAvailableCashouts": 56500,
+    "timeTaken": 10.082499999999527
+  },
+  {
+    "numCustomers": 570,
+    "numAvailableCashouts": 57000,
+    "timeTaken": 8.906500000000051
+  },
+  {
+    "numCustomers": 570,
+    "numAvailableCashouts": 57000,
+    "timeTaken": 9.11279999999988
+  },
+  {
+    "numCustomers": 570,
+    "numAvailableCashouts": 57000,
+    "timeTaken": 9.615300000000389
+  },
+  {
+    "numCustomers": 570,
+    "numAvailableCashouts": 57000,
+    "timeTaken": 8.594699999999648
+  },
+  {
+    "numCustomers": 570,
+    "numAvailableCashouts": 57000,
+    "timeTaken": 7.291299999999865
+  },
+  {
+    "numCustomers": 575,
+    "numAvailableCashouts": 57500,
+    "timeTaken": 9.626299999999901
+  },
+  {
+    "numCustomers": 575,
+    "numAvailableCashouts": 57500,
+    "timeTaken": 8.748999999999796
+  },
+  {
+    "numCustomers": 575,
+    "numAvailableCashouts": 57500,
+    "timeTaken": 8.541699999999764
+  },
+  {
+    "numCustomers": 575,
+    "numAvailableCashouts": 57500,
+    "timeTaken": 9.693999999999505
+  },
+  {
+    "numCustomers": 575,
+    "numAvailableCashouts": 57500,
+    "timeTaken": 10.30540000000019
+  },
+  {
+    "numCustomers": 580,
+    "numAvailableCashouts": 58000,
+    "timeTaken": 8.472599999999147
+  },
+  {
+    "numCustomers": 580,
+    "numAvailableCashouts": 58000,
+    "timeTaken": 9.36369999999988
+  },
+  {
+    "numCustomers": 580,
+    "numAvailableCashouts": 58000,
+    "timeTaken": 10.255500000000211
+  },
+  {
+    "numCustomers": 580,
+    "numAvailableCashouts": 58000,
+    "timeTaken": 10.292699999999968
+  },
+  {
+    "numCustomers": 580,
+    "numAvailableCashouts": 58000,
+    "timeTaken": 10.6920999999993
+  },
+  {
+    "numCustomers": 585,
+    "numAvailableCashouts": 58500,
+    "timeTaken": 9.560599999999795
+  },
+  {
+    "numCustomers": 585,
+    "numAvailableCashouts": 58500,
+    "timeTaken": 8.354500000000371
+  },
+  {
+    "numCustomers": 585,
+    "numAvailableCashouts": 58500,
+    "timeTaken": 9.639499999999316
+  },
+  {
+    "numCustomers": 585,
+    "numAvailableCashouts": 58500,
+    "timeTaken": 9.359099999999671
+  },
+  {
+    "numCustomers": 585,
+    "numAvailableCashouts": 58500,
+    "timeTaken": 11.086299999999937
+  },
+  {
+    "numCustomers": 590,
+    "numAvailableCashouts": 59000,
+    "timeTaken": 11.628099999999904
+  },
+  {
+    "numCustomers": 590,
+    "numAvailableCashouts": 59000,
+    "timeTaken": 12.352399999999761
+  },
+  {
+    "numCustomers": 590,
+    "numAvailableCashouts": 59000,
+    "timeTaken": 11.287599999999657
+  },
+  {
+    "numCustomers": 590,
+    "numAvailableCashouts": 59000,
+    "timeTaken": 12.880500000000211
+  },
+  {
+    "numCustomers": 590,
+    "numAvailableCashouts": 59000,
+    "timeTaken": 13.223300000000563
+  },
+  {
+    "numCustomers": 595,
+    "numAvailableCashouts": 59500,
+    "timeTaken": 8.38169999999991
+  },
+  {
+    "numCustomers": 595,
+    "numAvailableCashouts": 59500,
+    "timeTaken": 9.47440000000006
+  },
+  {
+    "numCustomers": 595,
+    "numAvailableCashouts": 59500,
+    "timeTaken": 9.926900000000387
+  },
+  {
+    "numCustomers": 595,
+    "numAvailableCashouts": 59500,
+    "timeTaken": 10.009299999999712
+  },
+  {
+    "numCustomers": 595,
+    "numAvailableCashouts": 59500,
+    "timeTaken": 8.759399999999914
+  },
+  {
+    "numCustomers": 600,
+    "numAvailableCashouts": 60000,
+    "timeTaken": 8.842500000000655
+  },
+  {
+    "numCustomers": 600,
+    "numAvailableCashouts": 60000,
+    "timeTaken": 9.145300000000134
+  },
+  {
+    "numCustomers": 600,
+    "numAvailableCashouts": 60000,
+    "timeTaken": 9.788700000000063
+  },
+  {
+    "numCustomers": 600,
+    "numAvailableCashouts": 60000,
+    "timeTaken": 7.0600000000004
+  },
+  {
+    "numCustomers": 600,
+    "numAvailableCashouts": 60000,
+    "timeTaken": 8.604800000000068
+  },
+  {
+    "numCustomers": 605,
+    "numAvailableCashouts": 60500,
+    "timeTaken": 10.893100000000231
+  },
+  {
+    "numCustomers": 605,
+    "numAvailableCashouts": 60500,
+    "timeTaken": 9.427999999999884
+  },
+  {
+    "numCustomers": 605,
+    "numAvailableCashouts": 60500,
+    "timeTaken": 10.034300000000258
+  },
+  {
+    "numCustomers": 605,
+    "numAvailableCashouts": 60500,
+    "timeTaken": 9.093899999999849
+  },
+  {
+    "numCustomers": 605,
+    "numAvailableCashouts": 60500,
+    "timeTaken": 10.245499999999993
+  },
+  {
+    "numCustomers": 610,
+    "numAvailableCashouts": 61000,
+    "timeTaken": 8.70339999999942
+  },
+  {
+    "numCustomers": 610,
+    "numAvailableCashouts": 61000,
+    "timeTaken": 8.772700000000441
+  },
+  {
+    "numCustomers": 610,
+    "numAvailableCashouts": 61000,
+    "timeTaken": 8.795600000000377
+  },
+  {
+    "numCustomers": 610,
+    "numAvailableCashouts": 61000,
+    "timeTaken": 9.687399999999798
+  },
+  {
+    "numCustomers": 610,
+    "numAvailableCashouts": 61000,
+    "timeTaken": 8.259500000000116
+  },
+  {
+    "numCustomers": 615,
+    "numAvailableCashouts": 61500,
+    "timeTaken": 8.47650000000067
+  },
+  {
+    "numCustomers": 615,
+    "numAvailableCashouts": 61500,
+    "timeTaken": 9.330699999999524
+  },
+  {
+    "numCustomers": 615,
+    "numAvailableCashouts": 61500,
+    "timeTaken": 7.792599999999766
+  },
+  {
+    "numCustomers": 615,
+    "numAvailableCashouts": 61500,
+    "timeTaken": 9.329400000000533
+  },
+  {
+    "numCustomers": 615,
+    "numAvailableCashouts": 61500,
+    "timeTaken": 9.701099999999315
+  },
+  {
+    "numCustomers": 620,
+    "numAvailableCashouts": 62000,
+    "timeTaken": 8.517100000000028
+  },
+  {
+    "numCustomers": 620,
+    "numAvailableCashouts": 62000,
+    "timeTaken": 9.215000000000146
+  },
+  {
+    "numCustomers": 620,
+    "numAvailableCashouts": 62000,
+    "timeTaken": 9.085900000000038
+  },
+  {
+    "numCustomers": 620,
+    "numAvailableCashouts": 62000,
+    "timeTaken": 10.09610000000066
+  },
+  {
+    "numCustomers": 620,
+    "numAvailableCashouts": 62000,
+    "timeTaken": 10.074200000000019
+  },
+  {
+    "numCustomers": 625,
+    "numAvailableCashouts": 62500,
+    "timeTaken": 9.822699999999713
+  },
+  {
+    "numCustomers": 625,
+    "numAvailableCashouts": 62500,
+    "timeTaken": 9.124800000000505
+  },
+  {
+    "numCustomers": 625,
+    "numAvailableCashouts": 62500,
+    "timeTaken": 8.863000000000284
+  },
+  {
+    "numCustomers": 625,
+    "numAvailableCashouts": 62500,
+    "timeTaken": 10.594099999999344
+  },
+  {
+    "numCustomers": 625,
+    "numAvailableCashouts": 62500,
+    "timeTaken": 8.1225000000004
+  },
+  {
+    "numCustomers": 630,
+    "numAvailableCashouts": 63000,
+    "timeTaken": 9.217899999999645
+  },
+  {
+    "numCustomers": 630,
+    "numAvailableCashouts": 63000,
+    "timeTaken": 10.011599999999817
+  },
+  {
+    "numCustomers": 630,
+    "numAvailableCashouts": 63000,
+    "timeTaken": 9.16530000000057
+  },
+  {
+    "numCustomers": 630,
+    "numAvailableCashouts": 63000,
+    "timeTaken": 9.69880000000012
+  },
+  {
+    "numCustomers": 630,
+    "numAvailableCashouts": 63000,
+    "timeTaken": 10.453700000000026
+  },
+  {
+    "numCustomers": 635,
+    "numAvailableCashouts": 63500,
+    "timeTaken": 10.340099999999438
+  },
+  {
+    "numCustomers": 635,
+    "numAvailableCashouts": 63500,
+    "timeTaken": 9.803799999999683
+  },
+  {
+    "numCustomers": 635,
+    "numAvailableCashouts": 63500,
+    "timeTaken": 12.00709999999981
+  },
+  {
+    "numCustomers": 635,
+    "numAvailableCashouts": 63500,
+    "timeTaken": 11.830899999999929
+  },
+  {
+    "numCustomers": 635,
+    "numAvailableCashouts": 63500,
+    "timeTaken": 10.507300000000214
+  },
+  {
+    "numCustomers": 640,
+    "numAvailableCashouts": 64000,
+    "timeTaken": 12.543300000000272
+  },
+  {
+    "numCustomers": 640,
+    "numAvailableCashouts": 64000,
+    "timeTaken": 11.212300000000141
+  },
+  {
+    "numCustomers": 640,
+    "numAvailableCashouts": 64000,
+    "timeTaken": 11.132200000000012
+  },
+  {
+    "numCustomers": 640,
+    "numAvailableCashouts": 64000,
+    "timeTaken": 10.830500000000029
+  },
+  {
+    "numCustomers": 640,
+    "numAvailableCashouts": 64000,
+    "timeTaken": 11.97149999999965
+  },
+  {
+    "numCustomers": 645,
+    "numAvailableCashouts": 64500,
+    "timeTaken": 8.77730000000065
+  },
+  {
+    "numCustomers": 645,
+    "numAvailableCashouts": 64500,
+    "timeTaken": 10.416800000000876
+  },
+  {
+    "numCustomers": 645,
+    "numAvailableCashouts": 64500,
+    "timeTaken": 8.906700000000455
+  },
+  {
+    "numCustomers": 645,
+    "numAvailableCashouts": 64500,
+    "timeTaken": 10.396099999999933
+  },
+  {
+    "numCustomers": 645,
+    "numAvailableCashouts": 64500,
+    "timeTaken": 9.210000000000036
+  },
+  {
+    "numCustomers": 650,
+    "numAvailableCashouts": 65000,
+    "timeTaken": 8.650300000000243
+  },
+  {
+    "numCustomers": 650,
+    "numAvailableCashouts": 65000,
+    "timeTaken": 9.848500000000058
+  },
+  {
+    "numCustomers": 650,
+    "numAvailableCashouts": 65000,
+    "timeTaken": 9.721400000000358
+  },
+  {
+    "numCustomers": 650,
+    "numAvailableCashouts": 65000,
+    "timeTaken": 9.162800000000061
+  },
+  {
+    "numCustomers": 650,
+    "numAvailableCashouts": 65000,
+    "timeTaken": 10.97479999999996
+  },
+  {
+    "numCustomers": 655,
+    "numAvailableCashouts": 65500,
+    "timeTaken": 9.068500000000313
+  },
+  {
+    "numCustomers": 655,
+    "numAvailableCashouts": 65500,
+    "timeTaken": 9.617299999999886
+  },
+  {
+    "numCustomers": 655,
+    "numAvailableCashouts": 65500,
+    "timeTaken": 9.24749999999949
+  },
+  {
+    "numCustomers": 655,
+    "numAvailableCashouts": 65500,
+    "timeTaken": 9.651499999999942
+  },
+  {
+    "numCustomers": 655,
+    "numAvailableCashouts": 65500,
+    "timeTaken": 8.55410000000029
+  },
+  {
+    "numCustomers": 660,
+    "numAvailableCashouts": 66000,
+    "timeTaken": 8.294600000000173
+  },
+  {
+    "numCustomers": 660,
+    "numAvailableCashouts": 66000,
+    "timeTaken": 7.729199999999764
+  },
+  {
+    "numCustomers": 660,
+    "numAvailableCashouts": 66000,
+    "timeTaken": 8.52099999999973
+  },
+  {
+    "numCustomers": 660,
+    "numAvailableCashouts": 66000,
+    "timeTaken": 9.636500000000524
+  },
+  {
+    "numCustomers": 660,
+    "numAvailableCashouts": 66000,
+    "timeTaken": 9.155099999999948
+  },
+  {
+    "numCustomers": 665,
+    "numAvailableCashouts": 66500,
+    "timeTaken": 9.609799999999268
+  },
+  {
+    "numCustomers": 665,
+    "numAvailableCashouts": 66500,
+    "timeTaken": 12.673799999999574
+  },
+  {
+    "numCustomers": 665,
+    "numAvailableCashouts": 66500,
+    "timeTaken": 11.947199999999611
+  },
+  {
+    "numCustomers": 665,
+    "numAvailableCashouts": 66500,
+    "timeTaken": 11.220800000000054
+  },
+  {
+    "numCustomers": 665,
+    "numAvailableCashouts": 66500,
+    "timeTaken": 9.33349999999973
+  },
+  {
+    "numCustomers": 670,
+    "numAvailableCashouts": 67000,
+    "timeTaken": 11.880799999999908
+  },
+  {
+    "numCustomers": 670,
+    "numAvailableCashouts": 67000,
+    "timeTaken": 11.02139999999963
+  },
+  {
+    "numCustomers": 670,
+    "numAvailableCashouts": 67000,
+    "timeTaken": 9.260400000000118
+  },
+  {
+    "numCustomers": 670,
+    "numAvailableCashouts": 67000,
+    "timeTaken": 10.169200000000274
+  },
+  {
+    "numCustomers": 670,
+    "numAvailableCashouts": 67000,
+    "timeTaken": 7.257200000000012
+  },
+  {
+    "numCustomers": 675,
+    "numAvailableCashouts": 67500,
+    "timeTaken": 8.67319999999927
+  },
+  {
+    "numCustomers": 675,
+    "numAvailableCashouts": 67500,
+    "timeTaken": 9.970800000000054
+  },
+  {
+    "numCustomers": 675,
+    "numAvailableCashouts": 67500,
+    "timeTaken": 9.169199999999364
+  },
+  {
+    "numCustomers": 675,
+    "numAvailableCashouts": 67500,
+    "timeTaken": 9.949799999999414
+  },
+  {
+    "numCustomers": 675,
+    "numAvailableCashouts": 67500,
+    "timeTaken": 9.527799999999843
+  },
+  {
+    "numCustomers": 680,
+    "numAvailableCashouts": 68000,
+    "timeTaken": 8.566099999999096
+  },
+  {
+    "numCustomers": 680,
+    "numAvailableCashouts": 68000,
+    "timeTaken": 10.13720000000012
+  },
+  {
+    "numCustomers": 680,
+    "numAvailableCashouts": 68000,
+    "timeTaken": 8.610800000000381
+  },
+  {
+    "numCustomers": 680,
+    "numAvailableCashouts": 68000,
+    "timeTaken": 9.51510000000053
+  },
+  {
+    "numCustomers": 680,
+    "numAvailableCashouts": 68000,
+    "timeTaken": 8.830700000000434
+  },
+  {
+    "numCustomers": 685,
+    "numAvailableCashouts": 68500,
+    "timeTaken": 8.391399999999521
+  },
+  {
+    "numCustomers": 685,
+    "numAvailableCashouts": 68500,
+    "timeTaken": 9.871399999999994
+  },
+  {
+    "numCustomers": 685,
+    "numAvailableCashouts": 68500,
+    "timeTaken": 9.123599999999897
+  },
+  {
+    "numCustomers": 685,
+    "numAvailableCashouts": 68500,
+    "timeTaken": 9.448100000000522
+  },
+  {
+    "numCustomers": 685,
+    "numAvailableCashouts": 68500,
+    "timeTaken": 10.093899999999849
+  },
+  {
+    "numCustomers": 690,
+    "numAvailableCashouts": 69000,
+    "timeTaken": 8.236700000000383
+  },
+  {
+    "numCustomers": 690,
+    "numAvailableCashouts": 69000,
+    "timeTaken": 8.45510000000013
+  },
+  {
+    "numCustomers": 690,
+    "numAvailableCashouts": 69000,
+    "timeTaken": 9.408300000000054
+  },
+  {
+    "numCustomers": 690,
+    "numAvailableCashouts": 69000,
+    "timeTaken": 9.333800000000338
+  },
+  {
+    "numCustomers": 690,
+    "numAvailableCashouts": 69000,
+    "timeTaken": 11.452899999999318
+  },
+  {
+    "numCustomers": 695,
+    "numAvailableCashouts": 69500,
+    "timeTaken": 9.14179999999942
+  },
+  {
+    "numCustomers": 695,
+    "numAvailableCashouts": 69500,
+    "timeTaken": 10.020499999999629
+  },
+  {
+    "numCustomers": 695,
+    "numAvailableCashouts": 69500,
+    "timeTaken": 11.696199999999408
+  },
+  {
+    "numCustomers": 695,
+    "numAvailableCashouts": 69500,
+    "timeTaken": 10.531799999999748
+  },
+  {
+    "numCustomers": 695,
+    "numAvailableCashouts": 69500,
+    "timeTaken": 11.299099999999271
+  },
+  {
+    "numCustomers": 700,
+    "numAvailableCashouts": 70000,
+    "timeTaken": 10.429600000000391
+  },
+  {
+    "numCustomers": 700,
+    "numAvailableCashouts": 70000,
+    "timeTaken": 8.128300000000309
+  },
+  {
+    "numCustomers": 700,
+    "numAvailableCashouts": 70000,
+    "timeTaken": 10.016899999999623
+  },
+  {
+    "numCustomers": 700,
+    "numAvailableCashouts": 70000,
+    "timeTaken": 10.58140000000003
+  },
+  {
+    "numCustomers": 700,
+    "numAvailableCashouts": 70000,
+    "timeTaken": 9.095400000000154
+  },
+  {
+    "numCustomers": 705,
+    "numAvailableCashouts": 70500,
+    "timeTaken": 9.642400000000634
+  },
+  {
+    "numCustomers": 705,
+    "numAvailableCashouts": 70500,
+    "timeTaken": 9.264799999999923
+  },
+  {
+    "numCustomers": 705,
+    "numAvailableCashouts": 70500,
+    "timeTaken": 11.393199999999524
+  },
+  {
+    "numCustomers": 705,
+    "numAvailableCashouts": 70500,
+    "timeTaken": 11.684200000000601
+  },
+  {
+    "numCustomers": 705,
+    "numAvailableCashouts": 70500,
+    "timeTaken": 12.4992000000002
+  },
+  {
+    "numCustomers": 710,
+    "numAvailableCashouts": 71000,
+    "timeTaken": 8.81750000000011
+  },
+  {
+    "numCustomers": 710,
+    "numAvailableCashouts": 71000,
+    "timeTaken": 10.001099999999497
+  },
+  {
+    "numCustomers": 710,
+    "numAvailableCashouts": 71000,
+    "timeTaken": 9.953099999999722
+  },
+  {
+    "numCustomers": 710,
+    "numAvailableCashouts": 71000,
+    "timeTaken": 9.940300000000207
+  },
+  {
+    "numCustomers": 710,
+    "numAvailableCashouts": 71000,
+    "timeTaken": 10.260299999999916
+  },
+  {
+    "numCustomers": 715,
+    "numAvailableCashouts": 71500,
+    "timeTaken": 8.31959999999981
+  },
+  {
+    "numCustomers": 715,
+    "numAvailableCashouts": 71500,
+    "timeTaken": 9.251800000000003
+  },
+  {
+    "numCustomers": 715,
+    "numAvailableCashouts": 71500,
+    "timeTaken": 9.149699999999939
+  },
+  {
+    "numCustomers": 715,
+    "numAvailableCashouts": 71500,
+    "timeTaken": 9.570200000000114
+  },
+  {
+    "numCustomers": 715,
+    "numAvailableCashouts": 71500,
+    "timeTaken": 10.081199999999626
+  },
+  {
+    "numCustomers": 720,
+    "numAvailableCashouts": 72000,
+    "timeTaken": 9.67280000000028
+  },
+  {
+    "numCustomers": 720,
+    "numAvailableCashouts": 72000,
+    "timeTaken": 11.833000000000538
+  },
+  {
+    "numCustomers": 720,
+    "numAvailableCashouts": 72000,
+    "timeTaken": 10.240999999999985
+  },
+  {
+    "numCustomers": 720,
+    "numAvailableCashouts": 72000,
+    "timeTaken": 10.322899999999208
+  },
+  {
+    "numCustomers": 720,
+    "numAvailableCashouts": 72000,
+    "timeTaken": 11.02049999999872
+  },
+  {
+    "numCustomers": 725,
+    "numAvailableCashouts": 72500,
+    "timeTaken": 8.3770999999997
+  },
+  {
+    "numCustomers": 725,
+    "numAvailableCashouts": 72500,
+    "timeTaken": 9.052499999999782
+  },
+  {
+    "numCustomers": 725,
+    "numAvailableCashouts": 72500,
+    "timeTaken": 9.514400000000023
+  },
+  {
+    "numCustomers": 725,
+    "numAvailableCashouts": 72500,
+    "timeTaken": 10.707699999999022
+  },
+  {
+    "numCustomers": 725,
+    "numAvailableCashouts": 72500,
+    "timeTaken": 12.181000000000495
+  },
+  {
+    "numCustomers": 730,
+    "numAvailableCashouts": 73000,
+    "timeTaken": 9.441599999998289
+  },
+  {
+    "numCustomers": 730,
+    "numAvailableCashouts": 73000,
+    "timeTaken": 10.65979999999945
+  },
+  {
+    "numCustomers": 730,
+    "numAvailableCashouts": 73000,
+    "timeTaken": 10.380800000000818
+  },
+  {
+    "numCustomers": 730,
+    "numAvailableCashouts": 73000,
+    "timeTaken": 10.3125
+  },
+  {
+    "numCustomers": 730,
+    "numAvailableCashouts": 73000,
+    "timeTaken": 10.302499999999782
+  },
+  {
+    "numCustomers": 735,
+    "numAvailableCashouts": 73500,
+    "timeTaken": 11.07760000000053
+  },
+  {
+    "numCustomers": 735,
+    "numAvailableCashouts": 73500,
+    "timeTaken": 9.399400000000242
+  },
+  {
+    "numCustomers": 735,
+    "numAvailableCashouts": 73500,
+    "timeTaken": 8.951600000000326
+  },
+  {
+    "numCustomers": 735,
+    "numAvailableCashouts": 73500,
+    "timeTaken": 10.687799999999697
+  },
+  {
+    "numCustomers": 735,
+    "numAvailableCashouts": 73500,
+    "timeTaken": 11.334599999998318
+  },
+  {
+    "numCustomers": 740,
+    "numAvailableCashouts": 74000,
+    "timeTaken": 10.209999999999127
+  },
+  {
+    "numCustomers": 740,
+    "numAvailableCashouts": 74000,
+    "timeTaken": 8.85740000000078
+  },
+  {
+    "numCustomers": 740,
+    "numAvailableCashouts": 74000,
+    "timeTaken": 9.107900000000882
+  },
+  {
+    "numCustomers": 740,
+    "numAvailableCashouts": 74000,
+    "timeTaken": 9.17529999999897
+  },
+  {
+    "numCustomers": 740,
+    "numAvailableCashouts": 74000,
+    "timeTaken": 9.539200000001074
+  },
+  {
+    "numCustomers": 745,
+    "numAvailableCashouts": 74500,
+    "timeTaken": 10.326399999999921
+  },
+  {
+    "numCustomers": 745,
+    "numAvailableCashouts": 74500,
+    "timeTaken": 11.48739999999998
+  },
+  {
+    "numCustomers": 745,
+    "numAvailableCashouts": 74500,
+    "timeTaken": 9.455100000001039
+  },
+  {
+    "numCustomers": 745,
+    "numAvailableCashouts": 74500,
+    "timeTaken": 10.638300000000527
+  },
+  {
+    "numCustomers": 745,
+    "numAvailableCashouts": 74500,
+    "timeTaken": 11.532600000000457
+  },
+  {
+    "numCustomers": 750,
+    "numAvailableCashouts": 75000,
+    "timeTaken": 10.421100000001388
+  },
+  {
+    "numCustomers": 750,
+    "numAvailableCashouts": 75000,
+    "timeTaken": 11.527899999999136
+  },
+  {
+    "numCustomers": 750,
+    "numAvailableCashouts": 75000,
+    "timeTaken": 9.572000000000116
+  },
+  {
+    "numCustomers": 750,
+    "numAvailableCashouts": 75000,
+    "timeTaken": 11.404399999999441
+  },
+  {
+    "numCustomers": 750,
+    "numAvailableCashouts": 75000,
+    "timeTaken": 11.572899999999208
+  },
+  {
+    "numCustomers": 755,
+    "numAvailableCashouts": 75500,
+    "timeTaken": 10.63630000000012
+  },
+  {
+    "numCustomers": 755,
+    "numAvailableCashouts": 75500,
+    "timeTaken": 9.76589999999851
+  },
+  {
+    "numCustomers": 755,
+    "numAvailableCashouts": 75500,
+    "timeTaken": 9.179200000000492
+  },
+  {
+    "numCustomers": 755,
+    "numAvailableCashouts": 75500,
+    "timeTaken": 11.078499999999622
+  },
+  {
+    "numCustomers": 755,
+    "numAvailableCashouts": 75500,
+    "timeTaken": 9.682800000000498
+  },
+  {
+    "numCustomers": 760,
+    "numAvailableCashouts": 76000,
+    "timeTaken": 9.213700000000244
+  },
+  {
+    "numCustomers": 760,
+    "numAvailableCashouts": 76000,
+    "timeTaken": 10.282899999998335
+  },
+  {
+    "numCustomers": 760,
+    "numAvailableCashouts": 76000,
+    "timeTaken": 7.965500000000247
+  },
+  {
+    "numCustomers": 760,
+    "numAvailableCashouts": 76000,
+    "timeTaken": 9.841599999999744
+  },
+  {
+    "numCustomers": 760,
+    "numAvailableCashouts": 76000,
+    "timeTaken": 10.43369999999959
+  },
+  {
+    "numCustomers": 765,
+    "numAvailableCashouts": 76500,
+    "timeTaken": 11.06579999999849
+  },
+  {
+    "numCustomers": 765,
+    "numAvailableCashouts": 76500,
+    "timeTaken": 9.790199999999459
+  },
+  {
+    "numCustomers": 765,
+    "numAvailableCashouts": 76500,
+    "timeTaken": 10.795500000000175
+  },
+  {
+    "numCustomers": 765,
+    "numAvailableCashouts": 76500,
+    "timeTaken": 11.508700000000317
+  },
+  {
+    "numCustomers": 765,
+    "numAvailableCashouts": 76500,
+    "timeTaken": 10.620299999998679
+  },
+  {
+    "numCustomers": 770,
+    "numAvailableCashouts": 77000,
+    "timeTaken": 9.626599999999598
+  },
+  {
+    "numCustomers": 770,
+    "numAvailableCashouts": 77000,
+    "timeTaken": 14.143899999999121
+  },
+  {
+    "numCustomers": 770,
+    "numAvailableCashouts": 77000,
+    "timeTaken": 10.282499999999345
+  },
+  {
+    "numCustomers": 770,
+    "numAvailableCashouts": 77000,
+    "timeTaken": 12.245100000000093
+  },
+  {
+    "numCustomers": 770,
+    "numAvailableCashouts": 77000,
+    "timeTaken": 12.672099999999773
+  },
+  {
+    "numCustomers": 775,
+    "numAvailableCashouts": 77500,
+    "timeTaken": 9.802899999998772
+  },
+  {
+    "numCustomers": 775,
+    "numAvailableCashouts": 77500,
+    "timeTaken": 9.784100000000763
+  },
+  {
+    "numCustomers": 775,
+    "numAvailableCashouts": 77500,
+    "timeTaken": 11.383199999998396
+  },
+  {
+    "numCustomers": 775,
+    "numAvailableCashouts": 77500,
+    "timeTaken": 10.331899999999223
+  },
+  {
+    "numCustomers": 775,
+    "numAvailableCashouts": 77500,
+    "timeTaken": 9.930500000000393
+  },
+  {
+    "numCustomers": 780,
+    "numAvailableCashouts": 78000,
+    "timeTaken": 12.503500000000713
+  },
+  {
+    "numCustomers": 780,
+    "numAvailableCashouts": 78000,
+    "timeTaken": 11.261899999999514
+  },
+  {
+    "numCustomers": 780,
+    "numAvailableCashouts": 78000,
+    "timeTaken": 13.71769999999924
+  },
+  {
+    "numCustomers": 780,
+    "numAvailableCashouts": 78000,
+    "timeTaken": 13.386700000000928
+  },
+  {
+    "numCustomers": 780,
+    "numAvailableCashouts": 78000,
+    "timeTaken": 10.519999999998618
+  },
+  {
+    "numCustomers": 785,
+    "numAvailableCashouts": 78500,
+    "timeTaken": 11.099299999999857
+  },
+  {
+    "numCustomers": 785,
+    "numAvailableCashouts": 78500,
+    "timeTaken": 11.120300000000498
+  },
+  {
+    "numCustomers": 785,
+    "numAvailableCashouts": 78500,
+    "timeTaken": 9.840700000000652
+  },
+  {
+    "numCustomers": 785,
+    "numAvailableCashouts": 78500,
+    "timeTaken": 11.338900000000649
+  },
+  {
+    "numCustomers": 785,
+    "numAvailableCashouts": 78500,
+    "timeTaken": 9.310699999999997
+  },
+  {
+    "numCustomers": 790,
+    "numAvailableCashouts": 79000,
+    "timeTaken": 12.669200000000274
+  },
+  {
+    "numCustomers": 790,
+    "numAvailableCashouts": 79000,
+    "timeTaken": 11.526499999999942
+  },
+  {
+    "numCustomers": 790,
+    "numAvailableCashouts": 79000,
+    "timeTaken": 13.918700000000172
+  },
+  {
+    "numCustomers": 790,
+    "numAvailableCashouts": 79000,
+    "timeTaken": 11.517100000000937
+  },
+  {
+    "numCustomers": 790,
+    "numAvailableCashouts": 79000,
+    "timeTaken": 13.739700000000084
+  },
+  {
+    "numCustomers": 795,
+    "numAvailableCashouts": 79500,
+    "timeTaken": 12.115399999998772
+  },
+  {
+    "numCustomers": 795,
+    "numAvailableCashouts": 79500,
+    "timeTaken": 13.158699999999953
+  },
+  {
+    "numCustomers": 795,
+    "numAvailableCashouts": 79500,
+    "timeTaken": 11.55869999999959
+  },
+  {
+    "numCustomers": 795,
+    "numAvailableCashouts": 79500,
+    "timeTaken": 14.851199999999153
+  },
+  {
+    "numCustomers": 795,
+    "numAvailableCashouts": 79500,
+    "timeTaken": 14.613199999999779
+  },
+  {
+    "numCustomers": 800,
+    "numAvailableCashouts": 80000,
+    "timeTaken": 12.186400000000503
+  },
+  {
+    "numCustomers": 800,
+    "numAvailableCashouts": 80000,
+    "timeTaken": 10.441799999998693
+  },
+  {
+    "numCustomers": 800,
+    "numAvailableCashouts": 80000,
+    "timeTaken": 13.50249999999869
+  },
+  {
+    "numCustomers": 800,
+    "numAvailableCashouts": 80000,
+    "timeTaken": 12.09269999999924
+  },
+  {
+    "numCustomers": 800,
+    "numAvailableCashouts": 80000,
+    "timeTaken": 13.189099999999598
+  },
+  {
+    "numCustomers": 805,
+    "numAvailableCashouts": 80500,
+    "timeTaken": 12.01510000000053
+  },
+  {
+    "numCustomers": 805,
+    "numAvailableCashouts": 80500,
+    "timeTaken": 10.704200000000128
+  },
+  {
+    "numCustomers": 805,
+    "numAvailableCashouts": 80500,
+    "timeTaken": 13.654300000000148
+  },
+  {
+    "numCustomers": 805,
+    "numAvailableCashouts": 80500,
+    "timeTaken": 11.160200000000259
+  },
+  {
+    "numCustomers": 805,
+    "numAvailableCashouts": 80500,
+    "timeTaken": 13.88930000000073
+  },
+  {
+    "numCustomers": 810,
+    "numAvailableCashouts": 81000,
+    "timeTaken": 13.67489999999998
+  },
+  {
+    "numCustomers": 810,
+    "numAvailableCashouts": 81000,
+    "timeTaken": 13.127599999999802
+  },
+  {
+    "numCustomers": 810,
+    "numAvailableCashouts": 81000,
+    "timeTaken": 11.104899999998452
+  },
+  {
+    "numCustomers": 810,
+    "numAvailableCashouts": 81000,
+    "timeTaken": 11.831299999999828
+  },
+  {
+    "numCustomers": 810,
+    "numAvailableCashouts": 81000,
+    "timeTaken": 13.674299999998766
+  },
+  {
+    "numCustomers": 815,
+    "numAvailableCashouts": 81500,
+    "timeTaken": 12.999900000000707
+  },
+  {
+    "numCustomers": 815,
+    "numAvailableCashouts": 81500,
+    "timeTaken": 13.28729999999996
+  },
+  {
+    "numCustomers": 815,
+    "numAvailableCashouts": 81500,
+    "timeTaken": 14.98279999999977
+  },
+  {
+    "numCustomers": 815,
+    "numAvailableCashouts": 81500,
+    "timeTaken": 11.554299999999785
+  },
+  {
+    "numCustomers": 815,
+    "numAvailableCashouts": 81500,
+    "timeTaken": 13.773699999999735
+  },
+  {
+    "numCustomers": 820,
+    "numAvailableCashouts": 82000,
+    "timeTaken": 12.725999999998749
+  },
+  {
+    "numCustomers": 820,
+    "numAvailableCashouts": 82000,
+    "timeTaken": 12.962999999999738
+  },
+  {
+    "numCustomers": 820,
+    "numAvailableCashouts": 82000,
+    "timeTaken": 13.20050000000083
+  },
+  {
+    "numCustomers": 820,
+    "numAvailableCashouts": 82000,
+    "timeTaken": 13.78269999999975
+  },
+  {
+    "numCustomers": 820,
+    "numAvailableCashouts": 82000,
+    "timeTaken": 11.203299999999217
+  },
+  {
+    "numCustomers": 825,
+    "numAvailableCashouts": 82500,
+    "timeTaken": 10.741900000000896
+  },
+  {
+    "numCustomers": 825,
+    "numAvailableCashouts": 82500,
+    "timeTaken": 12.696900000000824
+  },
+  {
+    "numCustomers": 825,
+    "numAvailableCashouts": 82500,
+    "timeTaken": 13.788199999999051
+  },
+  {
+    "numCustomers": 825,
+    "numAvailableCashouts": 82500,
+    "timeTaken": 14.272299999998722
+  },
+  {
+    "numCustomers": 825,
+    "numAvailableCashouts": 82500,
+    "timeTaken": 12.386100000001534
+  },
+  {
+    "numCustomers": 830,
+    "numAvailableCashouts": 83000,
+    "timeTaken": 11.365499999999884
+  },
+  {
+    "numCustomers": 830,
+    "numAvailableCashouts": 83000,
+    "timeTaken": 10.8145999999997
+  },
+  {
+    "numCustomers": 830,
+    "numAvailableCashouts": 83000,
+    "timeTaken": 11.579399999998714
+  },
+  {
+    "numCustomers": 830,
+    "numAvailableCashouts": 83000,
+    "timeTaken": 12.958399999999529
+  },
+  {
+    "numCustomers": 830,
+    "numAvailableCashouts": 83000,
+    "timeTaken": 12.052400000000489
+  },
+  {
+    "numCustomers": 835,
+    "numAvailableCashouts": 83500,
+    "timeTaken": 16.458599999999933
+  },
+  {
+    "numCustomers": 835,
+    "numAvailableCashouts": 83500,
+    "timeTaken": 14.399100000000544
+  },
+  {
+    "numCustomers": 835,
+    "numAvailableCashouts": 83500,
+    "timeTaken": 12.125900000000911
+  },
+  {
+    "numCustomers": 835,
+    "numAvailableCashouts": 83500,
+    "timeTaken": 13.925300000000789
+  },
+  {
+    "numCustomers": 835,
+    "numAvailableCashouts": 83500,
+    "timeTaken": 15.76299999999901
+  },
+  {
+    "numCustomers": 840,
+    "numAvailableCashouts": 84000,
+    "timeTaken": 10.550799999999072
+  },
+  {
+    "numCustomers": 840,
+    "numAvailableCashouts": 84000,
+    "timeTaken": 12.79819999999927
+  },
+  {
+    "numCustomers": 840,
+    "numAvailableCashouts": 84000,
+    "timeTaken": 14.735599999999977
+  },
+  {
+    "numCustomers": 840,
+    "numAvailableCashouts": 84000,
+    "timeTaken": 14.52559999999903
+  },
+  {
+    "numCustomers": 840,
+    "numAvailableCashouts": 84000,
+    "timeTaken": 11.204200000000128
+  },
+  {
+    "numCustomers": 845,
+    "numAvailableCashouts": 84500,
+    "timeTaken": 11.62750000000051
+  },
+  {
+    "numCustomers": 845,
+    "numAvailableCashouts": 84500,
+    "timeTaken": 13.317400000001726
+  },
+  {
+    "numCustomers": 845,
+    "numAvailableCashouts": 84500,
+    "timeTaken": 10.02139999999963
+  },
+  {
+    "numCustomers": 845,
+    "numAvailableCashouts": 84500,
+    "timeTaken": 13.732800000001589
+  },
+  {
+    "numCustomers": 845,
+    "numAvailableCashouts": 84500,
+    "timeTaken": 10.7429000000011
+  },
+  {
+    "numCustomers": 850,
+    "numAvailableCashouts": 85000,
+    "timeTaken": 11.353699999999662
+  },
+  {
+    "numCustomers": 850,
+    "numAvailableCashouts": 85000,
+    "timeTaken": 14.264800000000832
+  },
+  {
+    "numCustomers": 850,
+    "numAvailableCashouts": 85000,
+    "timeTaken": 11.988900000000285
+  },
+  {
+    "numCustomers": 850,
+    "numAvailableCashouts": 85000,
+    "timeTaken": 12.35899999999856
+  },
+  {
+    "numCustomers": 850,
+    "numAvailableCashouts": 85000,
+    "timeTaken": 14.582500000000437
+  },
+  {
+    "numCustomers": 855,
+    "numAvailableCashouts": 85500,
+    "timeTaken": 10.739600000000792
+  },
+  {
+    "numCustomers": 855,
+    "numAvailableCashouts": 85500,
+    "timeTaken": 12.410899999998946
+  },
+  {
+    "numCustomers": 855,
+    "numAvailableCashouts": 85500,
+    "timeTaken": 13.253300000000309
+  },
+  {
+    "numCustomers": 855,
+    "numAvailableCashouts": 85500,
+    "timeTaken": 14.965000000000146
+  },
+  {
+    "numCustomers": 855,
+    "numAvailableCashouts": 85500,
+    "timeTaken": 12.14180000000124
+  },
+  {
+    "numCustomers": 860,
+    "numAvailableCashouts": 86000,
+    "timeTaken": 11.172500000000582
+  },
+  {
+    "numCustomers": 860,
+    "numAvailableCashouts": 86000,
+    "timeTaken": 13.001000000000204
+  },
+  {
+    "numCustomers": 860,
+    "numAvailableCashouts": 86000,
+    "timeTaken": 11.092099999999846
+  },
+  {
+    "numCustomers": 860,
+    "numAvailableCashouts": 86000,
+    "timeTaken": 12.007799999999406
+  },
+  {
+    "numCustomers": 860,
+    "numAvailableCashouts": 86000,
+    "timeTaken": 12.716099999999642
+  },
+  {
+    "numCustomers": 865,
+    "numAvailableCashouts": 86500,
+    "timeTaken": 10.34480000000076
+  },
+  {
+    "numCustomers": 865,
+    "numAvailableCashouts": 86500,
+    "timeTaken": 11.434599999998682
+  },
+  {
+    "numCustomers": 865,
+    "numAvailableCashouts": 86500,
+    "timeTaken": 10.315300000000207
+  },
+  {
+    "numCustomers": 865,
+    "numAvailableCashouts": 86500,
+    "timeTaken": 12.158400000000256
+  },
+  {
+    "numCustomers": 865,
+    "numAvailableCashouts": 86500,
+    "timeTaken": 12.691999999999098
+  },
+  {
+    "numCustomers": 870,
+    "numAvailableCashouts": 87000,
+    "timeTaken": 12.170799999999872
+  },
+  {
+    "numCustomers": 870,
+    "numAvailableCashouts": 87000,
+    "timeTaken": 12.585100000000239
+  },
+  {
+    "numCustomers": 870,
+    "numAvailableCashouts": 87000,
+    "timeTaken": 14.724299999999857
+  },
+  {
+    "numCustomers": 870,
+    "numAvailableCashouts": 87000,
+    "timeTaken": 15.320700000000215
+  },
+  {
+    "numCustomers": 870,
+    "numAvailableCashouts": 87000,
+    "timeTaken": 13.863400000000183
+  },
+  {
+    "numCustomers": 875,
+    "numAvailableCashouts": 87500,
+    "timeTaken": 13.853700000001481
+  },
+  {
+    "numCustomers": 875,
+    "numAvailableCashouts": 87500,
+    "timeTaken": 14.048300000000381
+  },
+  {
+    "numCustomers": 875,
+    "numAvailableCashouts": 87500,
+    "timeTaken": 11.943299999998999
+  },
+  {
+    "numCustomers": 875,
+    "numAvailableCashouts": 87500,
+    "timeTaken": 14.795600000001286
+  },
+  {
+    "numCustomers": 875,
+    "numAvailableCashouts": 87500,
+    "timeTaken": 12.470000000001164
+  },
+  {
+    "numCustomers": 880,
+    "numAvailableCashouts": 88000,
+    "timeTaken": 16.407799999999042
+  },
+  {
+    "numCustomers": 880,
+    "numAvailableCashouts": 88000,
+    "timeTaken": 10.984199999998964
+  },
+  {
+    "numCustomers": 880,
+    "numAvailableCashouts": 88000,
+    "timeTaken": 12.033899999998539
+  },
+  {
+    "numCustomers": 880,
+    "numAvailableCashouts": 88000,
+    "timeTaken": 13.551799999999275
+  },
+  {
+    "numCustomers": 880,
+    "numAvailableCashouts": 88000,
+    "timeTaken": 14.691600000000108
+  },
+  {
+    "numCustomers": 885,
+    "numAvailableCashouts": 88500,
+    "timeTaken": 13.724700000000666
+  },
+  {
+    "numCustomers": 885,
+    "numAvailableCashouts": 88500,
+    "timeTaken": 14.87670000000071
+  },
+  {
+    "numCustomers": 885,
+    "numAvailableCashouts": 88500,
+    "timeTaken": 11.78939999999966
+  },
+  {
+    "numCustomers": 885,
+    "numAvailableCashouts": 88500,
+    "timeTaken": 13.687799999999697
+  },
+  {
+    "numCustomers": 885,
+    "numAvailableCashouts": 88500,
+    "timeTaken": 14.415999999999258
+  },
+  {
+    "numCustomers": 890,
+    "numAvailableCashouts": 89000,
+    "timeTaken": 11.650900000000547
+  },
+  {
+    "numCustomers": 890,
+    "numAvailableCashouts": 89000,
+    "timeTaken": 11.932799999998679
+  },
+  {
+    "numCustomers": 890,
+    "numAvailableCashouts": 89000,
+    "timeTaken": 14.153200000000652
+  },
+  {
+    "numCustomers": 890,
+    "numAvailableCashouts": 89000,
+    "timeTaken": 14.190700000001016
+  },
+  {
+    "numCustomers": 890,
+    "numAvailableCashouts": 89000,
+    "timeTaken": 13.106999999999971
+  },
+  {
+    "numCustomers": 895,
+    "numAvailableCashouts": 89500,
+    "timeTaken": 12.437700000000405
+  },
+  {
+    "numCustomers": 895,
+    "numAvailableCashouts": 89500,
+    "timeTaken": 10.07719999999972
+  },
+  {
+    "numCustomers": 895,
+    "numAvailableCashouts": 89500,
+    "timeTaken": 10.518200000000434
+  },
+  {
+    "numCustomers": 895,
+    "numAvailableCashouts": 89500,
+    "timeTaken": 13.49040000000059
+  },
+  {
+    "numCustomers": 895,
+    "numAvailableCashouts": 89500,
+    "timeTaken": 13.099199999998746
+  },
+  {
+    "numCustomers": 900,
+    "numAvailableCashouts": 90000,
+    "timeTaken": 12.66740000000027
+  },
+  {
+    "numCustomers": 900,
+    "numAvailableCashouts": 90000,
+    "timeTaken": 12.170500000000175
+  },
+  {
+    "numCustomers": 900,
+    "numAvailableCashouts": 90000,
+    "timeTaken": 11.15519999999924
+  },
+  {
+    "numCustomers": 900,
+    "numAvailableCashouts": 90000,
+    "timeTaken": 12.61409999999887
+  },
+  {
+    "numCustomers": 900,
+    "numAvailableCashouts": 90000,
+    "timeTaken": 11.694600000000719
+  },
+  {
+    "numCustomers": 905,
+    "numAvailableCashouts": 90500,
+    "timeTaken": 12.551099999998769
+  },
+  {
+    "numCustomers": 905,
+    "numAvailableCashouts": 90500,
+    "timeTaken": 13.227799999998751
+  },
+  {
+    "numCustomers": 905,
+    "numAvailableCashouts": 90500,
+    "timeTaken": 12.233900000001086
+  },
+  {
+    "numCustomers": 905,
+    "numAvailableCashouts": 90500,
+    "timeTaken": 11.859099999999671
+  },
+  {
+    "numCustomers": 905,
+    "numAvailableCashouts": 90500,
+    "timeTaken": 13.068199999999706
+  },
+  {
+    "numCustomers": 910,
+    "numAvailableCashouts": 91000,
+    "timeTaken": 13.410799999999654
+  },
+  {
+    "numCustomers": 910,
+    "numAvailableCashouts": 91000,
+    "timeTaken": 13.73869999999988
+  },
+  {
+    "numCustomers": 910,
+    "numAvailableCashouts": 91000,
+    "timeTaken": 11.509699999998702
+  },
+  {
+    "numCustomers": 910,
+    "numAvailableCashouts": 91000,
+    "timeTaken": 12.021199999999226
+  },
+  {
+    "numCustomers": 910,
+    "numAvailableCashouts": 91000,
+    "timeTaken": 11.289699999999357
+  },
+  {
+    "numCustomers": 915,
+    "numAvailableCashouts": 91500,
+    "timeTaken": 11.984199999998964
+  },
+  {
+    "numCustomers": 915,
+    "numAvailableCashouts": 91500,
+    "timeTaken": 10.981499999999869
+  },
+  {
+    "numCustomers": 915,
+    "numAvailableCashouts": 91500,
+    "timeTaken": 12.6229000000003
+  },
+  {
+    "numCustomers": 915,
+    "numAvailableCashouts": 91500,
+    "timeTaken": 12.889999999999418
+  },
+  {
+    "numCustomers": 915,
+    "numAvailableCashouts": 91500,
+    "timeTaken": 11.397499999999127
+  },
+  {
+    "numCustomers": 920,
+    "numAvailableCashouts": 92000,
+    "timeTaken": 12.33140000000094
+  },
+  {
+    "numCustomers": 920,
+    "numAvailableCashouts": 92000,
+    "timeTaken": 12.53900000000067
+  },
+  {
+    "numCustomers": 920,
+    "numAvailableCashouts": 92000,
+    "timeTaken": 10.889900000000125
+  },
+  {
+    "numCustomers": 920,
+    "numAvailableCashouts": 92000,
+    "timeTaken": 12.453600000000733
+  },
+  {
+    "numCustomers": 920,
+    "numAvailableCashouts": 92000,
+    "timeTaken": 11.066199999999299
+  },
+  {
+    "numCustomers": 925,
+    "numAvailableCashouts": 92500,
+    "timeTaken": 11.779399999999441
+  },
+  {
+    "numCustomers": 925,
+    "numAvailableCashouts": 92500,
+    "timeTaken": 12.283199999999852
+  },
+  {
+    "numCustomers": 925,
+    "numAvailableCashouts": 92500,
+    "timeTaken": 12.157599999998638
+  },
+  {
+    "numCustomers": 925,
+    "numAvailableCashouts": 92500,
+    "timeTaken": 14.591700000000856
+  },
+  {
+    "numCustomers": 925,
+    "numAvailableCashouts": 92500,
+    "timeTaken": 14.188899999999194
+  },
+  {
+    "numCustomers": 930,
+    "numAvailableCashouts": 93000,
+    "timeTaken": 14.23660000000018
+  },
+  {
+    "numCustomers": 930,
+    "numAvailableCashouts": 93000,
+    "timeTaken": 13.446599999999307
+  },
+  {
+    "numCustomers": 930,
+    "numAvailableCashouts": 93000,
+    "timeTaken": 12.661700000000565
+  },
+  {
+    "numCustomers": 930,
+    "numAvailableCashouts": 93000,
+    "timeTaken": 11.199099999999817
+  },
+  {
+    "numCustomers": 930,
+    "numAvailableCashouts": 93000,
+    "timeTaken": 13.534200000000055
+  },
+  {
+    "numCustomers": 935,
+    "numAvailableCashouts": 93500,
+    "timeTaken": 16.838699999998425
+  },
+  {
+    "numCustomers": 935,
+    "numAvailableCashouts": 93500,
+    "timeTaken": 14.448300000000017
+  },
+  {
+    "numCustomers": 935,
+    "numAvailableCashouts": 93500,
+    "timeTaken": 11.820999999999913
+  },
+  {
+    "numCustomers": 935,
+    "numAvailableCashouts": 93500,
+    "timeTaken": 12.314300000000003
+  },
+  {
+    "numCustomers": 935,
+    "numAvailableCashouts": 93500,
+    "timeTaken": 14.77480000000105
+  },
+  {
+    "numCustomers": 940,
+    "numAvailableCashouts": 94000,
+    "timeTaken": 11.698899999999412
+  },
+  {
+    "numCustomers": 940,
+    "numAvailableCashouts": 94000,
+    "timeTaken": 13.578499999999622
+  },
+  {
+    "numCustomers": 940,
+    "numAvailableCashouts": 94000,
+    "timeTaken": 14.661399999999048
+  },
+  {
+    "numCustomers": 940,
+    "numAvailableCashouts": 94000,
+    "timeTaken": 13.422899999999572
+  },
+  {
+    "numCustomers": 940,
+    "numAvailableCashouts": 94000,
+    "timeTaken": 12.435899999998583
+  },
+  {
+    "numCustomers": 945,
+    "numAvailableCashouts": 94500,
+    "timeTaken": 13.285799999999654
+  },
+  {
+    "numCustomers": 945,
+    "numAvailableCashouts": 94500,
+    "timeTaken": 16.181300000000192
+  },
+  {
+    "numCustomers": 945,
+    "numAvailableCashouts": 94500,
+    "timeTaken": 14.983299999999872
+  },
+  {
+    "numCustomers": 945,
+    "numAvailableCashouts": 94500,
+    "timeTaken": 13.986800000000585
+  },
+  {
+    "numCustomers": 945,
+    "numAvailableCashouts": 94500,
+    "timeTaken": 14.624100000000908
+  },
+  {
+    "numCustomers": 950,
+    "numAvailableCashouts": 95000,
+    "timeTaken": 10.824900000001435
+  },
+  {
+    "numCustomers": 950,
+    "numAvailableCashouts": 95000,
+    "timeTaken": 10.225800000000163
+  },
+  {
+    "numCustomers": 950,
+    "numAvailableCashouts": 95000,
+    "timeTaken": 12.478799999998955
+  },
+  {
+    "numCustomers": 950,
+    "numAvailableCashouts": 95000,
+    "timeTaken": 13.07470000000103
+  },
+  {
+    "numCustomers": 950,
+    "numAvailableCashouts": 95000,
+    "timeTaken": 11.708700000001045
+  },
+  {
+    "numCustomers": 955,
+    "numAvailableCashouts": 95500,
+    "timeTaken": 11.723799999999756
+  },
+  {
+    "numCustomers": 955,
+    "numAvailableCashouts": 95500,
+    "timeTaken": 12.969100000000253
+  },
+  {
+    "numCustomers": 955,
+    "numAvailableCashouts": 95500,
+    "timeTaken": 12.100200000000768
+  },
+  {
+    "numCustomers": 955,
+    "numAvailableCashouts": 95500,
+    "timeTaken": 14.354099999998652
+  },
+  {
+    "numCustomers": 955,
+    "numAvailableCashouts": 95500,
+    "timeTaken": 13.59979999999996
+  },
+  {
+    "numCustomers": 960,
+    "numAvailableCashouts": 96000,
+    "timeTaken": 11.126500000000306
+  },
+  {
+    "numCustomers": 960,
+    "numAvailableCashouts": 96000,
+    "timeTaken": 13.419299999999566
+  },
+  {
+    "numCustomers": 960,
+    "numAvailableCashouts": 96000,
+    "timeTaken": 11.299399999999878
+  },
+  {
+    "numCustomers": 960,
+    "numAvailableCashouts": 96000,
+    "timeTaken": 12.312399999998888
+  },
+  {
+    "numCustomers": 960,
+    "numAvailableCashouts": 96000,
+    "timeTaken": 13.3145999999997
+  },
+  {
+    "numCustomers": 965,
+    "numAvailableCashouts": 96500,
+    "timeTaken": 9.73909999999887
+  },
+  {
+    "numCustomers": 965,
+    "numAvailableCashouts": 96500,
+    "timeTaken": 11.232900000000882
+  },
+  {
+    "numCustomers": 965,
+    "numAvailableCashouts": 96500,
+    "timeTaken": 10.774699999999939
+  },
+  {
+    "numCustomers": 965,
+    "numAvailableCashouts": 96500,
+    "timeTaken": 9.736500000000888
+  },
+  {
+    "numCustomers": 965,
+    "numAvailableCashouts": 96500,
+    "timeTaken": 11.854299999999057
+  },
+  {
+    "numCustomers": 970,
+    "numAvailableCashouts": 97000,
+    "timeTaken": 13.13260000000082
+  },
+  {
+    "numCustomers": 970,
+    "numAvailableCashouts": 97000,
+    "timeTaken": 14.228699999999662
+  },
+  {
+    "numCustomers": 970,
+    "numAvailableCashouts": 97000,
+    "timeTaken": 12.093899999999849
+  },
+  {
+    "numCustomers": 970,
+    "numAvailableCashouts": 97000,
+    "timeTaken": 14.408699999999953
+  },
+  {
+    "numCustomers": 970,
+    "numAvailableCashouts": 97000,
+    "timeTaken": 11.300100000000384
+  },
+  {
+    "numCustomers": 975,
+    "numAvailableCashouts": 97500,
+    "timeTaken": 11.640000000001237
+  },
+  {
+    "numCustomers": 975,
+    "numAvailableCashouts": 97500,
+    "timeTaken": 16.097799999999552
+  },
+  {
+    "numCustomers": 975,
+    "numAvailableCashouts": 97500,
+    "timeTaken": 12.236399999999776
+  },
+  {
+    "numCustomers": 975,
+    "numAvailableCashouts": 97500,
+    "timeTaken": 13.948099999999613
+  },
+  {
+    "numCustomers": 975,
+    "numAvailableCashouts": 97500,
+    "timeTaken": 15.019500000000335
+  },
+  {
+    "numCustomers": 980,
+    "numAvailableCashouts": 98000,
+    "timeTaken": 16.22689999999966
+  },
+  {
+    "numCustomers": 980,
+    "numAvailableCashouts": 98000,
+    "timeTaken": 12.487100000000282
+  },
+  {
+    "numCustomers": 980,
+    "numAvailableCashouts": 98000,
+    "timeTaken": 15.491799999999785
+  },
+  {
+    "numCustomers": 980,
+    "numAvailableCashouts": 98000,
+    "timeTaken": 12.54410000000098
+  },
+  {
+    "numCustomers": 980,
+    "numAvailableCashouts": 98000,
+    "timeTaken": 13.752800000000207
+  },
+  {
+    "numCustomers": 985,
+    "numAvailableCashouts": 98500,
+    "timeTaken": 12.511800000000221
+  },
+  {
+    "numCustomers": 985,
+    "numAvailableCashouts": 98500,
+    "timeTaken": 10.583800000000338
+  },
+  {
+    "numCustomers": 985,
+    "numAvailableCashouts": 98500,
+    "timeTaken": 9.9325000000008
+  },
+  {
+    "numCustomers": 985,
+    "numAvailableCashouts": 98500,
+    "timeTaken": 11.399600000000646
+  },
+  {
+    "numCustomers": 990,
+    "numAvailableCashouts": 99000,
+    "timeTaken": 8.72780000000057
+  },
+  {
+    "numCustomers": 990,
+    "numAvailableCashouts": 99000,
+    "timeTaken": 10.314199999998891
+  },
+  {
+    "numCustomers": 990,
+    "numAvailableCashouts": 99000,
+    "timeTaken": 8.610999999998967
+  },
+  {
+    "numCustomers": 995,
+    "numAvailableCashouts": 99500,
+    "timeTaken": 9.067799999998897
+  },
+  {
+    "numCustomers": 995,
+    "numAvailableCashouts": 99500,
+    "timeTaken": 9.067399999999907
+  },
+  {
+    "numCustomers": 1000,
+    "numAvailableCashouts": 100000,
+    "timeTaken": 7.130400000000009
+  }
+]

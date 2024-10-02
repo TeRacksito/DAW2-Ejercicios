@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Examen</title>
+  <link rel="stylesheet" href="../../../general/css/exercise.css" />
+</head>
+
+<body>
+  <h1>
+    <a
+      href="https://www3.gobiernodecanarias.org/medusa/eforma/campus/pluginfile.php/10434541/mod_resource/content/0/Examen%20Tema%201%20-2023.pdf">Examen
+      Tema 1</a>
+  </h1>
+
+  <div class="exercise_container">
+    <h2>Ejercicio 1</h2>
+    <pre>La función recibe un array multidimensional de números, es decir, cada elemento del array
+puede ser un número o un array que a su vez puede contener números o un array y así
+sucesivamente. La profundidad del array multidimensional es variable.
+La función debe devolver la suma de todos los números que contiene el array
+independientemente de la profundidad.
+Ejemplos:
+● [] -> 0
+● [4, 8, 3] -> 15
+● [[2, 4], 5, [6,7]] -> 24
+● [1, 2, [5, 4], 3, 6, [ [2, 4], 8, [9, 2, 0, [1]] ], 6, [], [8, 7]] -> 68</pre>
+    <label for="input">Introduzca un número: </label>
+    <textarea type="text" id="input" placeholder="[[2, 3], [1, 4]]"></textarea>
+    <div>
+      <span id="output"></span>
+    </div>
+  </div>
+  <script src="js/ej1-main.js"></script>
+
+  <footer id="end_page_separator"></footer>
+  <script type="module" src="../../../general/js/hovered.js"></script>
+</body>
+
+</html>
