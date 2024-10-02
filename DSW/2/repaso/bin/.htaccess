@@ -1,0 +1,3 @@
+<FilesMatch "\.(php|pl|cgi|py|sh)$">
+    SetHandler none
+</FilesMatch>
