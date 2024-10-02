@@ -82,3 +82,11 @@ button {
 .drop-zone.dragover {
     border-color: #000;
 }
+
+input[type="date"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

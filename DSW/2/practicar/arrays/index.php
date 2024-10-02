@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicios Practicar</title>
-    <link rel="stylesheet" href="../../general/css/exercise.css">
+    <link rel="stylesheet" href="/ejercicios/general/css/exercise.css">
 </head>
 
 <body>
-    <h1><a href="https://www3.gobiernodecanarias.org/medusa/eforma/campus/mod/page/view.php?id=7382655">Ejercicios para practicar (printf)</a></h1>
+    <h1><a href="https://www3.gobiernodecanarias.org/medusa/eforma/campus/mod/page/view.php?id=7221731">Ejercicios Arrays</a></h1>
 
 
     <div class="exercise_container">
@@ -165,10 +165,10 @@
                 print_r($all);
                 ?></pre>
     </div>
-    
+
 
     <footer id="end_page_separator"></footer>
-    <script type="module" src="../../general/js/hovered.js"></script>
+    <script type="module" src="/ejercicios/general/js/hovered.js"></script>
 </body>
 
 </html>

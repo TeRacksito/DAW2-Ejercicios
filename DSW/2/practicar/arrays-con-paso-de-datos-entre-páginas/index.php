@@ -1,5 +1,5 @@
-<?php 
-require_once "backend/array-paso-datos-paginas/datos_provincias.php"; 
+<?php
+require_once "backend/array-paso-datos-paginas/datos_provincias.php";
 require_once "backend/array-paso-datos-paginas/datos_cities.php";
 ?>
 
@@ -9,7 +9,7 @@ require_once "backend/array-paso-datos-paginas/datos_cities.php";
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Calculadora</title>
+  <title>Ejercicios Practicar</title>
   <link rel="stylesheet" href="/ejercicios/general/css/exercise.css" />
   <link rel="stylesheet" href="/ejercicios/general/css/form.css" />
 </head>
@@ -81,31 +81,31 @@ require_once "backend/array-paso-datos-paginas/datos_cities.php";
   <div class="exercise_container">
     <h2>Ejercicio 4</h2>
     <p>
-    Tenemos los siguientes datos en una página llamada datos_ciudades.php
+      Tenemos los siguientes datos en una página llamada datos_ciudades.php
 
-$pais= array();
+      $pais= array();
 
-$pais["Mexico"]=array("Guadalajara","Monterrey","Tepic","Pachuca","D.F.");
+      $pais["Mexico"]=array("Guadalajara","Monterrey","Tepic","Pachuca","D.F.");
 
-$pais["España"]=array("Barcelona","Madrid","Valencia","Mallorca","Osasuna");
+      $pais["España"]=array("Barcelona","Madrid","Valencia","Mallorca","Osasuna");
 
-$pais["EUA"]=array("Houston","Washington","Seattle","Manhattan","San Francisco");
+      $pais["EUA"]=array("Houston","Washington","Seattle","Manhattan","San Francisco");
 
-$pais["Francia"]=array("París","Tolousse","St. Ettienne","Marsella","Nancy");
+      $pais["Francia"]=array("París","Tolousse","St. Ettienne","Marsella","Nancy");
 
-$pais["Alemania"]=array("Münich","Colonia","Monchengladbach","Dormund","Leverkusen");
+      $pais["Alemania"]=array("Münich","Colonia","Monchengladbach","Dormund","Leverkusen");
 
-$pais["Canada"]=array("Montreal","Ottawa","Vancouver","Edmonton","Quebec");
+      $pais["Canada"]=array("Montreal","Ottawa","Vancouver","Edmonton","Quebec");
 
-$pais["Inglaterra"]=array("Londres","Manchester","West Ham","Liechtester","Chelsea");
+      $pais["Inglaterra"]=array("Londres","Manchester","West Ham","Liechtester","Chelsea");
 
-$pais["Brasil"]=array("Sao Paolo","Brasilia","Rio de Janeiro","Porto Alegre","Cotia");
+      $pais["Brasil"]=array("Sao Paolo","Brasilia","Rio de Janeiro","Porto Alegre","Cotia");
 
-$pais["Italia"]=array("Roma","Milán","Venecia","Cagliari","Palermo");
+      $pais["Italia"]=array("Roma","Milán","Venecia","Cagliari","Palermo");
 
-$pais["Japón"]=array("Tokio","Okynawa","Hiroshima","Nagasaki","Kioto");
+      $pais["Japón"]=array("Tokio","Okynawa","Hiroshima","Nagasaki","Kioto");
 
-Queremos crear una página que muestre un desplegable con todos los países. Una vez seleccionado un país se debe dirigir a otra página donde se mostrarán solo las ciudades de dicho país.
+      Queremos crear una página que muestre un desplegable con todos los países. Una vez seleccionado un país se debe dirigir a otra página donde se mostrarán solo las ciudades de dicho país.
 
     </p>
     <form action="backend/array-paso-datos-paginas/ej4_main.php">
