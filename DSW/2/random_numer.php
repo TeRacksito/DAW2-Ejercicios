@@ -29,8 +29,6 @@
       </form>
     </div>
 
-
-
     <footer id="end_page_separator"></footer>
     <script type="module" src="/ejercicios/general/js/hovered.js"></script>
   </body>
