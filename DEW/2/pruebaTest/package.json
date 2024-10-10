@@ -1,0 +1,16 @@
+{
+  "name": "pruebatest",
+  "version": "1.0.0",
+  "description": "Prueba con Jest y StandardJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "prettier": "3.3.3",
+    "standard": "^17.1.2"
+  }
+}

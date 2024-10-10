@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+canvas {
+    display: block;
+}
+
+.container {
+    background-color: transparent;
+    position: fixed;
+    top: 80%;
+    left: 10%;
+    width: 100%;
+    z-index: 1000;
+    pointer-events: none;
+    color: rgba(0, 0, 0, 1);
+    transition: all 5.5s;
+    opacity: 0;
+}
+
+.container[show="true"] {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 4em;
+    font-style: italic;
+}

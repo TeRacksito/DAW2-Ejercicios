@@ -1,0 +1,6 @@
+{
+    "phpunit.paths": {
+
+    },
+    "phpunit.phpunit": "vendor/bin/phpunit"
+}
