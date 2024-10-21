@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Table to JSON</title>
+</head>
+
+<body>
+  <!-- Assuming the table is identified by an ID or a class, here it's identified by class for this example -->
+  <table id="dataTable">
+    <tbody>
+      <tr>
+        <th>Version</th>
+        <th>L Data</th>
+        <th>L Blocks</th>
+        <th>M Data</th>
+        <th>M Blocks</th>
+        <th>Q Data</th>
+        <th>Q Blocks</th>
+        <th>H Data</th>
+        <th>H Blocks</th>
+      </tr>
+      <tr>
+        <td>M1</td>
+        <td>2½</td>
+        <td>(5,3)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M2</td>
+        <td>5</td>
+        <td>(10,5)</td>
+        <td>4</td>
+        <td>(10,4)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M3</td>
+        <td>10½</td>
+        <td>(17,11)</td>
+        <td>8½</td>
+        <td>(17,9)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M4</td>
+        <td>16</td>
+        <td>(24,16)</td>
+        <td>14</td>
+        <td>(24,14)</td>
+        <td>10</td>
+        <td>(24,10)</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>19</td>
+        <td>(26,19)</td>
+        <td>16</td>
+        <td>(26,16)</td>
+        <td>13</td>
+        <td>(26,13)</td>
+        <td>9</td>
+        <td>(26,9)</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>34</td>
+        <td>(44,34)</td>
+        <td>28</td>
+        <td>(44,28)</td>
+        <td>22</td>
+        <td>(44,22)</td>
+        <td>16</td>
+        <td>(44,16)</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>55</td>
+        <td>(70,55)</td>
+        <td>44</td>
+        <td>(70,44)</td>
+        <td>34</td>
+        <td>2×(35,17)</td>
+        <td>26</td>
+        <td>2×(35,13)</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>80</td>
+        <td>(100,80)</td>
+        <td>64</td>
+        <td>2×(50,32)</td>
+        <td>48</td>
+        <td>2×(50,24)</td>
+        <td>36</td>
+        <td>4×(25,9)</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>108</td>
+        <td>(134,108)</td>
+        <td>86</td>
+        <td>2×(67,43)</td>
+        <td>62</td>
+        <td>2×(33,15), 2×(34,16)</td>
+        <td>46</td>
+        <td>2×(33,11), 2×(34,12)</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>136</td>
+        <td>2×(86,68)</td>
+        <td>108</td>
+        <td>4×(43,27)</td>
+        <td>76</td>
+        <td>4×(43,19)</td>
+        <td>60</td>
+        <td>4×(43,15)</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>156</td>
+        <td>2×(98,78)</td>
+        <td>124</td>
+        <td>4×(49,31)</td>
+        <td>88</td>
+        <td>2×(32,14), 4×(33,15)</td>
+        <td>66</td>
+        <td>4×(39,13), (40,14)</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>194</td>
+        <td>2×(121,97)</td>
+        <td>154</td>
+        <td>2×(60,38), 2×(61,39)</td>
+        <td>110</td>
+        <td>4×(40,18), 2×(41,19)</td>
+        <td>86</td>
+        <td>4×(40,14), 2×(41,15)</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>232</td>
+        <td>2×(146,116)</td>
+        <td>182</td>
+        <td>3×(58,36), 2×(59,37)</td>
+        <td>132</td>
+        <td>4×(36,16), 4×(37,17)</td>
+        <td>100</td>
+        <td>4×(36,12), 4×(37,13)</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>274</td>
+        <td>2×(86,68), 2×(87,69)</td>
+        <td>216</td>
+        <td>4×(69,43), (70,44)</td>
+        <td>154</td>
+        <td>6×(43,19), 2×(44,20)</td>
+        <td>122</td>
+        <td>6×(43,15), 2×(44,16)</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>324</td>
+        <td>4×(101,81)</td>
+        <td>254</td>
+        <td>(80,50), 4×(81,51)</td>
+        <td>180</td>
+        <td>4×(50,22), 4×(51,23)</td>
+        <td>140</td>
+        <td>3×(36,12), 8×(37,13)</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>370</td>
+        <td>2×(116,92), 2×(117,93)</td>
+        <td>290</td>
+        <td>6×(58,36), 2×(59,37)</td>
+        <td>206</td>
+        <td>4×(46,20), 6×(47,21)</td>
+        <td>158</td>
+        <td>7×(42,14), 4×(43,15)</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>428</td>
+        <td>4×(133,107)</td>
+        <td>334</td>
+        <td>8×(59,37), (60,38)</td>
+        <td>244</td>
+        <td>8×(44,20), 4×(45,21)</td>
+        <td>180</td>
+        <td>12×(33,11), 4×(34,12)</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>461</td>
+        <td>3×(145,115), (146,116)</td>
+        <td>365</td>
+        <td>4×(64,40), 5×(65,41)</td>
+        <td>261</td>
+        <td>11×(36,16), 5×(37,17)</td>
+        <td>197</td>
+        <td>11×(36,12), 5×(37,13)</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>523</td>
+        <td>5×(109,87), (110,88)</td>
+        <td>415</td>
+        <td>5×(65,41), 5×(66,42)</td>
+        <td>295</td>
+        <td>5×(54,24), 7×(55,25)</td>
+        <td>223</td>
+        <td>11×(36,12), 7×(37,13)</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>589</td>
+        <td>5×(122,98), (123,99)</td>
+        <td>453</td>
+        <td>7×(73,45), 3×(74,46)</td>
+        <td>325</td>
+        <td>15×(43,19), 2×(44,20)</td>
+        <td>253</td>
+        <td>3×(45,15), 13×(46,16)</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>647</td>
+        <td>(135,107), 5×(136,108)</td>
+        <td>507</td>
+        <td>10×(74,46), (75,47)</td>
+        <td>367</td>
+        <td>(50,22), 15×(51,23)</td>
+        <td>283</td>
+        <td>2×(42,14), 17×(43,15)</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>721</td>
+        <td>5×(150,120), (151,121)</td>
+        <td>563</td>
+        <td>9×(69,43), 4×(70,44)</td>
+        <td>397</td>
+        <td>17×(50,22), (51,23)</td>
+        <td>313</td>
+        <td>2×(42,14), 19×(43,15)</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>795</td>
+        <td>3×(141,113), 4×(142,114)</td>
+        <td>627</td>
+        <td>3×(70,44), 11×(71,45)</td>
+        <td>445</td>
+        <td>17×(47,21), 4×(48,22)</td>
+        <td>341</td>
+        <td>9×(39,13), 16×(40,14)</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>861</td>
+        <td>3×(135,107), 5×(136,108)</td>
+        <td>669</td>
+        <td>3×(67,41), 13×(68,42)</td>
+        <td>485</td>
+        <td>15×(54,24), 5×(55,25)</td>
+        <td>385</td>
+        <td>15×(43,15), 10×(44,16)</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>932</td>
+        <td>4×(144,116), 4×(145,117)</td>
+        <td>714</td>
+        <td>17×(68,42)</td>
+        <td>512</td>
+        <td>17×(50,22), 6×(51,23)</td>
+        <td>406</td>
+        <td>19×(46,16), 6×(47,17)</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>1006</td>
+        <td>2×(139,111), 7×(140,112)</td>
+        <td>782</td>
+        <td>17×(74,46)</td>
+        <td>568</td>
+        <td>7×(54,24), 16×(55,25)</td>
+        <td>442</td>
+        <td>34×(37,13)</td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>1094</td>
+        <td>4×(151,121), 5×(152,122)</td>
+        <td>860</td>
+        <td>4×(75,47), 14×(76,48)</td>
+        <td>614</td>
+        <td>11×(54,24), 14×(55,25)</td>
+        <td>464</td>
+        <td>16×(45,15), 14×(46,16)</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>1174</td>
+        <td>6×(147,117), 4×(148,118)</td>
+        <td>914</td>
+        <td>6×(73,45), 14×(74,46)</td>
+        <td>664</td>
+        <td>11×(54,24), 16×(55,25)</td>
+        <td>514</td>
+        <td>30×(46,16), 2×(47,17)</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>1276</td>
+        <td>8×(132,106), 4×(133,107)</td>
+        <td>1000</td>
+        <td>8×(75,47), 13×(76,48)</td>
+        <td>718</td>
+        <td>7×(54,24), 22×(55,25)</td>
+        <td>538</td>
+        <td>22×(45,15), 13×(46,16)</td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td>1370</td>
+        <td>10×(142,114), 2×(143,115)</td>
+        <td>1062</td>
+        <td>19×(74,46), 4×(75,47)</td>
+        <td>754</td>
+        <td>28×(50,22), 6×(51,23)</td>
+        <td>596</td>
+        <td>33×(46,16), 4×(47,17)</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td>1468</td>
+        <td>8×(152,122), 4×(153,123)</td>
+        <td>1128</td>
+        <td>22×(73,45), 3×(74,46)</td>
+        <td>808</td>
+        <td>8×(53,23), 26×(54,24)</td>
+        <td>628</td>
+        <td>12×(45,15), 28×(46,16)</td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td>1531</td>
+        <td>3×(147,117), 10×(148,118)</td>
+        <td>1193</td>
+        <td>3×(73,45), 23×(74,46)</td>
+        <td>871</td>
+        <td>4×(54,24), 31×(55,25)</td>
+        <td>661</td>
+        <td>11×(45,15), 31×(46,16)</td>
+      </tr>
+      <tr>
+        <td>29</td>
+        <td>1631</td>
+        <td>7×(146,116), 7×(147,117)</td>
+        <td>1267</td>
+        <td>21×(73,45), 7×(74,46)</td>
+        <td>911</td>
+        <td>(53,23), 37×(54,24)</td>
+        <td>701</td>
+        <td>19×(45,15), 26×(46,16)</td>
+      </tr>
+      <tr>
+        <td>30</td>
+        <td>1735</td>
+        <td>5×(145,115), 10×(146,116)</td>
+        <td>1373</td>
+        <td>19×(75,47), 10×(76,48)</td>
+        <td>985</td>
+        <td>15×(54,24), 25×(55,25)</td>
+        <td>745</td>
+        <td>23×(45,15), 25×(46,16)</td>
+      </tr>
+      <tr>
+        <td>31</td>
+        <td>1843</td>
+        <td>13×(145,115), 3×(146,116)</td>
+        <td>1455</td>
+        <td>2×(74,46), 29×(75,47)</td>
+        <td>1033</td>
+        <td>42×(54,24), (55,25)</td>
+        <td>793</td>
+        <td>23×(45,15), 28×(46,16)</td>
+      </tr>
+      <tr>
+        <td>32</td>
+        <td>1955</td>
+        <td>17×(145,115)</td>
+        <td>1541</td>
+        <td>10×(74,46), 23×(75,47)</td>
+        <td>1115</td>
+        <td>10×(54,24), 35×(55,25)</td>
+        <td>845</td>
+        <td>19×(45,15), 35×(46,16)</td>
+      </tr>
+      <tr>
+        <td>33</td>
+        <td>2071</td>
+        <td>17×(145,115), (146,116)</td>
+        <td>1631</td>
+        <td>14×(74,46), 21×(75,47)</td>
+        <td>1171</td>
+        <td>29×(54,24), 19×(55,25)</td>
+        <td>901</td>
+        <td>11×(45,15), 46×(46,16)</td>
+      </tr>
+      <tr>
+        <td>34</td>
+        <td>2191</td>
+        <td>13×(145,115), 6×(146,116)</td>
+        <td>1725</td>
+        <td>14×(74,46), 23×(75,47)</td>
+        <td>1231</td>
+        <td>44×(54,24), 7×(55,25)</td>
+        <td>961</td>
+        <td>59×(46,16), (47,17)</td>
+      </tr>
+      <tr>
+        <td>35</td>
+        <td>2306</td>
+        <td>12×(151,121), 7×(152,122)</td>
+        <td>1812</td>
+        <td>12×(75,47), 26×(76,48)</td>
+        <td>1286</td>
+        <td>39×(54,24), 14×(55,25)</td>
+        <td>986</td>
+        <td>22×(45,15), 41×(46,16)</td>
+      </tr>
+      <tr>
+        <td>36</td>
+        <td>2434</td>
+        <td>6×(151,121), 14×(152,122)</td>
+        <td>1914</td>
+        <td>6×(75,47), 34×(76,48)</td>
+        <td>1354</td>
+        <td>46×(54,24), 10×(55,25)</td>
+        <td>1054</td>
+        <td>2×(45,15), 64×(46,16)</td>
+      </tr>
+      <tr>
+        <td>37</td>
+        <td>2566</td>
+        <td>17×(152,122), 4×(153,123)</td>
+        <td>1992</td>
+        <td>29×(74,46), 14×(75,47)</td>
+        <td>1426</td>
+        <td>49×(54,24), 10×(55,25)</td>
+        <td>1096</td>
+        <td>24×(45,15), 46×(46,16)</td>
+      </tr>
+      <tr>
+        <td>38</td>
+        <td>2702</td>
+        <td>4×(152,122), 18×(153,123)</td>
+        <td>2102</td>
+        <td>13×(74,46), 32×(75,47)</td>
+        <td>1502</td>
+        <td>48×(54,24), 14×(55,25)</td>
+        <td>1142</td>
+        <td>42×(45,15), 32×(46,16)</td>
+      </tr>
+      <tr>
+        <td>39</td>
+        <td>2812</td>
+        <td>20×(147,117), 4×(148,118)</td>
+        <td>2216</td>
+        <td>40×(75,47), 7×(76,48)</td>
+        <td>1582</td>
+        <td>43×(54,24), 22×(55,25)</td>
+        <td>1222</td>
+        <td>10×(45,15), 67×(46,16)</td>
+      </tr>
+      <tr>
+        <td>40</td>
+        <td>2956</td>
+        <td>19×(148,118), 6×(149,119)</td>
+        <td>2334</td>
+        <td>18×(75,47), 31×(76,48)</td>
+        <td>1666</td>
+        <td>34×(54,24), 34×(55,25)</td>
+        <td>1276</td>
+        <td>20×(45,15), 61×(46,16)</td>
+      </tr>
+    </tbody>
+  </table>
+  <script>
+    function parseBlockAndCalculateError(blockString) {
+      if (!blockString) return null;
+
+      const matches = [...blockString.matchAll(/(\d*)×?\((\d+),(\d+)\)/g)];
+      if (matches) {
+        const result = [];
+
+        for (const match of matches) {
+          let [_, num, total, data] = match;
+          num = num ? parseInt(num, 10) : 1;
+          total = parseInt(total, 10);
+          data = parseInt(data, 10);
+          const nsym = total - data;
+
+          result.push({ blocks: num, nsym, data });
+        }
+
+        return result;
+      }
+
+      return null;
+    }
+
+    function processDataTable() {
+      const table = document.getElementById('dataTable');
+      const rows = table.getElementsByTagName('tr');
+      const jsonData = {};
+
+      for (let i = 1; i < rows.length; i++) { // Start at 1 to skip header
+        const cells = rows[i].getElementsByTagName('td');
+        const version = cells[0].innerText.trim();
+
+        jsonData[version] = {};
+
+        const letters = ['L', 'M', 'Q', 'H'];
+        letters.forEach((letter, index) => {
+          const blockIndex = index * 2 + 2;
+
+          if (cells[blockIndex]) {
+            const blockString = cells[blockIndex].innerText.trim();
+            const parsedBlock = parseBlockAndCalculateError(blockString);
+
+            if (parsedBlock) {
+              jsonData[version][letter] = parsedBlock;
+            }
+          }
+        });
+      }
+
+      return jsonData;
+    }
+
+    // Execute function and log the result
+    const tableDataJson = processDataTable();
+    console.log(JSON.stringify(tableDataJson, null, 2));
+  </script>
+</body>
+
+</html>
