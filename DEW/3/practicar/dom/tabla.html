@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Rellenar una tabla</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Precio</th>
+          <th>Cantidad</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody id="data"></tbody>
+      <thead>
+        <tr>
+          <th id="total">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="totalData"></td>
+        </tr>
+      </tbody>
+      <button onclick="addSamsung()">Add Samsung</button>
+    </table>
+
+    <script>
+      const data = [
+        ["zacapa23", 59.99, 4],
+        ["Ramón Bilbao", 9.99, 3],
+        ["Vega Sicilia", 259.99, 1],
+        ["Protos", 19.99, 2],
+      ];
+
+      const tbody = document.getElementById("data");
+      
+      tbody.innerHTML = data.map((row) => {
+        return `
+          <tr>
+            <td>${row[0]}€</td>
+            <td>${row[1]}€</td>
+            <td>${row[2]}€</td>
+            <td>${row[1] * row[2]}€</td>
+          </tr>
+        `;
+      }).join("");
+
+      
+
+      function addSamsung() {
+        const samsung = ["Samsung Galaxy S21", 999.99, 1];
+        tbody.innerHTML += `
+          <tr>
+            <td>${samsung[0]}€</td>
+            <td>${samsung[1]}€</td>
+            <td>${samsung[2]}€</td>
+            <td>${samsung[1] * samsung[2]}€</td>
+          </tr>
+        `;
+
+        const total = Array.from(tbody.children).reduce((acc, row) => {
+          const subtotal = parseFloat(row.children[3].textContent);
+          return acc + subtotal;
+        }, 0);
+
+        document.querySelector("#totalData").textContent = `${total}€`;
+      }
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Titulo</h1>
+    <p>Nombre: <span id="name">--</span></p>
+    <p>Edad: <span id="age">--</span></p>
+
+    <div id="content">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+        debitis quibusdam ea recusandae fugit deleniti in sed voluptatibus, nemo
+        vero dicta nisi architecto dignissimos error aut. Eos fugiat culpa quos.
+      </p>
+    </div>
+    <ol id="numbers"></ol>
+
+    <script>
+      const name = "Pepe";
+      const age = 25;
+
+      const nameSpan = document.querySelector("#name");
+      nameSpan.textContent = name;
+
+      const ageSpan = document.querySelector("#age");
+      ageSpan.textContent = age;
+
+      const content = document.querySelector("#content");
+      content.innerHTML =
+        "Esto es una linea con <strong>importantes</strong> palabras.";
+
+      let start = 4;
+      let end = 12000;
+
+      // let startTime = performance.now();
+      const numbers = document.querySelector("#numbers");
+      numbers.innerHTML = Array.from({ length: end - start + 1 }, (_, i) => {
+        return `<li>${i + start}</li>`;
+      }).join("");
+
+      for (let i = start; i <= end; i++) {
+        numbers.innerHTML += `<li>${i}</li>`;
+      }
+      // console.log(performance.now() - startTime);
+      
+    </script>
+  </body>
+</html>
