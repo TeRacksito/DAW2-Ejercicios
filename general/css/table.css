@@ -1,0 +1,86 @@
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table header styling */
+thead {
+    background-color: #f4f4f4;
+}
+
+thead th {
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table body styling */
+tbody tr {
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table footer styling */
+tfoot {
+    background-color: #f4f4f4;
+}
+
+tfoot td {
+    padding: 10px;
+    font-weight: bold;
+    text-align: left;
+    border-top: 2px solid #ddd;
+}
+
+/* Responsive table styling */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        margin: 0 0 10px 0;
+    }
+
+    td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
+    }
+
+    td:before {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: calc(50% - 20px);
+        white-space: nowrap;
+        font-weight: bold;
+    }
+
+    td:nth-of-type(1):before { content: "Header 1"; }
+    td:nth-of-type(2):before { content: "Header 2"; }
+    td:nth-of-type(3):before { content: "Header 3"; }
+    /* Add more content rules for additional columns as needed */
+}

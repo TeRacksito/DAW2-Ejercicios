@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .selected {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>Date</li>
+        <li>Elderberry</li>
+        <li>Fig</li>
+    </ul>
+
+    <p>
+        <input type="text" name="" id="newFruit">
+        <button onclick="appendFruit()">Agregar al final</button>
+        <button onclick="prependFruit()">Agregar al principio</button>
+        <button onclick="prependFruitBeforeSelected()">Agregar antes del seleccionado</button>
+    </p>
+
+    <script>
+        const listFruits = document.querySelector('ul');
+
+        const inputNewFruit = document.querySelector('#newFruit');
+
+        function appendFruit() {
+            const newFruit = createFruit(inputNewFruit.value);
+            listFruits.appendChild(newFruit);
+        }
+
+        function prependFruit() {
+            const newFruit = document.createElement('li');
+            listFruits.prepend(newFruit);
+        }
+
+        function createFruit(fruitName) {
+            const newFruit = document.createElement('li');
+            newFruit.textContent = fruitName;
+            return newFruit;
+        }
+
+        function prependFruitBeforeSelected() {
+            const newFruit = createFruit(inputNewFruit.value);
+            const selectedFruit = listFruits.querySelector('.selected');
+            if (selectedFruit) {
+                listFruits.insertBefore(newFruit, selectedFruit);
+            }
+        }
+
+        listFruits.addEventListener('click', (event) => {
+            if (event.target.tagName === 'LI') {
+                event.target.classList.toggle('selected');
+            }
+        });
+
+        listFruits.addEventListener('dblclick', (event) => {
+            if (event.target.tagName === 'LI') {
+                event.target.remove();
+            }
+        });
+
+        
+        listFruits.addEventListener('contextmenu', (event) => {
+            event.preventDefault();
+            if (event.target.tagName === 'LI') {
+                event.target.insertBefore(createFruit(inputNewFruit.value));
+            }
+        });
+
+
+    </script>
+    
+</body>
+</html>

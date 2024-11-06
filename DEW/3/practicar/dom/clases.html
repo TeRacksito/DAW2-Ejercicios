@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .red {
+      color: red;
+    }
+
+    .bgcyan {
+      background-color: cyan;
+    }
+
+    .underline {
+      text-decoration: underline;
+    }
+
+    .spacing {
+      letter-spacing: 2px;
+    }
+
+    .capitalize {
+      text-transform: capitalize;
+    }
+  </style>
+  <body>
+    <h1>Indicar clases al párrafo</h1>
+    <p>
+      <button onclick="addClass('red')">Rojo</button>
+      <button onclick="addClass('bgcyan')">Fondo Azul claro</button>
+      <button onclick="addClass('underline')">Subrayar</button>
+      <button onclick="addClass('spacing')">Espaciado</button>
+      <button onclick="addClass('capitalize')">Capitalizar</button>
+    </p>
+    <p>
+      Tamaño de fuente:
+      <input
+        type="range"
+        name="fontsize"
+        id="fontsize"
+        min="8"
+        max="64"
+        onchange="updateInput(this)"
+      />
+      <output>36</output>
+      <button onclick="changeFontSize()">Cambiar tamaño fuente</button>
+      <button onclick="changeFontSize(1)">+</button>
+      <button onclick="changeFontSize(-1)">-</button>
+    </p>
+    <div id="content">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+        reiciendis quod, unde molestiae explicabo dicta dolores veritatis iusto
+        fugiat ipsam recusandae fugit. Et quisquam natus nam distinctio
+        voluptatem nesciunt harum.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minus
+        velit iusto explicabo similique fugiat, aspernatur totam. Nemo ipsam
+        optio omnis temporibus numquam inventore, aspernatur quaerat incidunt,
+        obcaecati veritatis praesentium.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+        soluta laboriosam voluptas aliquam qui necessitatibus consequatur ullam,
+        reprehenderit, voluptatem distinctio impedit nisi asperiores adipisci
+        labore vel veniam id esse assumenda.
+      </p>
+    </div>
+
+    <script>
+      const content = document.querySelector("#content");
+      const inputFontSize = document.querySelector("input[name='fontsize']");
+
+      function addClass(className) {
+        content.classList.toggle(className);
+      }
+
+      function changeFontSize(amount) {        
+        const size = Number(inputFontSize.value) + (amount || 0);
+        content.style.fontSize = `${size}px`;
+        inputFontSize.value = size;
+        updateInput(inputFontSize);
+      }
+
+      function updateInput(input) {
+        input.nextElementSibling.value = input.value;
+      }
+
+
+    </script>
+  </body>
+</html>

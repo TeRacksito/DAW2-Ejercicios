@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      /* overflow: hidden; */
+    }
+
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas id="vectorCanvas"></canvas>
+
+  <script type="module">
+    import { createNoise3D } from "simplex-noise";
+    const canvas = document.getElementById("vectorCanvas");
+
+    let mapScale = 0.04;
+    const resolution = 50;
+
+    function drawVectorField(vectorField) {
+      const ctx = canvas.getContext("2d");
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // const viewScale = canvas.width / vectorField.length;
+      const viewScale = {
+        x: canvas.width / vectorField.length,
+        y: canvas.height / vectorField[0].length,
+      }
+      for (let x = 0; x < vectorField.length; x++) {
+        for (let y = 0; y < vectorField[x].length; y++) {
+          const vector = vectorField[x][y];
+
+          const length = Math.sqrt(vector.x * vector.x + vector.y * vector.y);
+          const colorValue = Math.min(255, Math.floor(length * 255));
+          ctx.strokeStyle = `rgb(${colorValue}, 0, ${255 - colorValue})`;
+
+          ctx.beginPath();
+          ctx.moveTo(x * viewScale.x, y * viewScale.y);
+          ctx.lineTo(
+            x * viewScale.x + vector.x * viewScale.x,
+            y * viewScale.y + vector.y * viewScale.y
+          );
+          ctx.lineWidth = 2; // Set the stroke thickness
+          ctx.stroke();
+        }
+      }
+    }
+
+    const noise3D = createNoise3D();
+
+    // Scale down coordinates for smoother transitions
+
+    function generateVector(x, y, time) {
+      // scale = 0.002; // Scale down coordinates for smoother transitions
+      // Generate noise-based vector directions for x and y components
+      const angle = noise3D(x * mapScale, y * mapScale, time) * Math.PI * 2; // angle in radians
+      const magnitude = noise3D(x * mapScale + 100, y * mapScale + 100, time); // independent noise for magnitude
+
+      return {
+        x: Math.cos(angle) * magnitude,
+        y: Math.sin(angle) * magnitude,
+      };
+    }
+
+    function createVectorField(width, height, time) {
+      const vectorField = [];
+      for (let x = 0; x < width; x++) {
+        vectorField[x] = [];
+        for (let y = 0; y < height; y++) {
+          vectorField[x][y] = generateVector(x, y, time);
+        }
+      }
+      return vectorField;
+    }
+
+
+    // canvas.addEventListener("mousemove", (event) => {
+
+    // });
+
+    // Animation loop
+    // let aspectRatio =
+    //   document.documentElement.clientWidth /
+    //   document.documentElement.clientHeight;
+
+    let time = 0;
+
+    const mouseBall = {
+      x: 0,
+      y: 0,
+      radius: 5,
+    };
+
+    const mousePoint = {
+      x: null,
+      y: null,
+    };
+
+    window.addEventListener("mousemove", (event) => {
+      const rect = canvas.getBoundingClientRect();
+      const mouseX = event.clientX - rect.left;
+      const mouseY = event.clientY - rect.top;
+
+      mousePoint.x = mouseX;
+      mousePoint.y = mouseY;
+
+      console.log(mousePoint);
+
+    });
+
+    function animate() {
+
+      const vectorField = createVectorField(width, height, time);
+      time += 0.001; // Adjust time increment for animation speed
+      // scale -= 0.0001;
+
+      mouseBall.x += (mousePoint.x - mouseBall.x) * 0.09;
+      mouseBall.y += (mousePoint.y - mouseBall.y) * 0.09;
+
+      const fieldX = (
+        (mouseBall.x / canvas.width) * vectorField.length
+      );
+      const fieldY = (
+        (mouseBall.y / canvas.height) * vectorField[0].length
+      );
+
+      const radius = 5; // Define the radius around the mouse to alterate
+
+      for (let x = Math.floor(fieldX - radius); x <= fieldX + radius; x++) {
+        for (let y = Math.floor(fieldY - radius); y <= fieldY + radius; y++) {
+          const dx = fieldX - x;
+          const dy = fieldY - y;
+          if (dx * dx + dy * dy <= radius * radius) { // Check if within circle
+            if (vectorField[x] && vectorField[x][y]) {
+              // vectorField[x][y] = {
+              //   x: dx,
+              //   y: dy
+              // };
+              const distance = Math.sqrt(dx * dx + dy * dy);
+              const influence = 1 - distance / radius;
+              vectorField[x][y].x = (dx * influence) + (vectorField[x][y].x * (1 - influence));
+              vectorField[x][y].y = (dy * influence) + (vectorField[x][y].y * (1 - influence));
+            }
+          }
+        }
+      }
+
+
+      requestAnimationFrame(animate);
+      drawVectorField(vectorField); // Function to render vector field on a canvas
+    }
+
+    // Set initial canvas size
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let aspectRatio = canvas.width / canvas.height;
+    let width, height;
+
+    if (aspectRatio > 1) {
+      width = resolution;
+      height = resolution / aspectRatio;
+    } else {
+      height = resolution;
+      width = resolution * aspectRatio;
+    }
+
+    animate();
+
+    window.addEventListener("resize", () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      // drawVectorField(createVectorField(width, height, time));
+
+      // aspectRatio =
+      //   document.documentElement.clientWidth /
+      //   document.documentElement.clientHeight;
+      aspectRatio = canvas.width / canvas.height;
+      width, height;
+
+      if (aspectRatio > 1) {
+        width = resolution;
+        height = resolution / aspectRatio;
+      } else {
+        height = resolution;
+        width = resolution * aspectRatio;
+      }
+
+      console.log(width, height);
+
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main_container {
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: aquamarine;
+            padding: 10px;
+        }
+
+        .box {
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s;
+
+            
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Juego de los cuadrados</h1>
+    <p>Click en un cuadrado para eliminarlo y a sus hermanos del mismo color</p>
+
+    <h2>Puntuación: <span id="score">0</span></h2>
+
+    <div id="main_container">
+    </div>
+    
+    <script>
+        const main_container = document.querySelector('#main_container');
+        const score = document.querySelector('#score');
+        const colors = ['red', 'blue', 'green'];
+        const size = 20;
+
+        function createBox() {
+            const isBefore = Math.random() > 0.5 ? true : false;
+            const square = document.createElement('div');
+            square.classList.add('box');
+            square.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+
+            if (isBefore) {
+                main_container.insertBefore(square, main_container.firstChild);
+            } else {
+                main_container.appendChild(square);
+            }
+        }
+
+        function updateScore(points) {
+            score.textContent = parseInt(score.textContent) + points;
+        }
+
+        function checkSibling(boxes, box, getNextSibling, acc) {
+            const sibling = getNextSibling(box);
+            
+            if (sibling && box.style.backgroundColor === sibling.style.backgroundColor) {
+                return checkSibling(boxes, sibling, getNextSibling, acc + 1);
+            }
+
+            return acc;
+        }
+
+        function calculateScore(boxCount) {
+            return boxCount * (boxCount + 1) / 2;
+        }
+
+        function checkSiblings(box) {
+            const boxes = document.querySelectorAll('.box');
+
+            const up = checkSibling(boxes, box, b => b.previousElementSibling, 0);
+            const down = checkSibling(boxes, box, b => b.nextElementSibling, 0);
+            
+            if (up + down >= 1) {
+                const boxesArray = [...boxes];
+                const index = boxesArray.indexOf(box);
+                boxesArray.splice(index - up, up + down + 1).forEach(b => b.remove());
+                updateScore(calculateScore(up + down) + 1);
+            }
+        }
+
+        main_container.addEventListener('click', (e) => {
+            if (e.target.classList.contains('box')) {
+                checkSiblings(e.target);
+            }
+        });
+
+        // setInterval(() => {
+        //     createBox();
+        // }, 300);
+        function createRandomBox() {
+            const randomInterval = Math.floor(Math.random() * 500);
+            setTimeout(() => {
+                createBox();
+                createRandomBox();
+            }, randomInterval);
+        }
+
+        createRandomBox();
+    </script>
+</body>
+</html>

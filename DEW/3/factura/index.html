@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Factura</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        tbody:nth-of-type(1) tr:nth-of-type(odd) {
+            background-color: #E1F3F9;
+        }
+
+        tbody:nth-of-type(1) tr:nth-of-type(even) {
+            background-color: #FEFFFE;
+        }
+
+        tbody:nth-of-type(2) {
+            background-color: #ADD8E7;
+        }
+
+        thead th {
+            background-color: #05008A;
+            color: white;
+        }
+
+        th,
+        td {
+            border: 1px solid #00139F;
+            padding: 4px 10px;
+        }
+
+        td[onclick] {
+            cursor: pointer;
+        }
+
+        tbody {
+            text-align: right;
+        }
+
+        body>div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .notification {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .notification.show {
+            opacity: 1;
+        }
+
+        .notification.hide {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Factura</h1>
+
+    <div>
+
+        <div>
+            <span>Concepto</span>
+            <input type="text" required>
+        </div>
+        <div>
+            <span>Cantidad</span>
+            <input type="number" min="1" step="1" required>
+        </div>
+        <div>
+            <span>Precio</span>
+            <input type="number" min="0.01" step="0.01" required>
+            <span>€</span>
+        </div>
+        <button onclick="handleInsert()">Insertar</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concepto</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Precio Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            <tbody>
+                <tr>
+                    <th colspan="3">Subtotal</th>
+                    <td id="c-subtotal"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Tasa:</th>
+                    <th style="color: red;" id="c-tasa"></th>
+                    <th>Impuestos:</th>
+                    <td id="c-impuesto"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="3">TOTAL</th>
+                    <th id="c-total"></th>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <button onclick="updateTasa(5)">Tasa 5%</button>
+            <button onclick="updateTasa(15)">Tasa 15%</button>
+            <button onclick="updateTasa(30)">Tasa 30%</button>
+        </div>
+
+        <button onclick="superSecretMessage()">Calcular</button>
+
+
+    </div>
+
+    <div class="notification"></div>
+
+    <script>
+        const tbody = document.querySelector('tbody');
+        const inputs = document.querySelectorAll('input');
+
+        const cTasa = document.querySelector('#c-tasa');
+
+        const cSubtotal = document.querySelector('#c-subtotal');
+        const cImpuesto = document.querySelector('#c-impuesto');
+        const cTotal = document.querySelector('#c-total');
+
+        const cellResolvers = {
+            "#c-subtotal": () => {
+                return Array.from(tbody.children).reduce((acc, tr) => {
+                    const precioTotal = parseFloat(tr.children[3].textContent);
+                    return acc + precioTotal;
+                }, 0);
+            },
+            "#c-impuesto": () => {
+                return parseFloat(cSubtotal.textContent) * parseFloat(cTasa.textContent) / 100;
+            },
+            "#c-total": () => {
+                return parseFloat(cSubtotal.textContent) + parseFloat(cImpuesto.textContent);
+            }
+        }
+
+        function checkValidity() {
+            for (const input of inputs) {
+                if (!input.checkValidity()) {
+                    input.reportValidity();
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        function insertRow(concepto, cantidad, precio) {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>${concepto}</td>
+                <td>${cantidad}</td>
+                <td>${precio}</td>
+                <td>${(cantidad * precio).toFixed(2)}</td>
+                <td onclick="removeRow(this.parentElement)">X</td>
+            `;
+            tbody.appendChild(tr);
+        }
+
+        function updateCells() {
+            for (const [cell, resolver] of Object.entries(cellResolvers)) {
+                const element = document.querySelector(cell);
+                element.textContent = resolver().toFixed(2) + '€';
+            }
+        }
+
+        function removeRow(tr) {
+            tr.remove();
+            updateCells();
+        }
+
+        function updateTasa(tasa) {
+            cTasa.textContent = tasa + '%';
+            updateCells();
+        }
+
+        function clearInputs() {
+            Array.from(inputs).forEach(input => input.value = '');
+        }
+
+        function handleInsert() {
+            if (!checkValidity()) {
+                return;
+            }
+
+            const [concepto, cantidad, precio] = Array.from(inputs).map(input => input.value);
+            insertRow(concepto, cantidad, precio);
+            clearInputs();
+            updateCells();
+        }
+
+        updateTasa(15);
+        updateCells();
+    </script>
+
+    <script>
+        const notification = document.querySelector('.notification');
+        let timeout;
+
+        function superSecretMessage() {
+            let countDown = localStorage.getItem('superSecretCountDown') || 10;
+            countDown--;
+            localStorage.setItem('superSecretCountDown', countDown);
+
+            if (countDown == 3) {
+                notification.textContent = atob("UXVlZGFuIDMgY2xpY2tzIG3hcw==");
+            } else if (countDown == 2) {
+                notification.textContent = atob("UXVlZGFuIDIgY2xpY2tzIG3hcw==");
+            } else if (countDown == 1) {
+                notification.textContent = atob("UXVlZGFuIDEgY2xpY2tzIG3hcw==");
+            } else if (countDown == 0) {
+                notification.textContent = atob("oUFob3JhIGVyZXMgdW4gZGVzYXJyb2xsYWRvciE=");
+            } else if (countDown < 0) {
+                notification.textContent = atob('oVlhIGVyZXMgZGVzYXJyb2xsYWRvciE=');
+            }
+
+            if (countDown <= 3) {
+                notification.classList.add('show');
+                notification.classList.remove('hide');
+
+                clearTimeout(timeout);
+
+                timeout = setTimeout(() => {
+                    notification.classList.add('hide');
+                    notification.classList.remove('show');
+                }, 5000);
+            }
+        }
+    </script>
+</body>
+
+</html>

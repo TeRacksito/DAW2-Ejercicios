@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .selected {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Listado</h1>
+    <label for="filter">Filtro: </label>
+    <input type="text" id="filter" />
+    <hr>
+    <ul id="origin"></ul>
+    <hr>
+    <ul id="destiny"></ul>
+    <hr>
+    <button onclick="sendSelected()">Enviar Seleccionados</button>
+    <button onclick="sortSubjects()">Ordenar</button>
+
+    <script>
+      const list = document.querySelector("#origin");
+      const list_destiny = document.querySelector("#destiny");
+      const filter = document.querySelector("#filter");
+
+      function selectedItem(item) {
+        item.classList.toggle("selected");
+      }
+
+      function sendSelected() {
+        const selected = document.querySelectorAll("li:has(span.selected)");
+
+        selected.forEach((item) => {
+          list_destiny.appendChild(item);
+          selectedItem(item.querySelector("span"));
+        });
+      }
+
+      function getItems() {
+        return document.querySelectorAll("li > span:only-child");
+      }
+
+      list.addEventListener("click", (e) => {
+        if (e.target.tagName === "SPAN") {
+          selectedItem(e.target);
+        }
+      });
+
+      function createSubject(text) {
+        const li = document.createElement("li");
+        const span = document.createElement("span");
+        span.textContent = text;
+        li.appendChild(span);
+        list.appendChild(li);
+      }
+
+      function search() {
+        const items = getItems();
+        const text = filter.value.toLocaleLowerCase();        
+        [...items].forEach((item) => {          
+          const li = item.parentElement;
+          const textItem = item.textContent.toLowerCase();
+          if (textItem.includes(text)) {
+            li.hidden = false;
+          } else {
+            li.hidden = true;
+          }
+        });
+      }
+
+      function sortSubjects() {
+        const items = [...getItems()];
+        items.sort((a, b) => {
+          return a.textContent.localeCompare(b.textContent);
+        });
+        items.forEach((item) => {
+          list.appendChild(item.parentElement);
+        });
+      }
+
+      filter.addEventListener("input", search);
+
+      const subjects = ["DEW", "DSW", "DOR", "DPL", "EMR", "PRY", "FCT"];
+
+      subjects.forEach((subject) => createSubject(subject));
+    </script>
+  </body>
+</html>
