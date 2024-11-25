@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        canvas {
+            border: 1px solid black;
+            margin: 10px;
+            box-shadow: 5px 5px 5px black;
+        }
+    </style>
+</head>
+<body>
+    <input type="color">
+    <canvas></canvas>
+
+    <script>
+        const canvas = document.querySelector('canvas');
+        const color = document.querySelector('input[type="color"]');
+        const ctx = canvas.getContext('2d');
+        let lineWidth = 5;
+
+        let painting = false;
+        let erasing = false;
+
+        canvas.addEventListener('mousedown', (e) => {
+            painting = true;
+            draw(e);            
+        });
+
+        window.addEventListener('mouseup', () => {
+            painting = false;
+            ctx.beginPath();
+        });
+
+        canvas.addEventListener('mousemove', (e) => {
+            if (painting) {
+                draw(e);
+            }
+        });
+
+        function draw(e) {
+            ctx.lineWidth = lineWidth;
+            ctx.lineCap = 'round';
+            if (erasing) {
+                ctx.strokeStyle = 'white';
+            } else {
+                ctx.strokeStyle = color.value;
+            }
+
+            ctx.lineTo(e.offsetX, e.offsetY);
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.moveTo(e.offsetX, e.offsetY);
+        }
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth - 40;
+            canvas.height = window.innerHeight - 100;
+        }
+
+        resizeCanvas();
+
+        window.addEventListener('resize', () => {
+            resizeCanvas();
+        });
+
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'e') {
+                erasing = !erasing;
+                if (erasing) {
+                    ctx.strokeStyle = 'white';
+                    lineWidth = 20;
+                } else {
+                    ctx.strokeStyle = color.value;
+                    lineWidth = 5;
+                }
+            }
+        });
+    </script>
+    
+</body>
+</html>

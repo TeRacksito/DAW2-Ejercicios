@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas</title>
+
+    <style>
+      html, body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        text-align: center;
+        flex-direction: column;
+      }
+      
+      table {
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        border: 1px solid black;
+        padding: 5px;
+      }
+
+      table tr:nth-child(odd) > :last-child {
+        background-color: #c9c9c9;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Redes sociales</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Nombre</th>
+          <th>¿Tengo cuenta?</th>
+          <th>Valoración</th>
+          <th>Dirección</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2"><b>Facebook</b></td>
+          <td rowspan="2">
+            <img src="images/1352718801_FacebookShop.png" alt="Facebook" />
+          </td>
+          <td rowspan="2">
+            <input type="checkbox" name="userFacebook" id="userFacebook" />
+          </td>
+          <td>
+            <img src="images/star-4.png" alt="complete star" />
+            <img src="images/star-4.png" alt="complete star" />
+            <img src="images/star-2.png" alt="half star" />
+            <img src="images/star-0.png" alt="empty star" />
+            <img src="images/star-0.png" alt="empty star" />
+          </td>
+          <td rowspan="2"><a href="http://www.facebook.com">http://www.facebook.com</a></td>
+        </tr>
+
+        <tr>
+          <td>2.5/5</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2"><b>Flickr</b></td>
+          <td rowspan="2">
+            <img src="images/1352718827_flickrshop.png" alt="Flickr" />
+          </td>
+          <td rowspan="2">
+            <input type="checkbox" name="userFlickr" id="userFlickr" />
+          </td>
+          <td>
+            <img src="images/star-4.png" alt="complete star" />
+            <img src="images/star-4.png" alt="complete star" />
+            <img src="images/star-4.png" alt="complete star" />
+            <img src="images/star-4.png" alt="complete star" />
+            <img src="images/star-1.png" alt="almost empty star" />
+          </td>
+          <td rowspan="2"><a href="http://www.flickr.com">http://www.flickr.com</a></td>
+        </tr>
+
+        <tr>
+          <td>4.25/5</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2"><b>Vimeo</b></td>
+          <td rowspan="2">
+            <img src="images/1352718818_vimeoshop.png" alt="Vimeo" />
+          </td>
+          <td rowspan="2">
+            <input type="checkbox" name="userVimeo" id="userVimeo" />
+          </td>
+          <td>
+            <img src="images/star-0.png" alt="empty star" />
+            <img src="images/star-0.png" alt="empty star" />
+            <img src="images/star-0.png" alt="empty star" />
+            <img src="images/star-0.png" alt="empty star" />
+            <img src="images/star-0.png" alt="empty star" />
+          </td>
+          <td rowspan="2"><a href="http://www.vimeo.com">http://www.vimeo.com</a></td>
+        </tr>
+
+        <tr>
+          <td>Sin valorar todavía</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2"><b>Youtube</b></td>
+          <td rowspan="2">
+            <img src="images/1352718809_youtube_shop.png" alt="Youtube" />
+          </td>
+          <td rowspan="2">
+            <input type="checkbox" name="userYoutube" id="userYoutube" />
+          </td>
+          <td>
+            <img src="images/star-4.png" alt="complete star" />
+            <img src="images/star-4.png" alt="complete star" />
+            <img src="images/star-3.png" alt="almost complete star" />
+            <img src="images/star-0.png" alt="empty star" />
+            <img src="images/star-0.png" alt="empty star" />
+          </td>
+          <td rowspan="2"><a href="http://www.vimeo.com">http://www.vimeo.com</a></td>
+        </tr>
+
+        <tr>
+          <td>2.75/5s</td>
+        </tr>
+      </tbody>
+    </table>
+    Mis redes sociales    
+  </body>
+</html>

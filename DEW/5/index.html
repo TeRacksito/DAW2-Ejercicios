@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="rand"></p>
+
+    <script>
+        const names = [
+            "etienne",
+            "angel",
+            "dylan",
+            "christian",
+            "alejandra",
+            "jeray",
+            "pablo",
+            "samuel",
+            "israel",
+            "aaron",
+            "pedro",
+            "juanka",
+            "jesus",
+            "alguien"
+        ]
+
+        const rand = document.getElementById("rand");
+
+        const length = names.length;
+
+        names.
+
+        for (let i = 0; i <= length / 2; i++) {
+
+            const name = names[Math.floor(Math.random() * names.length)];
+            names.splice(names.indexOf(name), 1);
+
+            const name2 = names[Math.floor(Math.random() * names.length)];            
+            names.splice(names.indexOf(name2), 1);
+
+            rand.innerHTML += `${name} ${name2} <br>`;
+        }
+    </script>
+    
+</body>
+</html>

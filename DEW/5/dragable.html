@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop sin dataTransfer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .box {
+            width: 45%;
+            min-height: 300px;
+            border: 2px dashed #aaa;
+            border-radius: 5px;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            background-color: #f9f9f9;
+        }
+
+        .box img {
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+            cursor: grab;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Drag and Drop sin dataTransfer</h1>
+    <p>Arrastra las imágenes de un cuadro al otro.</p>
+    <div class="container">
+        <div class="box" id="source-box">
+            <img src="https://via.placeholder.com/100" draggable="true" />
+            <img src="https://via.placeholder.com/100/ff0000" draggable="true" />
+            <img src="https://via.placeholder.com/100/00ff00" draggable="true" />
+            <img src="https://via.placeholder.com/100/0000ff" draggable="true" />
+        </div>
+        <div class="box" id="target-box"></div>
+    </div>
+    <script>
+        const sourceBox = document.getElementById("source-box");
+        const targetBox = document.getElementById("target-box");
+        let draggedElement = null;
+
+        // Manejador de dragstart
+        document.querySelectorAll(".box img").forEach(img => {
+            img.addEventListener("dragstart", event => {
+                draggedElement = event.target; // Guardar el elemento que se está arrastrando
+            });
+        });
+
+        // Permitir soltar en los cuadros
+        [sourceBox, targetBox].forEach(box => {
+            box.addEventListener("dragover", event => {
+                event.preventDefault(); // Permitir el drop
+            });
+
+            box.addEventListener("drop", () => {
+                if (draggedElement) {
+                    box.appendChild(draggedElement); // Mover el elemento al nuevo contenedor
+                    draggedElement = null; // Limpiar referencia
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

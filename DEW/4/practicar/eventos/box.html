@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cajas</title>
+  <style>
+    #container {
+      margin: 20px;
+      border: 2px solid black;
+      height: 500px;
+    }
+
+    .box {
+      margin: 10px;
+      width: 50px;
+      height: 50px;
+      background-color: black;
+      float: left;
+      border-radius: 20px 0px;
+      box-shadow: 5px 5px 5px black, inset 5px 5px 15px white;
+    }
+
+    .azul {
+      background-color: blue;
+    }
+
+    .amarillo {
+      background-color: yellow;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .azul.amarillo {
+      background-color: green;
+    }
+
+    .azul.red {
+      background-color: purple;
+    }
+
+    .amarillo.red {
+      background-color: orange;
+    }
+
+    .azul.amarillo.red {
+      background-color: brown;
+    }
+
+  </style>
+  <!-- <script src="box.js" defer></script> -->
+</head>
+<body>
+  <h1>Crear Cajas</h1>
+  <p>
+    <button id="btCreate">Crear</button>
+    <div id="container">
+      <div class="box"></div>
+    </div>
+  </p>
+
+  <script>    
+    const btCreate = document.querySelector('#btCreate');
+    const container = document.querySelector('#container');
+
+    btCreate.addEventListener('click', (e) => {
+      console.log(e);
+      
+      const box = document.createElement('div');
+      container.appendChild(box);
+
+      box.classList.add('box');
+
+      if (e.shiftKey) {
+        box.classList.add('azul');
+      } 
+      
+      if (e.ctrlKey) {
+        box.classList.add('amarillo');
+      } 
+      
+      if (e.altKey) {
+        box.classList.add('red');
+      }
+    });
+
+    container.addEventListener('click', (e) => {
+      if (e.target.classList.contains('box')) {
+        e.target.remove();
+      }
+    });
+  </script>
+</body>
+</html>

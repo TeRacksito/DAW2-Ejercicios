@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .arbol {
+            list-style-type: none;
+        }
+
+        .branch {
+            background-color: #f0f0f0;
+            padding: 5px;
+            margin: 5px;
+            color: blue;
+        }
+
+        .sheet {
+            background-color: #f8f8f8;
+            padding: 5px;
+            margin: 5px;
+            color: rebeccapurple;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul class="tree">
+        <li class="branch">Rama 1
+            <ul>
+                <li class="sheet">Hojas 1</li>
+                <li class="sheet">Hojas 2</li>
+            </ul>
+        </li>
+        <li class="branch">Rama 2
+            <ul>
+                <li class="branch">Rama 2.1
+                    <ul>
+                        <li class="sheet">Hojas 2.1</li>
+                        <li class="sheet">Hojas 2.2</li>
+                    </ul>
+                </li>
+                <li class="sheet">Hojas 1</li>
+                <li class="sheet">Hojas 2</li>
+            </ul>
+        </li>
+        <li class="branch">Rama 3
+            <ul>
+                <li class="sheet">Hojas 1</li>
+                <li class="sheet">Hojas 2</li>
+            </ul>
+        </li>
+        <li class="branch">Rama 4
+            <ul>
+                <li class="sheet">Hojas 1</li>
+                <li class="sheet">Hojas 2</li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <script>
+
+        document.querySelector('.tree').addEventListener('click', () => {
+            console.log(event);
+        });
+
+        function removeSheet(text) {
+            const sheets = document.querySelectorAll('.sheet');
+            sheets.forEach(sheet => {
+                if (sheet.textContent === text) {
+                    sheet.remove();
+                }
+            });
+        }
+
+        function addSheet(branchTarget, text) {
+            const branches = document.querySelectorAll('.branch');
+            branches.forEach(branch => {
+                const branchName = [...branch.childNodes]
+                    .filter(n => n.nodeType === Node.TEXT_NODE)
+                    .map(n => n.textContent.trim())
+                    .join('');
+
+                if (branchName === branchTarget) {
+                    const sheet = document.createElement('li');
+                    sheet.textContent = text;
+                    sheet.classList.add('sheet');
+                    branch.querySelector('ul').appendChild(sheet);
+                }
+            });
+        }
+
+    </script>
+</body>
+
+</html>

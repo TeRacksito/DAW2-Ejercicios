@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos de Incrustación</title>
+  </head>
+  <body>
+    <h1>Elementos de incrustar contenido</h1>
+
+    <h2>img</h2>
+    <img src="https://via.placeholder.com/150" alt="Ejemplo de imagen" />
+    <p>
+      El elemento <code>&lt;img&gt;</code> se utiliza para incrustar imágenes en
+      un documento HTML.
+    </p>
+
+    <h2>iframe</h2>
+    <iframe src="https://www.example.com" width="300" height="200"></iframe>
+    <p>
+      El elemento <code>&lt;iframe&gt;</code> se utiliza para incrustar otra
+      página HTML dentro de la página actual.
+    </p>
+
+    <h2>embed</h2>
+    <embed
+      src="https://www.example.com/sample.pdf"
+      width="300"
+      height="200"
+      type="application/pdf"
+    />
+    <p>
+      El elemento <code>&lt;embed&gt;</code> se utiliza para incrustar contenido
+      externo, como archivos multimedia o documentos.
+    </p>
+
+    <h2>object</h2>
+    <object
+      data="https://via.placeholder.com/150"
+      type="application/pdf"
+      width="300"
+      height="200"
+    ></object>
+    <p>
+      El elemento <code>&lt;object&gt;</code> se utiliza para incrustar objetos
+      multimedia, como videos, audio o documentos PDF.
+    </p>
+
+    <h2>param</h2>
+    <p>
+      El elemento <code>&lt;param&gt;</code> se utiliza para definir parámetros
+      para plugins incrustados con el elemento <code>&lt;object&gt;</code>.
+    </p>
+
+    <h2>video</h2>
+    <video width="320" height="240" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+      Tu navegador no soporta el elemento de video.
+    </video>
+    <p>
+      El elemento <code>&lt;video&gt;</code> se utiliza para incrustar videos en
+      un documento HTML.
+    </p>
+
+    <h2>audio</h2>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg" />
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    <p>
+      El elemento <code>&lt;audio&gt;</code> se utiliza para incrustar archivos
+      de audio en un documento HTML.
+    </p>
+
+    <h2>source</h2>
+    <video width="320" height="240" controls>
+      <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4" />
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/ogg" />
+      Tu navegador no soporta el elemento de video.
+    </video>
+    <p>
+      El elemento <code>&lt;source&gt;</code> se utiliza para especificar
+      múltiples fuentes para elementos multimedia como  
+      <code>&lt;video&gt;</code> y <code>&lt;audio&gt;</code>.
+    </p>
+
+    <h2>track</h2>
+    <video width="320" height="240" controls>
+      <source src="https://iandevlin.github.io/mdn/video-player-with-captions/video/sintel-short.mp4" type="video/mp4">
+      <source src="https://iandevlin.github.io/mdn/video-player-with-captions/video/sintel-short.webm" type="video/webm">
+      <track label="English" kind="subtitles" srclang="en" src="https://iandevlin.github.io/mdn/video-player-with-captions/subtitles/vtt/sintel-en.vtt">
+      <track label="Deutsch" kind="subtitles" srclang="de" src="https://iandevlin.github.io/mdn/video-player-with-captions/subtitles/vtt/sintel-de.vtt">
+      <track label="Español" kind="subtitles" srclang="es" src="https://iandevlin.github.io/mdn/video-player-with-captions/subtitles/vtt/sintel-es.vtt">
+      Tu navegador no soporta el elemento de video.
+    </video>
+    <p>
+      El elemento <code>&lt;track&gt;</code> se utiliza para especificar pistas
+      de texto para elementos multimedia como <code>&lt;video&gt;</code> y
+      <code>&lt;audio&gt;</code>.
+    </p>
+
+    <h2>canvas</h2>
+    <canvas
+      id="myCanvas"
+      width="200"
+      height="100"
+      style="border: 1px solid #000000"
+    ></canvas>
+    <script>
+      var canvas = document.getElementById("myCanvas");
+      var context = canvas.getContext("2d");
+      context.fillStyle = "#FF0000";
+      context.fillRect(0, 0, 150, 75);
+    </script>
+    <p>
+      El elemento <code>&lt;canvas&gt;</code> se utiliza para dibujar gráficos
+      mediante scripts (normalmente JavaScript).
+    </p>
+
+    <h2>map</h2>
+    <img
+      src="https://via.placeholder.com/300x200"
+      usemap="#image-map"
+      alt="Ejemplo de mapa de imagen"
+    />
+    <map name="image-map">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="Ejemplo"
+        href="https://www.example.com"
+      />
+    </map>
+    <p>
+      El elemento <code>&lt;map&gt;</code> se utiliza para definir un mapa de
+      imagen, con áreas clicables.
+    </p>
+
+    <h2>area</h2>
+    <img
+      src="https://via.placeholder.com/300x200"
+      usemap="#image-map"
+      alt="Ejemplo de área"
+    />
+    <map name="image-map">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        alt="Ejemplo"
+        href="https://www.example.com"
+      />
+    </map>
+    <p>
+      El elemento <code>&lt;area&gt;</code> se utiliza dentro de un
+      <code>&lt;map&gt;</code> para definir áreas clicables en una imagen.
+    </p>
+
+    <h2>svg</h2>
+    <svg width="100" height="100">
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke="black"
+        stroke-width="3"
+        fill="red"
+      />
+    </svg>
+    <p>
+      El elemento <code>&lt;svg&gt;</code> se utiliza para definir gráficos
+      vectoriales escalables.
+    </p>
+
+    <h2>math</h2>
+    <math display="block">
+      <mrow>
+        <mi>f</mi>
+        <mo>(</mo>
+        <mi>x</mi>
+        <mo>)</mo>
+        <mo>=</mo>
+      </mrow>
+      <mfrac>
+        <mrow>
+          <mrow>
+            <mn>2</mn>
+            <mi>π</mi>
+            <mi>x</mi>
+          </mrow>
+          <mo>-</mo>
+          <mfrac>
+            <mrow>
+              <mrow>
+                <mrow>
+                  <msup>
+                    <mo>cos</mo>
+                    <mn>-1</mn>
+                  </msup>
+                  <mo>(</mo>
+                  <mrow>
+                    <mo>cos</mo>
+                    <mo>(</mo>
+                    <mn>2</mn>
+                    <mi>π</mi>
+                    <mi>x</mi>
+                    <mo>)</mo>
+                  </mrow>
+                  <mo>)</mo>
+                </mrow>
+                <mo>*</mo>
+                <mfrac>
+                  <mrow>
+                    <mrow>
+                      <mo>sen</mo>
+                      <mo>(</mo>
+                      <mn>2</mn>
+                      <mi>π</mi>
+                      <mi>x</mi>
+                      <mo>)</mo>
+                    </mrow>
+                    <mo>+</mo>
+                    <mrow>
+                      <mo>abs</mo>
+                      <mo>(</mo>
+                      <mrow>
+                        <mo>sen</mo>
+                        <mo>(</mo>
+                        <mn>2</mn>
+                        <mi>π</mi>
+                        <mi>x</mi>
+                        <mo>)</mo>
+                      </mrow>
+                      <mo>)</mo>
+                    </mrow>
+                  </mrow>
+                  <mn>2</mn>
+                </mfrac>
+              </mrow>
+              <mo>+</mo>
+              <mrow>
+                <mn>2</mn>
+                <mi>π</mi>
+              </mrow>
+              <mo>-</mo>
+              <mrow>
+                <msup>
+                  <mo>cos</mo>
+                  <mn>-1</mn>
+                </msup>
+                <mo>(</mo>
+                <mrow>
+                  <mo>cos</mo>
+                  <mo>(</mo>
+                  <mn>2</mn>
+                  <mi>π</mi>
+                  <mi>x</mi>
+                  <mo>)</mo>
+                </mrow>
+                <mo>)</mo>
+              </mrow>
+              <mo>(</mo>
+              <mo>-</mo>
+              <mfrac>
+                <mrow>
+                  <mo>-</mo>
+                  <mrow>
+                    <mo>sen</mo>
+                    <mo>(</mo>
+                    <mn>2</mn>
+                    <mi>π</mi>
+                    <mi>x</mi>
+                    <mo>)</mo>
+                  </mrow>
+                  <mo>+</mo>
+                  <mrow>
+                    <mo>abs</mo>
+                    <mo>(</mo>
+                    <mrow>
+                      <mo>sen</mo>
+                      <mo>(</mo>
+                      <mn>2</mn>
+                      <mi>π</mi>
+                      <mi>x</mi>
+                      <mo>)</mo>
+                    </mrow>
+                    <mo>)</mo>
+                  </mrow>
+                </mrow>
+                <mn>2</mn>
+              </mfrac>
+              <mo>)</mo>
+            </mrow>
+            <mrow>
+              <mfrac>
+                <mrow>
+                  <mrow>
+                    <mo>sen</mo>
+                    <mo>(</mo>
+                    <mn>2</mn>
+                    <mi>π</mi>
+                    <mi>x</mi>
+                    <mo>)</mo>
+                  </mrow>
+                  <mo>+</mo>
+                  <mrow>
+                    <mo>abs</mo>
+                    <mo>(</mo>
+                    <mrow>
+                      <mo>sen</mo>
+                      <mo>(</mo>
+                      <mn>2</mn>
+                      <mi>π</mi>
+                      <mi>x</mi>
+                      <mo>)</mo>
+                    </mrow>
+                    <mo>)</mo>
+                  </mrow>
+                </mrow>
+                <mn>2</mn>
+              </mfrac>
+              <mo>-</mo>
+              <mfrac>
+                <mrow>
+                  <mo>-</mo>
+                  <mrow>
+                    <mo>sen</mo>
+                    <mo>(</mo>
+                    <mn>2</mn>
+                    <mi>π</mi>
+                    <mi>x</mi>
+                    <mo>)</mo>
+                  </mrow>
+                  <mo>+</mo>
+                  <mrow>
+                    <mo>abs</mo>
+                    <mo>(</mo>
+                    <mrow>
+                      <mo>sen</mo>
+                      <mo>(</mo>
+                      <mn>2</mn>
+                      <mi>π</mi>
+                      <mi>x</mi>
+                      <mo>)</mo>
+                    </mrow>
+                    <mo>)</mo>
+                  </mrow>
+                </mrow>
+                <mn>2</mn>
+              </mfrac>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mrow>
+          <mn>2</mn>
+          <mi>π</mi>
+        </mrow>
+      </mfrac>
+    </math>
+    <p>
+      El elemento <code>&lt;math&gt;</code> se utiliza para incrustar notación
+      matemática en un documento HTML.
+    </p>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SetCustomValidity</title>
+  </head>
+  <body>
+    <form id="registrationForm">
+      <label for="username">Nombre de usuario :</label>
+      <input type="text" id="username" name="username" required />
+      <span class="error" id="usernameError"></span><br /><br />
+
+      <label for="email">Correo electronico :</label>
+      <input type="email" id="email" name="email" required />
+      <span class="error" id="emailError"></span><br /><br />
+
+      <label for="age">Edad :</label>
+      <input type="number" id="age" name="age" min="18" max="100" required />
+      <span class="error" id="ageError"></span><br /><br />
+
+      <label for="dob">Fecha de nacimiento :</label>
+      <input type="date" id="dob" name="dob" required />
+      <span class="error" id="dobError"></span><br /><br />
+
+      <button type="submit">Registrarse</button>
+    </form>
+
+    <script>
+      const form = document.forms.registrationForm;
+
+      form.addEventListener("submit", (e) => {
+        // e.preventDefault();
+        let isValid = true;
+
+        let mail = form.elements["email"].value;
+        let domain = mail.split("@")[1] ?? "";
+        console.log(domain, domain.length);
+        if (domain.length <= 3) {
+          isValid = false;
+          form.elements["email"].setCustomValidity(
+            "el dominio debe tener 3 o más caracte"
+          );
+          document.getElementById("emailError").textContent =
+            "el dominio debe tener 3 o";
+        } else {
+          form.elements["email"].setCustomValidity("");
+        }
+
+        if (isValid) {
+          console.log("enviando el formulario ... ");
+          //form.submit();
+        }
+      });
+
+      form.addEventListener("input", (e) => {
+        if (e.target.tagName === "INPUT") {
+          if (e.target.checkValidity()) {
+            e.target.nextElementSibling.textContent = "Valido";
+          } else {
+            e.target.nextElementSibling.textContent =
+              e.target.validationMessage;
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

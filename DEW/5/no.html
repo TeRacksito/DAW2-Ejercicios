@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+
+        <label for="numb"></label>
+        <input type="number" name="numb" id="numb" required>
+
+
+        <label for="select">Un select: </label>
+        <select name="select" id="select"></select>
+
+        <p id="options">
+
+        </p>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script>
+        const provincias = [["Álava", "VI"], ["Albacete", "AB"], ["Alacant", "A"], ["Almería", "AL"], ["Ávila", "AV"], ["Badajoz", "BA"], ["Illes Balears", "PM"], ["Barcelona", "B"], ["Burgos", "BU"], ["Cáceres", "CC"], ["Cádiz", "CA"], ["Castelló", "CS"], ["Ciudad Real", "CR"], ["Córdoba", "CO"], ["A Coruña", "C"], ["Cuenca", "CU"], ["Girona", "GI"], ["Granada", "GR"], ["Guadalajara", "GU"], ["Gipuzkoa", "SS"], ["Huelva", "H"], ["Huesca", "HU"], ["Jaén", "J"], ["León", "LE"], ["Lleida", "L"], ["La Rioja", "LO"], ["Lugo", "LU"], ["Madrid", "M"], ["Málaga", "MA"], ["Murcia", "MU"], ["Nafarroa", "NA"], ["Ourense", "OR"], ["Asturias", "O"], ["Palencia", "P"], ["Las Palmas", "GC"], ["Pontevedra", "PO"], ["Salamanca", "SA"], ["Sta. Cruz de Tenerife", "TF"], ["Cantabria", "S"], ["Segovia", "SG"], ["Sevilla", "SE"], ["Soria", "SO"], ["Tarragona", "T"], ["Teruel", "TE"], ["Toledo", "TO"], ["Valéncia", "V"], ["Valladolid", "VA"], ["Bizkaia", "BI"], ["Zamora", "ZA"], ["Zaragoza", "Z"], ["Ceuta", "CE"], ["Melilla", "ML"]];
+
+        const select = document.getElementById("select");
+        const options = document.getElementById("options");
+
+        for (row in provincias) {
+            const option = document.createElement("option");
+            option.value = provincias[row][1];
+            option.textContent = provincias[row][0];
+            select.appendChild(option);
+
+            const input = document.createElement("input");
+            input.type = "radio";
+            input.name = "provincia";
+            input.id = `provincia_${provincias[row][1]}`;
+            input.value = provincias[row][1];
+
+            const label = document.createElement("label");
+            label.htmlFor = `provincia_${provincias[row][1]}`;
+            label.textContent = provincias[row][0];
+
+            options.appendChild(input);
+            options.appendChild(label);
+        }
+
+        const numb = document.getElementById("numb");
+
+        numb.addEventListener("input", () => {
+            if (numb.value > 5) {
+                numb.setCustomValidity("El número no puede ser mayor a 5");
+            } else {
+                numb.setCustomValidity("");
+            }
+        });
+    </script>
+    
+</body>
+</html>

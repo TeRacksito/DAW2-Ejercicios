@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="procesar.php" method="post">
+      <fieldset>
+        <legend>Datos personales</legend>
+
+        <label for="userName">* Nombre:</label>
+        <br />
+        <input
+          type="text"
+          name="userName"
+          id="userName"
+          maxlength="25"
+          required
+        />
+        <br />
+        <br />
+
+        <label for="userSurname">* Apellidos:</label>
+        <br />
+        <input
+          type="text"
+          name="userSurname"
+          id="userSurname"
+          maxlength="25"
+          required
+        />
+        <br />
+        <br />
+
+        <label for="userGenre">* Género:</label>
+        <br />
+        <span>
+          <input
+            type="radio"
+            name="userGenre"
+            id="userGenre1"
+            value="man"
+            required
+          />
+          <label for="userGenre1">Masculino</label>
+
+          <input type="radio" name="userGenre" id="userGenre2" value="woman" />
+          <label for="userGenre2">Femenino</label>
+
+          <input type="radio" name="userGenre" id="userGenre3" value="other" />
+          <label for="userGenre3">Otro</label>
+        </span>
+        <br />
+        <br />
+
+        <span>
+          <label for="userBirthday">* Fecha de nacimiento: </label>
+          <input
+            type="date"
+            name="userBirthday"
+            id="userBirthday"
+            max="2002-12-31"
+            required
+          />
+        </span>
+        <br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Datos de contactos</legend>
+
+        <label for="userMail">* Correo electrónico:</label>
+        <br />
+        <input type="email" name="userMail" id="userMail" required />
+        <br />
+        <br />
+
+        <label for="userPhoneNumber">Teléfono</label>
+        <br />
+        <input
+          type="tel"
+          name="userPhoneNumber"
+          id="userPhoneNumber"
+          placeholder="666-666-666"
+          pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{3}"
+        />
+        <br />
+        <br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Dirección postal</legend>
+
+        <label for="userAddressMain">* Dirección 1: </label>
+        <input
+          type="text"
+          name="userAddressMain"
+          id="userAddressMain"
+          pattern="[0-9a-zA-Z\sÁ-ü]+"
+          maxlength="50"
+          required
+        />
+        <br />
+        <br />
+
+        <label for="userAddressSecondary">Dirección 2: </label>
+        <input
+          type="text"
+          name="userAddressSecondary"
+          id="userAddressSecondary"
+          pattern="[0-9a-zA-Z\sÁ-ü]+"
+          maxlength="20"
+        />
+        <br />
+        <br />
+
+        <label for="userProvince">* Provincia</label>
+        <select name="userProvince" id="userProvince" required="">
+          <option selected disabled>-- Selecciona la provincia --</option>
+          <option value="VI">Álava</option>
+          <option value="AB">Albacete</option>
+          <option value="A">Alacant</option>
+          <option value="AL">Almería</option>
+          <option value="AV">Ávila</option>
+          <option value="BA">Badajoz</option>
+          <option value="PM">Illes Balears</option>
+          <option value="B">Barcelona</option>
+          <option value="BU">Burgos</option>
+          <option value="CC">Cáceres</option>
+          <option value="CA">Cádiz</option>
+          <option value="CS">Castelló</option>
+          <option value="CR">Ciudad Real</option>
+          <option value="CO">Córdoba</option>
+          <option value="C">A Coruña</option>
+          <option value="CU">Cuenca</option>
+          <option value="GI">Girona</option>
+          <option value="GR">Granada</option>
+          <option value="GU">Guadalajara</option>
+          <option value="SS">Gipuzkoa</option>
+          <option value="H">Huelva</option>
+          <option value="HU">Huesca</option>
+          <option value="J">Jaén</option>
+          <option value="LE">León</option>
+          <option value="L">Lleida</option>
+          <option value="LO">La Rioja</option>
+          <option value="LU">Lugo</option>
+          <option value="M">Madrid</option>
+          <option value="MA">Málaga</option>
+          <option value="MU">Murcia</option>
+          <option value="NA">Nafarroa</option>
+          <option value="OR">Ourense</option>
+          <option value="O">Asturias</option>
+          <option value="P">Palencia</option>
+          <option value="GC">Las Palmas</option>
+          <option value="PO">Pontevedra</option>
+          <option value="SA">Salamanca</option>
+          <option value="TF">Sta. Cruz de Tenerife</option>
+          <option value="S">Cantabria</option>
+          <option value="SG">Segovia</option>
+          <option value="SE">Sevilla</option>
+          <option value="SO">Soria</option>
+          <option value="T">Tarragona</option>
+          <option value="TE">Teruel</option>
+          <option value="TO">Toledo</option>
+          <option value="V">Valéncia</option>
+          <option value="VA">Valladolid</option>
+          <option value="BI">Bizkaia</option>
+          <option value="ZA">Zamora</option>
+          <option value="Z">Zaragoza</option>
+          <option value="CE">Ceuta</option>
+          <option value="ML">Melilla</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="userCity">* Ciudad:</label>
+        <input
+          type="text"
+          name="userCity"
+          id="userCity"
+          pattern="[0-9a-zA-Z\sÁ-ü]+"
+          maxlength="40"
+          required
+        />
+        <br />
+        <br />
+      </fieldset>
+
+      <p>* Valor requerido</p>
+
+      <button type="submit">Registrar</button>
+    </form>
+  </body>
+</html>
